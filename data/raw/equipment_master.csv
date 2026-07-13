@@ -1,0 +1,13 @@
+asset_id,equipment_type,manufacturer,install_date,location,rated_capacity
+COMP-001,Compressor,Flowserve,2022-08-02,Platform A - Deck 1,644.9
+TURB-002,Turbine,Sulzer,2020-05-16,Platform A - Deck 2,641.9
+MOTO-003,Motor,GE,2022-10-17,Platform A - Deck 1,554.3
+ESP-004,ESP,Flowserve,2019-03-07,Platform A - Deck 1,331.2
+PUMP-005,Pump,GE,2021-10-31,Platform A - Deck 1,536.7
+COMP-006,Compressor,GE,2023-01-06,Onshore Facility 1,332.3
+TURB-007,Turbine,Baker Hughes,2022-04-21,Platform A - Deck 1,655.3
+MOTO-008,Motor,Siemens,2019-11-23,Platform B - Deck 1,366.7
+ESP-009,ESP,Baker Hughes,2020-03-16,Platform A - Deck 1,255.6
+PUMP-010,Pump,Baker Hughes,2019-07-18,Platform B - Deck 1,562.2
+COMP-011,Compressor,Siemens,2019-03-30,Onshore Facility 2,274.9
+TURB-012,Turbine,Flowserve,2021-02-14,Onshore Facility 2,375.9

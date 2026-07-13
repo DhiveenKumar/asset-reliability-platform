@@ -1,0 +1,74 @@
+# =============================================================================
+# config.yaml — Central configuration for Industrial Asset Reliability Platform
+# =============================================================================
+
+data:
+  raw_path: "data/raw"
+  validated_path: "data/validated"
+  n_assets: 12
+  equipment_types:
+    - Pump
+    - Compressor
+    - Turbine
+    - Motor
+    - ESP
+  lifecycle_cycles_per_asset:
+    min: 3
+    max: 5
+  hours_per_normal_phase:
+    min: 200
+    max: 400
+  hours_per_degrading_phase:
+    min: 80
+    max: 150
+  hours_per_critical_phase:
+    min: 20
+    max: 48
+
+sensors:
+  vibration_mm:
+    normal_mean: 2.2
+    normal_std: 0.25
+  temperature_f:
+    normal_mean: 175
+    normal_std: 6
+  pressure_psi:
+    normal_mean: 148
+    normal_std: 4
+  flow_rate:
+    normal_mean: 500
+    normal_std: 15
+  rpm:
+    normal_mean: 1800
+    normal_std: 20
+  motor_current:
+    normal_mean: 45
+    normal_std: 2
+  oil_quality_index:
+    normal_mean: 95
+    normal_std: 3
+  ambient_temp:
+    normal_mean: 85
+    normal_std: 8
+  ambient_humidity:
+    normal_mean: 55
+    normal_std: 10
+
+failure_modes:
+  - bearing_wear
+  - shaft_misalignment
+  - rotor_imbalance
+  - lubrication_failure
+  - seal_leakage
+  - cavitation
+  - impeller_erosion
+  - motor_winding_failure
+
+assetpulse:
+  prediction_horizons_days: [7, 14, 30]
+
+rulsense:
+  sequence_length_hours: 60
+  stride: 1
+
+random_seed: 42
