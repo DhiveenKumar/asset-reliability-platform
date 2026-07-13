@@ -1195,3 +1195,77 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-13 23:31:23 | INFO     | __main__ | ============================================================
 2026-07-13 23:31:23 | INFO     | __main__ | AssetGuardian Isolation Forest training complete
 2026-07-13 23:31:23 | INFO     | __main__ | ============================================================
+2026-07-13 23:32:54 | INFO     | __main__ | ============================================================
+2026-07-13 23:32:54 | INFO     | __main__ | AssetGuardian Root Cause Analysis
+2026-07-13 23:32:54 | INFO     | __main__ | ============================================================
+2026-07-13 23:32:56 | INFO     | __main__ | Computed normal operating baselines for all sensors
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: COMP-006
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'oil_quality_index': np.float64(-3.93)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: PUMP-010
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'pressure_psi': np.float64(-2.51)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: TURB-007
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(4.09), 'temperature_f': np.float64(3.5)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: MOTO-008
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(2.65), 'temperature_f': np.float64(2.14)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: PUMP-005
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'oil_quality_index': np.float64(-2.34)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: COMP-006
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Motor winding failure
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'motor_current': np.float64(2.75), 'temperature_f': np.float64(0.99)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: PUMP-005
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(2.29), 'temperature_f': np.float64(3.07)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: ESP-009
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(3.61), 'temperature_f': np.float64(5.02)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: ESP-004
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'oil_quality_index': np.float64(-1.96)}
+2026-07-13 23:32:56 | INFO     | __main__ | \nAsset: COMP-006
+2026-07-13 23:32:56 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:32:56 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(4.77), 'temperature_f': np.float64(4.7)}
+2026-07-13 23:32:56 | INFO     | __main__ | ============================================================
+2026-07-13 23:32:56 | INFO     | __main__ | Root cause analysis complete - 10 cases diagnosed
+2026-07-13 23:32:56 | INFO     | __main__ | ============================================================
+2026-07-13 23:34:21 | INFO     | __main__ | ============================================================
+2026-07-13 23:34:21 | INFO     | __main__ | AssetGuardian Root Cause Analysis
+2026-07-13 23:34:21 | INFO     | __main__ | ============================================================
+2026-07-13 23:34:23 | INFO     | __main__ | Computed normal operating baselines for all sensors
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: COMP-006
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Early-stage lubrication degradation
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'oil_quality_index': np.float64(-3.93)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: PUMP-010
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Flow restriction / suction blockage
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'pressure_psi': np.float64(-2.51)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: TURB-007
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(4.09), 'temperature_f': np.float64(3.5)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: MOTO-008
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(2.65), 'temperature_f': np.float64(2.14)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: PUMP-005
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Early-stage lubrication degradation
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'oil_quality_index': np.float64(-2.34)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: COMP-006
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Motor winding failure
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'motor_current': np.float64(2.75), 'temperature_f': np.float64(0.99)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: PUMP-005
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(2.29), 'temperature_f': np.float64(3.07)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: ESP-009
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(3.61), 'temperature_f': np.float64(5.02)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: ESP-004
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Early-stage lubrication degradation
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'oil_quality_index': np.float64(-1.96)}
+2026-07-13 23:34:23 | INFO     | __main__ | \nAsset: COMP-006
+2026-07-13 23:34:23 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-13 23:34:23 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(4.77), 'temperature_f': np.float64(4.7)}
+2026-07-13 23:34:23 | INFO     | __main__ | ============================================================
+2026-07-13 23:34:23 | INFO     | __main__ | Root cause analysis complete - 10 cases diagnosed
+2026-07-13 23:34:23 | INFO     | __main__ | ============================================================
