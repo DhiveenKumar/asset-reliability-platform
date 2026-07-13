@@ -575,3 +575,256 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-13 20:18:55 | INFO     | __main__ | ============================================================
 2026-07-13 20:18:55 | INFO     | __main__ | SHAP analysis complete
 2026-07-13 20:18:55 | INFO     | __main__ | ============================================================
+2026-07-13 20:25:25 | INFO     | __main__ | MLflow tracking URI: sqlite:///mlflow/mlflow.db
+2026-07-13 20:25:25 | INFO     | __main__ | MLflow experiment: AssetPulse_Failure_Classification
+2026-07-13 20:25:25 | INFO     | __main__ | ============================================================
+2026-07-13 20:25:25 | INFO     | __main__ | AssetPulse Training Pipeline with MLflow Tracking
+2026-07-13 20:25:25 | INFO     | __main__ | ============================================================
+2026-07-13 20:25:25 | INFO     | src.classification.train_assetpulse | Loading engineered features from data/processed/assetpulse_features.csv...
+2026-07-13 20:25:26 | INFO     | src.classification.train_assetpulse | Loaded 93,659 rows, 73 columns
+2026-07-13 20:25:26 | INFO     | src.classification.train_assetpulse | Splitting data by asset (not random rows) to prevent leakage...
+2026-07-13 20:25:26 | INFO     | src.classification.train_assetpulse | Train: 65,737 rows from 9 assets
+2026-07-13 20:25:26 | INFO     | src.classification.train_assetpulse | Test:  27,922 rows from 3 assets
+2026-07-13 20:25:26 | INFO     | src.classification.train_assetpulse | Train positive rate: 8.94%
+2026-07-13 20:25:26 | INFO     | src.classification.train_assetpulse | Test positive rate:  7.82%
+2026-07-13 20:25:28 | INFO     | __main__ | \n============================================================
+2026-07-13 20:25:28 | INFO     | __main__ | MLflow Run: Random Forest
+2026-07-13 20:25:28 | INFO     | __main__ | ============================================================
+2026-07-13 20:25:28 | INFO     | src.classification.train_assetpulse | Training Random Forest...
+2026-07-13 20:26:07 | INFO     | src.classification.train_assetpulse | \n--- Random Forest Results ---
+2026-07-13 20:26:07 | INFO     | src.classification.train_assetpulse | Precision: 0.993
+2026-07-13 20:26:07 | INFO     | src.classification.train_assetpulse | Recall:    0.732
+2026-07-13 20:26:07 | INFO     | src.classification.train_assetpulse | F1 Score:  0.843
+2026-07-13 20:26:07 | INFO     | src.classification.train_assetpulse | ROC-AUC:   0.926
+2026-07-13 20:26:20 | INFO     | __main__ | Run ID: bf3c3f31e14543f89b55712887975485
+2026-07-13 20:26:20 | INFO     | __main__ | \n============================================================
+2026-07-13 20:26:20 | INFO     | __main__ | MLflow Run: XGBoost
+2026-07-13 20:26:20 | INFO     | __main__ | ============================================================
+2026-07-13 20:26:20 | INFO     | src.classification.train_assetpulse | Training XGBoost...
+2026-07-13 20:26:26 | INFO     | src.classification.train_assetpulse | \n--- XGBoost Results ---
+2026-07-13 20:26:26 | INFO     | src.classification.train_assetpulse | Precision: 0.941
+2026-07-13 20:26:26 | INFO     | src.classification.train_assetpulse | Recall:    0.734
+2026-07-13 20:26:26 | INFO     | src.classification.train_assetpulse | F1 Score:  0.825
+2026-07-13 20:26:26 | INFO     | src.classification.train_assetpulse | ROC-AUC:   0.915
+2026-07-13 20:26:31 | INFO     | __main__ | Run ID: 5d50bfa9e12b457d92256f18fdc203bc
+2026-07-13 20:26:31 | INFO     | __main__ | \n============================================================
+2026-07-13 20:26:31 | INFO     | __main__ | MLflow Run: LightGBM
+2026-07-13 20:26:31 | INFO     | __main__ | ============================================================
+2026-07-13 20:26:31 | INFO     | src.classification.train_assetpulse | Training LightGBM...
+2026-07-13 20:26:36 | INFO     | src.classification.train_assetpulse | \n--- LightGBM Results ---
+2026-07-13 20:26:36 | INFO     | src.classification.train_assetpulse | Precision: 0.937
+2026-07-13 20:26:36 | INFO     | src.classification.train_assetpulse | Recall:    0.729
+2026-07-13 20:26:36 | INFO     | src.classification.train_assetpulse | F1 Score:  0.820
+2026-07-13 20:26:36 | INFO     | src.classification.train_assetpulse | ROC-AUC:   0.916
+2026-07-13 20:26:45 | INFO     | __main__ | Run ID: 16e7bc3c9ccb4d82b1f661fd4359a96b
+2026-07-13 20:26:45 | INFO     | __main__ | \n============================================================
+2026-07-13 20:26:45 | INFO     | __main__ | Registering best model: Random Forest (F1=0.843)
+2026-07-13 20:26:45 | INFO     | __main__ | ============================================================
+2026-07-13 20:26:45 | INFO     | __main__ | Registered as: AssetPulse-Production, version 1
+2026-07-13 20:26:45 | INFO     | __main__ | Model version 1 moved to Staging
+2026-07-13 20:26:45 | INFO     | __main__ | ============================================================
+2026-07-13 20:26:45 | INFO     | __main__ | MLflow pipeline complete
+2026-07-13 20:26:45 | INFO     | __main__ | All 3 runs logged under experiment: AssetPulse_Failure_Classification
+2026-07-13 20:26:45 | INFO     | __main__ | Best model registered as: AssetPulse-Production v1
+2026-07-13 20:26:45 | INFO     | __main__ | View results: mlflow ui --backend-store-uri sqlite:///mlflow/mlflow.db
+2026-07-13 20:26:45 | INFO     | __main__ | ============================================================
+2026-07-13 20:46:54 | INFO     | __main__ | ============================================================
+2026-07-13 20:46:54 | INFO     | __main__ | AssetPulse Batch Scoring Job
+2026-07-13 20:46:54 | INFO     | __main__ | Run timestamp: 2026-07-13T20:46:54.940213
+2026-07-13 20:46:54 | INFO     | __main__ | ============================================================
+2026-07-13 20:46:54 | INFO     | __main__ | Loading model 'AssetPulse-Production' (stage: Staging)...
+2026-07-13 20:47:02 | INFO     | __main__ | Model loaded successfully
+2026-07-13 20:47:02 | INFO     | __main__ | Fetching latest readings per asset...
+2026-07-13 20:47:03 | INFO     | __main__ | Retrieved latest reading for 12 assets
+2026-07-13 20:47:03 | INFO     | __main__ | Scoring all assets...
+2026-07-13 20:47:03 | INFO     | __main__ | Scoring complete
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 1: COMP-006 - Risk: 100.0% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 2: MOTO-003 - Risk: 100.0% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 3: ESP-009 - Risk: 100.0% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 4: COMP-011 - Risk: 100.0% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 5: PUMP-005 - Risk: 100.0% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 6: PUMP-010 - Risk: 100.0% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 7: MOTO-008 - Risk: 100.0% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 8: ESP-004 - Risk: 99.9% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 9: TURB-012 - Risk: 99.8% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 10: TURB-007 - Risk: 99.5% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 11: TURB-002 - Risk: 98.9% (High)
+2026-07-13 20:47:03 | INFO     | __main__ |   Rank 12: COMP-001 - Risk: 80.0% (High)
+2026-07-13 20:47:03 | INFO     | __main__ | ============================================================
+2026-07-13 20:47:03 | INFO     | __main__ | Batch scoring job complete
+2026-07-13 20:47:03 | INFO     | __main__ |    Assets scored: 12
+2026-07-13 20:47:03 | INFO     | __main__ |    High risk assets: 12
+2026-07-13 20:47:03 | INFO     | __main__ |    Results saved to: data/processed/batch_scoring_results_20260713_204703.csv
+2026-07-13 20:47:03 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:41 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:41 | INFO     | __main__ | Industrial Asset Reliability Platform - Data Generation
+2026-07-13 20:48:41 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:41 | INFO     | __main__ | Generating equipment master data...
+2026-07-13 20:48:41 | INFO     | __main__ | Generated 12 assets across 5 equipment types
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for COMP-001...
+2026-07-13 20:48:41 | INFO     | __main__ |   COMP-001: 12805 hourly readings, 5 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for TURB-002...
+2026-07-13 20:48:41 | INFO     | __main__ |   TURB-002: 11743 hourly readings, 5 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for MOTO-003...
+2026-07-13 20:48:41 | INFO     | __main__ |   MOTO-003: 12139 hourly readings, 5 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for ESP-004...
+2026-07-13 20:48:41 | INFO     | __main__ |   ESP-004: 12232 hourly readings, 5 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for PUMP-005...
+2026-07-13 20:48:41 | INFO     | __main__ |   PUMP-005: 6299 hourly readings, 3 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for COMP-006...
+2026-07-13 20:48:41 | INFO     | __main__ |   COMP-006: 11820 hourly readings, 5 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for TURB-007...
+2026-07-13 20:48:41 | INFO     | __main__ |   TURB-007: 9687 hourly readings, 4 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for MOTO-008...
+2026-07-13 20:48:41 | INFO     | __main__ |   MOTO-008: 8141 hourly readings, 3 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for ESP-009...
+2026-07-13 20:48:41 | INFO     | __main__ |   ESP-009: 11715 hourly readings, 5 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for PUMP-010...
+2026-07-13 20:48:41 | INFO     | __main__ |   PUMP-010: 10176 hourly readings, 4 failure events
+2026-07-13 20:48:41 | INFO     | __main__ | Generating lifecycle data for COMP-011...
+2026-07-13 20:48:42 | INFO     | __main__ |   COMP-011: 7655 hourly readings, 3 failure events
+2026-07-13 20:48:42 | INFO     | __main__ | Generating lifecycle data for TURB-012...
+2026-07-13 20:48:42 | INFO     | __main__ |   TURB-012: 8879 hourly readings, 4 failure events
+2026-07-13 20:48:43 | INFO     | __main__ | Generating work order history...
+2026-07-13 20:48:43 | INFO     | __main__ | Generated 134 work orders (51 corrective, 83 preventive)
+2026-07-13 20:48:43 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:43 | INFO     | __main__ | Generation complete
+2026-07-13 20:48:43 | INFO     | __main__ |    Equipment master: 12 assets
+2026-07-13 20:48:43 | INFO     | __main__ |    Sensor readings:  123,291 rows
+2026-07-13 20:48:43 | INFO     | __main__ |    Failure events:   51 events
+2026-07-13 20:48:43 | INFO     | __main__ |    Saved to: data/raw/
+2026-07-13 20:48:43 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:46 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:46 | INFO     | __main__ | Data Validation Pipeline
+2026-07-13 20:48:46 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:46 | INFO     | __main__ | Starting sensor data validation...
+2026-07-13 20:48:46 | INFO     | __main__ | Input rows: 123,291
+2026-07-13 20:48:46 | INFO     | __main__ | ✅ All rows passed schema validation
+2026-07-13 20:48:46 | INFO     | __main__ | ✅ No columns with excessive missing values
+2026-07-13 20:48:46 | INFO     | __main__ | ✅ No duplicate timestamps found
+2026-07-13 20:48:48 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:48 | INFO     | __main__ | Validation status: passed
+2026-07-13 20:48:48 | INFO     | __main__ | Total violations: 0
+2026-07-13 20:48:48 | INFO     | __main__ | Missing value issues: 0
+2026-07-13 20:48:48 | INFO     | __main__ | Duplicate timestamps: 0
+2026-07-13 20:48:48 | INFO     | __main__ | Validated data saved to: data/validated/sensor_timeseries.csv
+2026-07-13 20:48:48 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:50 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:50 | INFO     | __main__ | Feature Engineering Pipeline
+2026-07-13 20:48:50 | INFO     | __main__ | ============================================================
+2026-07-13 20:48:50 | INFO     | __main__ | Deriving failure labels from historical failure events...
+2026-07-13 20:48:50 | INFO     | __main__ |   failure_within_7d: 8,568 positive labels (6.95% of all readings)
+2026-07-13 20:48:50 | INFO     | __main__ |   failure_within_14d: 17,136 positive labels (13.90% of all readings)
+2026-07-13 20:48:50 | INFO     | __main__ |   failure_within_30d: 36,720 positive labels (29.78% of all readings)
+2026-07-13 20:48:50 | INFO     | __main__ | Engineering rolling features for windows: [6, 24, 72]
+2026-07-13 20:48:51 | INFO     | __main__ | Added 42 rolling features
+2026-07-13 20:48:51 | INFO     | __main__ | Engineering trend features with 24h lag...
+2026-07-13 20:48:52 | INFO     | __main__ | Added 14 trend/lag features
+2026-07-13 20:48:52 | INFO     | __main__ | Engineering vibration FFT feature...
+2026-07-13 20:48:55 | INFO     | __main__ | Added vibration_fft_energy feature
+2026-07-13 20:48:55 | INFO     | __main__ | Engineering maintenance interval features...
+2026-07-13 20:48:56 | INFO     | __main__ | Added days_since_maintenance feature
+2026-07-13 20:49:10 | INFO     | __main__ | ============================================================
+2026-07-13 20:49:10 | INFO     | __main__ | Feature engineering complete
+2026-07-13 20:49:10 | INFO     | __main__ |    Total rows: 123,291
+2026-07-13 20:49:10 | INFO     | __main__ |    Total columns: 73
+2026-07-13 20:49:10 | INFO     | __main__ |    Saved to: data/processed/assetpulse_features.csv
+2026-07-13 20:49:10 | INFO     | __main__ | ============================================================
+2026-07-13 20:49:51 | INFO     | __main__ | MLflow tracking URI: sqlite:///mlflow/mlflow.db
+2026-07-13 20:49:51 | INFO     | __main__ | MLflow experiment: AssetPulse_Failure_Classification
+2026-07-13 20:49:51 | INFO     | __main__ | ============================================================
+2026-07-13 20:49:51 | INFO     | __main__ | AssetPulse Training Pipeline with MLflow Tracking
+2026-07-13 20:49:51 | INFO     | __main__ | ============================================================
+2026-07-13 20:49:51 | INFO     | src.classification.train_assetpulse | Loading engineered features from data/processed/assetpulse_features.csv...
+2026-07-13 20:49:54 | INFO     | src.classification.train_assetpulse | Loaded 123,291 rows, 73 columns
+2026-07-13 20:49:54 | INFO     | src.classification.train_assetpulse | Splitting data by asset (not random rows) to prevent leakage...
+2026-07-13 20:49:54 | INFO     | src.classification.train_assetpulse | Train: 89,056 rows from 9 assets
+2026-07-13 20:49:54 | INFO     | src.classification.train_assetpulse | Test:  34,235 rows from 3 assets
+2026-07-13 20:49:54 | INFO     | src.classification.train_assetpulse | Train positive rate: 6.98%
+2026-07-13 20:49:54 | INFO     | src.classification.train_assetpulse | Test positive rate:  6.87%
+2026-07-13 20:49:55 | INFO     | __main__ | \n============================================================
+2026-07-13 20:49:55 | INFO     | __main__ | MLflow Run: Random Forest
+2026-07-13 20:49:55 | INFO     | __main__ | ============================================================
+2026-07-13 20:49:55 | INFO     | src.classification.train_assetpulse | Training Random Forest...
+2026-07-13 20:50:49 | INFO     | src.classification.train_assetpulse | \n--- Random Forest Results ---
+2026-07-13 20:50:49 | INFO     | src.classification.train_assetpulse | Precision: 0.999
+2026-07-13 20:50:49 | INFO     | src.classification.train_assetpulse | Recall:    0.708
+2026-07-13 20:50:49 | INFO     | src.classification.train_assetpulse | F1 Score:  0.829
+2026-07-13 20:50:49 | INFO     | src.classification.train_assetpulse | ROC-AUC:   0.947
+2026-07-13 20:51:03 | INFO     | __main__ | Run ID: 72adb98f310142e5bd85ecababef1395
+2026-07-13 20:51:03 | INFO     | __main__ | \n============================================================
+2026-07-13 20:51:03 | INFO     | __main__ | MLflow Run: XGBoost
+2026-07-13 20:51:03 | INFO     | __main__ | ============================================================
+2026-07-13 20:51:03 | INFO     | src.classification.train_assetpulse | Training XGBoost...
+2026-07-13 20:51:10 | INFO     | src.classification.train_assetpulse | \n--- XGBoost Results ---
+2026-07-13 20:51:10 | INFO     | src.classification.train_assetpulse | Precision: 0.947
+2026-07-13 20:51:10 | INFO     | src.classification.train_assetpulse | Recall:    0.685
+2026-07-13 20:51:10 | INFO     | src.classification.train_assetpulse | F1 Score:  0.795
+2026-07-13 20:51:10 | INFO     | src.classification.train_assetpulse | ROC-AUC:   0.940
+2026-07-13 20:51:16 | INFO     | __main__ | Run ID: 26c3549a87a649439574b8a5ff982131
+2026-07-13 20:51:16 | INFO     | __main__ | \n============================================================
+2026-07-13 20:51:16 | INFO     | __main__ | MLflow Run: LightGBM
+2026-07-13 20:51:16 | INFO     | __main__ | ============================================================
+2026-07-13 20:51:16 | INFO     | src.classification.train_assetpulse | Training LightGBM...
+2026-07-13 20:51:23 | INFO     | src.classification.train_assetpulse | \n--- LightGBM Results ---
+2026-07-13 20:51:23 | INFO     | src.classification.train_assetpulse | Precision: 0.916
+2026-07-13 20:51:23 | INFO     | src.classification.train_assetpulse | Recall:    0.682
+2026-07-13 20:51:23 | INFO     | src.classification.train_assetpulse | F1 Score:  0.782
+2026-07-13 20:51:23 | INFO     | src.classification.train_assetpulse | ROC-AUC:   0.939
+2026-07-13 20:51:33 | INFO     | __main__ | Run ID: cd73ebba9b52493ba35e941c0257e7ea
+2026-07-13 20:51:33 | INFO     | __main__ | \n============================================================
+2026-07-13 20:51:33 | INFO     | __main__ | Registering best model: Random Forest (F1=0.829)
+2026-07-13 20:51:33 | INFO     | __main__ | ============================================================
+2026-07-13 20:51:34 | INFO     | __main__ | Registered as: AssetPulse-Production, version 2
+2026-07-13 20:51:34 | INFO     | __main__ | Model version 2 moved to Staging
+2026-07-13 20:51:34 | INFO     | __main__ | ============================================================
+2026-07-13 20:51:34 | INFO     | __main__ | MLflow pipeline complete
+2026-07-13 20:51:34 | INFO     | __main__ | All 3 runs logged under experiment: AssetPulse_Failure_Classification
+2026-07-13 20:51:34 | INFO     | __main__ | Best model registered as: AssetPulse-Production v2
+2026-07-13 20:51:34 | INFO     | __main__ | View results: mlflow ui --backend-store-uri sqlite:///mlflow/mlflow.db
+2026-07-13 20:51:34 | INFO     | __main__ | ============================================================
+2026-07-13 20:52:18 | INFO     | __main__ | ============================================================
+2026-07-13 20:52:18 | INFO     | __main__ | AssetPulse Batch Scoring Job
+2026-07-13 20:52:18 | INFO     | __main__ | Run timestamp: 2026-07-13T20:52:18.020418
+2026-07-13 20:52:18 | INFO     | __main__ | ============================================================
+2026-07-13 20:52:18 | INFO     | __main__ | Loading model 'AssetPulse-Production' (stage: Staging)...
+2026-07-13 20:52:24 | INFO     | __main__ | Model loaded successfully
+2026-07-13 20:52:24 | INFO     | __main__ | Fetching latest readings per asset...
+2026-07-13 20:52:26 | INFO     | __main__ | Retrieved latest reading for 12 assets
+2026-07-13 20:52:26 | INFO     | __main__ | Scoring all assets...
+2026-07-13 20:52:26 | INFO     | __main__ | Scoring complete
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 1: MOTO-003 - Risk: 99.4% (High)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 2: TURB-012 - Risk: 97.5% (High)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 3: PUMP-005 - Risk: 95.6% (High)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 4: MOTO-008 - Risk: 66.7% (High)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 5: TURB-002 - Risk: 29.9% (Low)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 6: COMP-006 - Risk: 28.0% (Low)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 7: COMP-001 - Risk: 24.7% (Low)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 8: ESP-004 - Risk: 13.8% (Low)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 9: PUMP-010 - Risk: 10.4% (Low)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 10: TURB-007 - Risk: 9.3% (Low)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 11: COMP-011 - Risk: 7.3% (Low)
+2026-07-13 20:52:26 | INFO     | __main__ |   Rank 12: ESP-009 - Risk: 6.0% (Low)
+2026-07-13 20:52:26 | INFO     | __main__ | ============================================================
+2026-07-13 20:52:26 | INFO     | __main__ | Batch scoring job complete
+2026-07-13 20:52:26 | INFO     | __main__ |    Assets scored: 12
+2026-07-13 20:52:26 | INFO     | __main__ |    High risk assets: 4
+2026-07-13 20:52:26 | INFO     | __main__ |    Results saved to: data/processed/batch_scoring_results_20260713_205226.csv
+2026-07-13 20:52:26 | INFO     | __main__ | ============================================================
+2026-07-13 20:59:15 | INFO     | __main__ | ============================================================
+2026-07-13 20:59:15 | INFO     | __main__ | AssetPulse Monitoring & Drift Detection
+2026-07-13 20:59:15 | INFO     | __main__ | ============================================================
+2026-07-13 20:59:17 | INFO     | __main__ | Reference period: 2024-01-01 00:00:00 to 2024-11-04 06:00:00 (86,303 rows)
+2026-07-13 20:59:17 | INFO     | __main__ | Current period:   2024-11-04 06:00:00 to 2025-06-25 19:00:00 (36,988 rows)
+2026-07-13 20:59:17 | INFO     | __main__ | Computing data drift (KS test) across sensor columns...
+2026-07-13 20:59:17 | INFO     | __main__ |   vibration_mm              p=0.1926  ✅ stable  (ref_mean=2.22, curr_mean=2.22)
+2026-07-13 20:59:17 | INFO     | __main__ |   temperature_f             p=0.0096  ⚠️  DRIFT DETECTED  (ref_mean=175.50, curr_mean=175.60)
+2026-07-13 20:59:17 | INFO     | __main__ |   pressure_psi              p=0.2885  ✅ stable  (ref_mean=147.64, curr_mean=147.64)
+2026-07-13 20:59:17 | INFO     | __main__ |   flow_rate                 p=0.1855  ✅ stable  (ref_mean=501.34, curr_mean=501.24)
+2026-07-13 20:59:17 | INFO     | __main__ |   rpm                       p=0.6076  ✅ stable  (ref_mean=1798.28, curr_mean=1798.17)
+2026-07-13 20:59:17 | INFO     | __main__ |   motor_current             p=0.4775  ✅ stable  (ref_mean=45.17, curr_mean=45.17)
+2026-07-13 20:59:17 | INFO     | __main__ |   oil_quality_index         p=0.3387  ✅ stable  (ref_mean=94.74, curr_mean=94.72)
+2026-07-13 20:59:17 | INFO     | __main__ | ============================================================
+2026-07-13 20:59:17 | INFO     | __main__ | Monitoring complete: 1/7 sensors show statistically significant drift
+2026-07-13 20:59:17 | WARNING  | __main__ | ⚠️  Recommendation: investigate drifted sensors and consider retraining if drift persists across multiple monitoring cycles
+2026-07-13 20:59:17 | INFO     | __main__ | ============================================================

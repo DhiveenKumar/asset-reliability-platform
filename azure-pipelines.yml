@@ -1,0 +1,105 @@
+# =============================================================================
+# azure-pipelines.yml — CI/CD Pipeline for AssetPulse
+#
+# Triggers: on push to main (code validation), and on a schedule
+# (automated retraining). Runs the full pipeline: data generation
+# validation -> feature engineering -> training -> MLflow registration
+# -> batch scoring smoke test.
+#
+# In a real Azure DevOps project, this pipeline would run on
+# Microsoft-hosted or self-hosted build agents, with the actual
+# Azure ML workspace connection configured via a service connection.
+# =============================================================================
+
+trigger:
+  branches:
+    include:
+      - main
+
+schedules:
+  - cron: "0 2 * * 0"  # Weekly retraining, Sunday 2 AM
+    displayName: "Weekly scheduled retraining"
+    branches:
+      include:
+        - main
+    always: true
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  pythonVersion: '3.12'
+
+stages:
+
+  - stage: DataValidation
+    displayName: "Data Generation & Validation"
+    jobs:
+      - job: ValidateData
+        steps:
+          - task: UsePythonVersion@0
+            inputs:
+              versionSpec: '$(pythonVersion)'
+
+          - script: |
+              pip install -r requirements.txt
+            displayName: "Install dependencies"
+
+          - script: |
+              python src/generate_dataset.py
+            displayName: "Generate synthetic dataset"
+
+          - script: |
+              python src/validation/schema.py
+            displayName: "Validate data quality (Pandera)"
+
+  - stage: FeatureEngineering
+    displayName: "Feature Engineering"
+    dependsOn: DataValidation
+    jobs:
+      - job: BuildFeatures
+        steps:
+          - script: |
+              python src/features/engineering.py
+            displayName: "Engineer features and derive labels"
+
+  - stage: ModelTraining
+    displayName: "Model Training & Registration"
+    dependsOn: FeatureEngineering
+    jobs:
+      - job: TrainModels
+        steps:
+          - script: |
+              python src/classification/train_assetpulse_mlflow.py
+            displayName: "Train models and register best to MLflow"
+
+          - script: |
+              python -c "
+              import pandas as pd
+              results = pd.read_csv('data/processed/assetpulse_model_comparison.csv')
+              best_f1 = results['f1'].max()
+              print(f'Best model F1 score: {best_f1:.3f}')
+              assert best_f1 >= 0.70, f'Model quality gate failed: F1 {best_f1:.3f} below 0.70 threshold'
+              print('Quality gate passed')
+              "
+            displayName: "Quality gate - fail pipeline if F1 below threshold"
+
+  - stage: MonitoringCheck
+    displayName: "Drift Detection"
+    dependsOn: ModelTraining
+    jobs:
+      - job: CheckDrift
+        steps:
+          - script: |
+              python src/monitoring/drift_detection.py
+            displayName: "Run drift detection report"
+
+  - stage: BatchScoringSmokeTest
+    displayName: "Batch Scoring Smoke Test"
+    dependsOn: MonitoringCheck
+    jobs:
+      - job: TestScoring
+        steps:
+          - script: |
+              python src/serving/batch_scoring.py
+            displayName: "Run batch scoring end-to-end smoke test"

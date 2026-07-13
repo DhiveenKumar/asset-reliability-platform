@@ -1,0 +1,12 @@
+lightgbm==4.6.0
+mlflow==3.14.0
+mlflow-skinny==3.14.0
+mlflow-tracing==3.14.0
+numpy==2.4.6
+pandas==2.3.3
+pandera==0.32.1
+PyYAML==6.0.3
+scikit-learn==1.9.0
+scipy==1.18.0
+shap==0.52.0
+xgboost==3.3.0
