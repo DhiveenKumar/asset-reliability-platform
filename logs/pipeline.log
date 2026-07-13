@@ -500,3 +500,39 @@
 2026-07-13 20:11:33 | INFO     | __main__ |    Total columns: 73
 2026-07-13 20:11:33 | INFO     | __main__ |    Saved to: data/processed/assetpulse_features.csv
 2026-07-13 20:11:33 | INFO     | __main__ | ============================================================
+2026-07-13 20:14:40 | INFO     | __main__ | ============================================================
+2026-07-13 20:14:40 | INFO     | __main__ | AssetPulse - Failure Classification Training
+2026-07-13 20:14:40 | INFO     | __main__ | ============================================================
+2026-07-13 20:14:40 | INFO     | __main__ | Loading engineered features from data/processed/assetpulse_features.csv...
+2026-07-13 20:14:41 | INFO     | __main__ | Loaded 93,659 rows, 73 columns
+2026-07-13 20:14:41 | INFO     | __main__ | Splitting data by asset (not random rows) to prevent leakage...
+2026-07-13 20:14:41 | INFO     | __main__ | Train: 65,737 rows from 9 assets
+2026-07-13 20:14:41 | INFO     | __main__ | Test:  27,922 rows from 3 assets
+2026-07-13 20:14:41 | INFO     | __main__ | Train positive rate: 8.94%
+2026-07-13 20:14:41 | INFO     | __main__ | Test positive rate:  7.82%
+2026-07-13 20:14:41 | INFO     | __main__ | Training Random Forest...
+2026-07-13 20:15:21 | INFO     | __main__ | \n--- Random Forest Results ---
+2026-07-13 20:15:21 | INFO     | __main__ | Precision: 0.993
+2026-07-13 20:15:21 | INFO     | __main__ | Recall:    0.732
+2026-07-13 20:15:21 | INFO     | __main__ | F1 Score:  0.843
+2026-07-13 20:15:21 | INFO     | __main__ | ROC-AUC:   0.926
+2026-07-13 20:15:21 | INFO     | __main__ | Training XGBoost...
+2026-07-13 20:15:27 | INFO     | __main__ | \n--- XGBoost Results ---
+2026-07-13 20:15:27 | INFO     | __main__ | Precision: 0.941
+2026-07-13 20:15:27 | INFO     | __main__ | Recall:    0.734
+2026-07-13 20:15:27 | INFO     | __main__ | F1 Score:  0.825
+2026-07-13 20:15:27 | INFO     | __main__ | ROC-AUC:   0.915
+2026-07-13 20:15:27 | INFO     | __main__ | Training LightGBM...
+2026-07-13 20:15:32 | INFO     | __main__ | \n--- LightGBM Results ---
+2026-07-13 20:15:32 | INFO     | __main__ | Precision: 0.937
+2026-07-13 20:15:32 | INFO     | __main__ | Recall:    0.729
+2026-07-13 20:15:32 | INFO     | __main__ | F1 Score:  0.820
+2026-07-13 20:15:32 | INFO     | __main__ | ROC-AUC:   0.916
+2026-07-13 20:15:32 | INFO     | __main__ | \n============================================================
+2026-07-13 20:15:32 | INFO     | __main__ | Model Comparison Summary
+2026-07-13 20:15:32 | INFO     | __main__ | ============================================================
+2026-07-13 20:15:32 | INFO     | __main__ | \n        model  precision   recall       f1  roc_auc
+Random Forest   0.993163 0.731685 0.842605 0.926463
+      XGBoost   0.940762 0.734432 0.824891 0.915344
+     LightGBM   0.936508 0.729396 0.820077 0.916108
+2026-07-13 20:15:32 | INFO     | __main__ | \nBest model by F1 score: Random Forest
