@@ -411,3 +411,64 @@
 2026-07-13 04:49:27 | INFO     | __main__ | Duplicate timestamps: 0
 2026-07-13 04:49:27 | INFO     | __main__ | Validated data saved to: data/validated/sensor_timeseries.csv
 2026-07-13 04:49:27 | INFO     | __main__ | ============================================================
+2026-07-13 20:02:21 | INFO     | __main__ | Deriving failure labels from historical failure events...
+2026-07-13 20:02:21 | INFO     | __main__ |   failure_within_7d: 8,232 positive labels (37.42% of all readings)
+2026-07-13 20:02:21 | INFO     | __main__ |   failure_within_14d: 16,464 positive labels (74.84% of all readings)
+2026-07-13 20:02:21 | INFO     | __main__ |   failure_within_30d: 21,998 positive labels (100.00% of all readings)
+2026-07-13 20:04:59 | INFO     | __main__ | ============================================================
+2026-07-13 20:04:59 | INFO     | __main__ | Industrial Asset Reliability Platform - Data Generation
+2026-07-13 20:04:59 | INFO     | __main__ | ============================================================
+2026-07-13 20:04:59 | INFO     | __main__ | Generating equipment master data...
+2026-07-13 20:04:59 | INFO     | __main__ | Generated 12 assets across 5 equipment types
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for COMP-001...
+2026-07-13 20:04:59 | INFO     | __main__ |   COMP-001: 10465 hourly readings, 5 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for TURB-002...
+2026-07-13 20:04:59 | INFO     | __main__ |   TURB-002: 10621 hourly readings, 5 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for MOTO-003...
+2026-07-13 20:04:59 | INFO     | __main__ |   MOTO-003: 6441 hourly readings, 3 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for ESP-004...
+2026-07-13 20:04:59 | INFO     | __main__ |   ESP-004: 7091 hourly readings, 4 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for PUMP-005...
+2026-07-13 20:04:59 | INFO     | __main__ |   PUMP-005: 5002 hourly readings, 3 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for COMP-006...
+2026-07-13 20:04:59 | INFO     | __main__ |   COMP-006: 8889 hourly readings, 5 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for TURB-007...
+2026-07-13 20:04:59 | INFO     | __main__ |   TURB-007: 6836 hourly readings, 3 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for MOTO-008...
+2026-07-13 20:04:59 | INFO     | __main__ |   MOTO-008: 7622 hourly readings, 4 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for ESP-009...
+2026-07-13 20:04:59 | INFO     | __main__ |   ESP-009: 5774 hourly readings, 3 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for PUMP-010...
+2026-07-13 20:04:59 | INFO     | __main__ |   PUMP-010: 4562 hourly readings, 3 failure events
+2026-07-13 20:04:59 | INFO     | __main__ | Generating lifecycle data for COMP-011...
+2026-07-13 20:05:00 | INFO     | __main__ |   COMP-011: 10286 hourly readings, 5 failure events
+2026-07-13 20:05:00 | INFO     | __main__ | Generating lifecycle data for TURB-012...
+2026-07-13 20:05:00 | INFO     | __main__ |   TURB-012: 10070 hourly readings, 5 failure events
+2026-07-13 20:05:01 | INFO     | __main__ | Generating work order history...
+2026-07-13 20:05:01 | INFO     | __main__ | Generated 126 work orders (48 corrective, 78 preventive)
+2026-07-13 20:05:01 | INFO     | __main__ | ============================================================
+2026-07-13 20:05:01 | INFO     | __main__ | Generation complete
+2026-07-13 20:05:01 | INFO     | __main__ |    Equipment master: 12 assets
+2026-07-13 20:05:01 | INFO     | __main__ |    Sensor readings:  93,659 rows
+2026-07-13 20:05:01 | INFO     | __main__ |    Failure events:   48 events
+2026-07-13 20:05:01 | INFO     | __main__ |    Saved to: data/raw/
+2026-07-13 20:05:01 | INFO     | __main__ | ============================================================
+2026-07-13 20:05:43 | INFO     | __main__ | ============================================================
+2026-07-13 20:05:43 | INFO     | __main__ | Data Validation Pipeline
+2026-07-13 20:05:43 | INFO     | __main__ | ============================================================
+2026-07-13 20:05:43 | INFO     | __main__ | Starting sensor data validation...
+2026-07-13 20:05:43 | INFO     | __main__ | Input rows: 93,659
+2026-07-13 20:05:43 | INFO     | __main__ | ✅ All rows passed schema validation
+2026-07-13 20:05:43 | INFO     | __main__ | ✅ No columns with excessive missing values
+2026-07-13 20:05:44 | INFO     | __main__ | ✅ No duplicate timestamps found
+2026-07-13 20:05:44 | INFO     | __main__ | ============================================================
+2026-07-13 20:05:44 | INFO     | __main__ | Validation status: passed
+2026-07-13 20:05:44 | INFO     | __main__ | Total violations: 0
+2026-07-13 20:05:44 | INFO     | __main__ | Missing value issues: 0
+2026-07-13 20:05:44 | INFO     | __main__ | Duplicate timestamps: 0
+2026-07-13 20:05:44 | INFO     | __main__ | Validated data saved to: data/validated/sensor_timeseries.csv
+2026-07-13 20:05:44 | INFO     | __main__ | ============================================================
+2026-07-13 20:05:46 | INFO     | __main__ | Deriving failure labels from historical failure events...
+2026-07-13 20:05:47 | INFO     | __main__ |   failure_within_7d: 8,064 positive labels (8.61% of all readings)
+2026-07-13 20:05:47 | INFO     | __main__ |   failure_within_14d: 16,128 positive labels (17.22% of all readings)
+2026-07-13 20:05:47 | INFO     | __main__ |   failure_within_30d: 34,560 positive labels (36.90% of all readings)

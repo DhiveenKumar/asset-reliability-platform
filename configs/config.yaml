@@ -16,8 +16,8 @@ data:
     min: 3
     max: 5
   hours_per_normal_phase:
-    min: 200
-    max: 400
+    min: 1200
+    max: 2400
   hours_per_degrading_phase:
     min: 80
     max: 150
