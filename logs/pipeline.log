@@ -1101,3 +1101,97 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-13 23:14:09 | INFO     | __main__ |    Most urgent: MOTO-003 (0h remaining)
 2026-07-13 23:14:09 | INFO     | __main__ |    Results saved to: data/processed/rul_batch_scoring_20260713_231409.csv
 2026-07-13 23:14:09 | INFO     | __main__ | ============================================================
+2026-07-13 23:29:17 | INFO     | __main__ | ============================================================
+2026-07-13 23:29:17 | INFO     | __main__ | AssetGuardian - Anomaly Detection Training
+2026-07-13 23:29:17 | INFO     | __main__ | ============================================================
+2026-07-13 23:29:17 | INFO     | __main__ | Preparing data for AssetGuardian anomaly detection...
+2026-07-13 23:30:16 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:16 | INFO     | __main__ | Industrial Asset Reliability Platform - Data Generation
+2026-07-13 23:30:16 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:16 | INFO     | __main__ | Generating equipment master data...
+2026-07-13 23:30:16 | INFO     | __main__ | Generated 12 assets across 5 equipment types
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for COMP-001...
+2026-07-13 23:30:16 | INFO     | __main__ |   COMP-001: 12805 hourly readings, 5 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for TURB-002...
+2026-07-13 23:30:16 | INFO     | __main__ |   TURB-002: 11743 hourly readings, 5 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for MOTO-003...
+2026-07-13 23:30:16 | INFO     | __main__ |   MOTO-003: 12139 hourly readings, 5 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for ESP-004...
+2026-07-13 23:30:16 | INFO     | __main__ |   ESP-004: 12232 hourly readings, 5 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for PUMP-005...
+2026-07-13 23:30:16 | INFO     | __main__ |   PUMP-005: 6299 hourly readings, 3 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for COMP-006...
+2026-07-13 23:30:16 | INFO     | __main__ |   COMP-006: 11820 hourly readings, 5 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for TURB-007...
+2026-07-13 23:30:16 | INFO     | __main__ |   TURB-007: 9687 hourly readings, 4 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for MOTO-008...
+2026-07-13 23:30:16 | INFO     | __main__ |   MOTO-008: 8141 hourly readings, 3 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for ESP-009...
+2026-07-13 23:30:16 | INFO     | __main__ |   ESP-009: 11715 hourly readings, 5 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for PUMP-010...
+2026-07-13 23:30:16 | INFO     | __main__ |   PUMP-010: 10176 hourly readings, 4 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for COMP-011...
+2026-07-13 23:30:16 | INFO     | __main__ |   COMP-011: 7655 hourly readings, 3 failure events
+2026-07-13 23:30:16 | INFO     | __main__ | Generating lifecycle data for TURB-012...
+2026-07-13 23:30:16 | INFO     | __main__ |   TURB-012: 8879 hourly readings, 4 failure events
+2026-07-13 23:30:18 | INFO     | __main__ | Generating work order history...
+2026-07-13 23:30:18 | INFO     | __main__ | Generated 134 work orders (51 corrective, 83 preventive)
+2026-07-13 23:30:18 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:18 | INFO     | __main__ | Generation complete
+2026-07-13 23:30:18 | INFO     | __main__ |    Equipment master: 12 assets
+2026-07-13 23:30:18 | INFO     | __main__ |    Sensor readings:  123,291 rows
+2026-07-13 23:30:18 | INFO     | __main__ |    Failure events:   51 events
+2026-07-13 23:30:18 | INFO     | __main__ |    Saved to: data/raw/
+2026-07-13 23:30:18 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:24 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:24 | INFO     | __main__ | Data Validation Pipeline
+2026-07-13 23:30:24 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:24 | INFO     | __main__ | Starting sensor data validation...
+2026-07-13 23:30:24 | INFO     | __main__ | Input rows: 123,291
+2026-07-13 23:30:25 | INFO     | __main__ | ✅ All rows passed schema validation
+2026-07-13 23:30:25 | INFO     | __main__ | ✅ No columns with excessive missing values
+2026-07-13 23:30:25 | INFO     | __main__ | ✅ No duplicate timestamps found
+2026-07-13 23:30:26 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:26 | INFO     | __main__ | Validation status: passed
+2026-07-13 23:30:26 | INFO     | __main__ | Total violations: 0
+2026-07-13 23:30:26 | INFO     | __main__ | Missing value issues: 0
+2026-07-13 23:30:26 | INFO     | __main__ | Duplicate timestamps: 0
+2026-07-13 23:30:26 | INFO     | __main__ | Validated data saved to: data/validated/sensor_timeseries.csv
+2026-07-13 23:30:26 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:31 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:31 | INFO     | __main__ | Feature Engineering Pipeline
+2026-07-13 23:30:31 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:31 | INFO     | __main__ | Deriving failure labels from historical failure events...
+2026-07-13 23:30:32 | INFO     | __main__ |   failure_within_7d: 8,568 positive labels (6.95% of all readings)
+2026-07-13 23:30:32 | INFO     | __main__ |   failure_within_14d: 17,136 positive labels (13.90% of all readings)
+2026-07-13 23:30:32 | INFO     | __main__ |   failure_within_30d: 36,720 positive labels (29.78% of all readings)
+2026-07-13 23:30:32 | INFO     | __main__ | Engineering rolling features for windows: [6, 24, 72]
+2026-07-13 23:30:32 | INFO     | __main__ | Added 42 rolling features
+2026-07-13 23:30:32 | INFO     | __main__ | Engineering trend features with 24h lag...
+2026-07-13 23:30:33 | INFO     | __main__ | Added 14 trend/lag features
+2026-07-13 23:30:33 | INFO     | __main__ | Engineering vibration FFT feature...
+2026-07-13 23:30:36 | INFO     | __main__ | Added vibration_fft_energy feature
+2026-07-13 23:30:36 | INFO     | __main__ | Engineering maintenance interval features...
+2026-07-13 23:30:37 | INFO     | __main__ | Added days_since_maintenance feature
+2026-07-13 23:30:51 | INFO     | __main__ | ============================================================
+2026-07-13 23:30:51 | INFO     | __main__ | Feature engineering complete
+2026-07-13 23:30:51 | INFO     | __main__ |    Total rows: 123,291
+2026-07-13 23:30:51 | INFO     | __main__ |    Total columns: 73
+2026-07-13 23:30:51 | INFO     | __main__ |    Saved to: data/processed/assetpulse_features.csv
+2026-07-13 23:30:51 | INFO     | __main__ | ============================================================
+2026-07-13 23:31:19 | INFO     | __main__ | ============================================================
+2026-07-13 23:31:19 | INFO     | __main__ | AssetGuardian - Anomaly Detection Training
+2026-07-13 23:31:19 | INFO     | __main__ | ============================================================
+2026-07-13 23:31:19 | INFO     | __main__ | Preparing data for AssetGuardian anomaly detection...
+2026-07-13 23:31:21 | INFO     | __main__ | Trained on 95,122 'normal' readings only
+2026-07-13 23:31:21 | INFO     | __main__ | Testing on 21,430 readings (1,261 true anomalies: degrading/critical periods)
+2026-07-13 23:31:21 | INFO     | __main__ | Training Isolation Forest...
+2026-07-13 23:31:23 | INFO     | __main__ | Isolation Forest trained
+2026-07-13 23:31:23 | INFO     | __main__ | \n--- Isolation Forest Results ---
+2026-07-13 23:31:23 | INFO     | __main__ | Precision: 0.356
+2026-07-13 23:31:23 | INFO     | __main__ | Recall:    0.834
+2026-07-13 23:31:23 | INFO     | __main__ | F1 Score:  0.499
+2026-07-13 23:31:23 | INFO     | __main__ | Flagged 2,955 anomalies out of 21,430 readings (true anomaly rate: 5.9%)
+2026-07-13 23:31:23 | INFO     | __main__ | ============================================================
+2026-07-13 23:31:23 | INFO     | __main__ | AssetGuardian Isolation Forest training complete
+2026-07-13 23:31:23 | INFO     | __main__ | ============================================================
