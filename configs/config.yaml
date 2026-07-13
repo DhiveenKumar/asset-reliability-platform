@@ -69,6 +69,6 @@ assetpulse:
 
 rulsense:
   sequence_length_hours: 60
-  stride: 1
+  stride: 6
 
 random_seed: 42

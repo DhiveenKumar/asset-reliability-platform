@@ -828,3 +828,127 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-13 20:59:17 | INFO     | __main__ | Monitoring complete: 1/7 sensors show statistically significant drift
 2026-07-13 20:59:17 | WARNING  | __main__ | ⚠️  Recommendation: investigate drifted sensors and consider retraining if drift persists across multiple monitoring cycles
 2026-07-13 20:59:17 | INFO     | __main__ | ============================================================
+2026-07-13 21:15:36 | INFO     | __main__ | Deriving RUL labels...
+2026-07-13 21:15:36 | INFO     | __main__ | Dropped 20,841 rows with no future failure to count down to (102,450 rows remain)
+2026-07-13 21:15:36 | INFO     | __main__ | Capped 0 rows at max RUL of 3000 hours
+2026-07-13 21:15:36 | INFO     | __main__ | RUL_hours stats: min=1.0, max=2573.0, mean=1036.2
+2026-07-13 21:17:19 | INFO     | src.rul.rul_labels | Deriving RUL labels...
+2026-07-13 21:17:19 | INFO     | src.rul.rul_labels | Dropped 20,841 rows with no future failure to count down to (102,450 rows remain)
+2026-07-13 21:17:19 | INFO     | src.rul.rul_labels | Capped 0 rows at max RUL of 3000 hours
+2026-07-13 21:17:19 | INFO     | src.rul.rul_labels | RUL_hours stats: min=1.0, max=2573.0, mean=1036.2
+2026-07-13 21:17:19 | INFO     | __main__ | Building sequences: length=60h, stride=1
+2026-07-13 21:17:20 | INFO     | __main__ | Built 101,742 sequences of shape (60, 7)
+2026-07-13 21:21:03 | INFO     | __main__ | ============================================================
+2026-07-13 21:21:03 | INFO     | __main__ | RULSense - Remaining Useful Life Training
+2026-07-13 21:21:03 | INFO     | __main__ | ============================================================
+2026-07-13 21:21:03 | INFO     | __main__ | Preparing RUL training data...
+2026-07-13 21:21:03 | INFO     | src.rul.rul_labels | Deriving RUL labels...
+2026-07-13 21:21:04 | INFO     | src.rul.rul_labels | Dropped 20,841 rows with no future failure to count down to (102,450 rows remain)
+2026-07-13 21:21:04 | INFO     | src.rul.rul_labels | Capped 0 rows at max RUL of 3000 hours
+2026-07-13 21:21:04 | INFO     | src.rul.rul_labels | RUL_hours stats: min=1.0, max=2573.0, mean=1036.2
+2026-07-13 21:21:04 | INFO     | src.rul.sequence_builder | Building sequences: length=60h, stride=1
+2026-07-13 21:21:04 | INFO     | src.rul.sequence_builder | Built 101,742 sequences of shape (60, 7)
+2026-07-13 21:21:04 | INFO     | __main__ | Train sequences: 83,661 from 10 assets
+2026-07-13 21:21:04 | INFO     | __main__ | Test sequences:  18,081 from 2 assets
+2026-07-13 21:21:04 | INFO     | __main__ | \nTraining LSTM...
+2026-07-13 21:22:03 | INFO     | __main__ |   Epoch 1/15 - MSE Loss: 1422196.95
+2026-07-13 21:25:46 | INFO     | __main__ |   Epoch 5/15 - MSE Loss: 1255892.38
+2026-07-13 21:30:24 | INFO     | __main__ |   Epoch 10/15 - MSE Loss: 1078292.21
+2026-07-13 21:35:00 | INFO     | __main__ |   Epoch 15/15 - MSE Loss: 924169.54
+2026-07-13 21:35:05 | INFO     | __main__ | \n--- LSTM Results ---
+2026-07-13 21:35:05 | INFO     | __main__ | RMSE: 955.19 hours
+2026-07-13 21:35:05 | INFO     | __main__ | MAE:  770.12 hours
+2026-07-13 21:35:05 | INFO     | __main__ | MAPE: 137.93%
+2026-07-13 21:35:05 | INFO     | __main__ | \nTraining GRU...
+2026-07-13 21:35:47 | INFO     | __main__ |   Epoch 1/15 - MSE Loss: 1419695.15
+2026-07-13 21:38:33 | INFO     | __main__ |   Epoch 5/15 - MSE Loss: 1255231.27
+2026-07-13 21:42:00 | INFO     | __main__ |   Epoch 10/15 - MSE Loss: 1077741.47
+2026-07-13 21:45:26 | INFO     | __main__ |   Epoch 15/15 - MSE Loss: 923772.15
+2026-07-13 21:47:46 | INFO     | __main__ | ============================================================
+2026-07-13 21:47:46 | INFO     | __main__ | RULSense - Remaining Useful Life Training
+2026-07-13 21:47:46 | INFO     | __main__ | ============================================================
+2026-07-13 21:47:46 | INFO     | __main__ | Preparing RUL training data...
+2026-07-13 21:47:47 | INFO     | src.rul.rul_labels | Deriving RUL labels...
+2026-07-13 21:47:47 | INFO     | src.rul.rul_labels | Dropped 20,841 rows with no future failure to count down to (102,450 rows remain)
+2026-07-13 21:47:47 | INFO     | src.rul.rul_labels | Capped 0 rows at max RUL of 3000 hours
+2026-07-13 21:47:47 | INFO     | src.rul.rul_labels | RUL_hours stats: min=1.0, max=2573.0, mean=1036.2
+2026-07-13 21:47:47 | INFO     | src.rul.sequence_builder | Building sequences: length=60h, stride=6
+2026-07-13 21:47:47 | INFO     | src.rul.sequence_builder | Built 16,962 sequences of shape (60, 7)
+2026-07-13 21:47:47 | INFO     | __main__ | Train sequences: 13,948 from 10 assets
+2026-07-13 21:47:47 | INFO     | __main__ | Test sequences:  3,014 from 2 assets
+2026-07-13 21:47:47 | INFO     | __main__ | \nTraining LSTM...
+2026-07-13 21:47:59 | INFO     | __main__ |   Epoch 1/30 - MSE Loss: 1443391.36
+2026-07-13 21:48:35 | INFO     | __main__ |   Epoch 5/30 - MSE Loss: 1408813.40
+2026-07-13 21:49:20 | INFO     | __main__ |   Epoch 10/30 - MSE Loss: 1371954.77
+2026-07-13 21:50:05 | INFO     | __main__ |   Epoch 15/30 - MSE Loss: 1337609.06
+2026-07-13 21:50:50 | INFO     | __main__ |   Epoch 20/30 - MSE Loss: 1301789.34
+2026-07-13 21:51:35 | INFO     | __main__ |   Epoch 25/30 - MSE Loss: 1268697.68
+2026-07-13 21:52:20 | INFO     | __main__ |   Epoch 30/30 - MSE Loss: 1239486.72
+2026-07-13 21:52:21 | INFO     | __main__ | \n--- LSTM Results ---
+2026-07-13 21:52:21 | INFO     | __main__ | RMSE: 1112.79 hours
+2026-07-13 21:52:21 | INFO     | __main__ | MAE:  927.02 hours
+2026-07-13 21:52:21 | INFO     | __main__ | MAPE: 103.18%
+2026-07-13 21:52:21 | INFO     | __main__ | \nTraining GRU...
+2026-07-13 21:52:28 | INFO     | __main__ |   Epoch 1/30 - MSE Loss: 1443699.54
+2026-07-13 21:52:55 | INFO     | __main__ |   Epoch 5/30 - MSE Loss: 1410283.23
+2026-07-13 21:53:29 | INFO     | __main__ |   Epoch 10/30 - MSE Loss: 1373699.62
+2026-07-13 21:54:04 | INFO     | __main__ |   Epoch 15/30 - MSE Loss: 1337495.39
+2026-07-13 21:54:38 | INFO     | __main__ |   Epoch 20/30 - MSE Loss: 1304240.41
+2026-07-13 21:55:12 | INFO     | __main__ |   Epoch 25/30 - MSE Loss: 1272535.97
+2026-07-13 21:55:46 | INFO     | __main__ |   Epoch 30/30 - MSE Loss: 1239800.61
+2026-07-13 21:55:47 | INFO     | __main__ | \n--- GRU Results ---
+2026-07-13 21:55:47 | INFO     | __main__ | RMSE: 1113.35 hours
+2026-07-13 21:55:47 | INFO     | __main__ | MAE:  927.63 hours
+2026-07-13 21:55:47 | INFO     | __main__ | MAPE: 103.09%
+2026-07-13 21:55:47 | INFO     | __main__ | \n============================================================
+2026-07-13 21:55:47 | INFO     | __main__ | Model Comparison
+2026-07-13 21:55:47 | INFO     | __main__ | ============================================================
+2026-07-13 21:55:47 | INFO     | __main__ | \nmodel        rmse        mae       mape
+ LSTM 1112.788390 927.024963 103.175507
+  GRU 1113.353605 927.632202 103.088440
+2026-07-13 21:59:39 | INFO     | __main__ | ============================================================
+2026-07-13 21:59:39 | INFO     | __main__ | RULSense - Remaining Useful Life Training
+2026-07-13 21:59:39 | INFO     | __main__ | ============================================================
+2026-07-13 21:59:39 | INFO     | __main__ | Preparing RUL training data...
+2026-07-13 21:59:39 | INFO     | src.rul.rul_labels | Deriving RUL labels...
+2026-07-13 21:59:39 | INFO     | src.rul.rul_labels | Dropped 20,841 rows with no future failure to count down to (102,450 rows remain)
+2026-07-13 21:59:39 | INFO     | src.rul.rul_labels | Capped 0 rows at max RUL of 3000 hours
+2026-07-13 21:59:39 | INFO     | src.rul.rul_labels | RUL_hours stats: min=1.0, max=2573.0, mean=1036.2
+2026-07-13 21:59:39 | INFO     | src.rul.sequence_builder | Building sequences: length=60h, stride=6
+2026-07-13 21:59:40 | INFO     | src.rul.sequence_builder | Built 16,962 sequences of shape (60, 7)
+2026-07-13 21:59:40 | INFO     | __main__ | Train sequences: 13,948 from 10 assets
+2026-07-13 21:59:40 | INFO     | __main__ | Test sequences:  3,014 from 2 assets
+2026-07-13 21:59:40 | INFO     | __main__ | \nTraining LSTM...
+2026-07-13 21:59:51 | INFO     | __main__ |   Epoch 1/40 - MSE Loss: 0.3655 - LR: 0.01000
+2026-07-13 22:00:29 | INFO     | __main__ |   Epoch 5/40 - MSE Loss: 0.3137 - LR: 0.01000
+2026-07-13 22:01:15 | INFO     | __main__ |   Epoch 10/40 - MSE Loss: 0.3071 - LR: 0.01000
+2026-07-13 22:02:01 | INFO     | __main__ |   Epoch 15/40 - MSE Loss: 0.2782 - LR: 0.01000
+2026-07-13 22:02:48 | INFO     | __main__ |   Epoch 20/40 - MSE Loss: 0.0365 - LR: 0.01000
+2026-07-13 22:03:34 | INFO     | __main__ |   Epoch 25/40 - MSE Loss: 0.0089 - LR: 0.01000
+2026-07-13 22:04:20 | INFO     | __main__ |   Epoch 30/40 - MSE Loss: 0.0057 - LR: 0.01000
+2026-07-13 22:05:07 | INFO     | __main__ |   Epoch 35/40 - MSE Loss: 0.0039 - LR: 0.01000
+2026-07-13 22:05:53 | INFO     | __main__ |   Epoch 40/40 - MSE Loss: 0.0032 - LR: 0.01000
+2026-07-13 22:05:54 | INFO     | __main__ | \n--- LSTM Results ---
+2026-07-13 22:05:54 | INFO     | __main__ | RMSE: 642.72 hours
+2026-07-13 22:05:54 | INFO     | __main__ | MAE:  510.67 hours
+2026-07-13 22:05:54 | INFO     | __main__ | MAPE: 94.97%
+2026-07-13 22:05:54 | INFO     | __main__ | \nTraining GRU...
+2026-07-13 22:06:01 | INFO     | __main__ |   Epoch 1/40 - MSE Loss: 0.3725 - LR: 0.01000
+2026-07-13 22:06:29 | INFO     | __main__ |   Epoch 5/40 - MSE Loss: 0.1949 - LR: 0.01000
+2026-07-13 22:07:04 | INFO     | __main__ |   Epoch 10/40 - MSE Loss: 0.0213 - LR: 0.01000
+2026-07-13 22:07:39 | INFO     | __main__ |   Epoch 15/40 - MSE Loss: 0.0119 - LR: 0.01000
+2026-07-13 22:08:13 | INFO     | __main__ |   Epoch 20/40 - MSE Loss: 0.0088 - LR: 0.01000
+2026-07-13 22:08:48 | INFO     | __main__ |   Epoch 25/40 - MSE Loss: 0.0075 - LR: 0.01000
+2026-07-13 22:09:23 | INFO     | __main__ |   Epoch 30/40 - MSE Loss: 0.0064 - LR: 0.01000
+2026-07-13 22:09:58 | INFO     | __main__ |   Epoch 35/40 - MSE Loss: 0.0056 - LR: 0.01000
+2026-07-13 22:10:33 | INFO     | __main__ |   Epoch 40/40 - MSE Loss: 0.0032 - LR: 0.00500
+2026-07-13 22:10:33 | INFO     | __main__ | \n--- GRU Results ---
+2026-07-13 22:10:33 | INFO     | __main__ | RMSE: 669.82 hours
+2026-07-13 22:10:33 | INFO     | __main__ | MAE:  529.01 hours
+2026-07-13 22:10:33 | INFO     | __main__ | MAPE: 98.02%
+2026-07-13 22:10:33 | INFO     | __main__ | \n============================================================
+2026-07-13 22:10:33 | INFO     | __main__ | Model Comparison
+2026-07-13 22:10:33 | INFO     | __main__ | ============================================================
+2026-07-13 22:10:33 | INFO     | __main__ | \nmodel       rmse        mae      mape
+ LSTM 642.715406 510.667999 94.969894
+  GRU 669.817932 529.009216 98.024689
