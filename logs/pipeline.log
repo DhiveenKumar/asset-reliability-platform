@@ -536,3 +536,42 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
       XGBoost   0.940762 0.734432 0.824891 0.915344
      LightGBM   0.936508 0.729396 0.820077 0.916108
 2026-07-13 20:15:32 | INFO     | __main__ | \nBest model by F1 score: Random Forest
+2026-07-13 20:17:58 | INFO     | __main__ | ============================================================
+2026-07-13 20:17:58 | INFO     | __main__ | SHAP Explainability Analysis
+2026-07-13 20:17:58 | INFO     | __main__ | ============================================================
+2026-07-13 20:17:58 | INFO     | src.classification.train_assetpulse | Loading engineered features from data/processed/assetpulse_features.csv...
+2026-07-13 20:17:59 | INFO     | src.classification.train_assetpulse | Loaded 93,659 rows, 73 columns
+2026-07-13 20:17:59 | INFO     | src.classification.train_assetpulse | Splitting data by asset (not random rows) to prevent leakage...
+2026-07-13 20:17:59 | INFO     | src.classification.train_assetpulse | Train: 65,737 rows from 9 assets
+2026-07-13 20:17:59 | INFO     | src.classification.train_assetpulse | Test:  27,922 rows from 3 assets
+2026-07-13 20:17:59 | INFO     | src.classification.train_assetpulse | Train positive rate: 8.94%
+2026-07-13 20:17:59 | INFO     | src.classification.train_assetpulse | Test positive rate:  7.82%
+2026-07-13 20:17:59 | INFO     | __main__ | Retraining Random Forest for SHAP analysis...
+2026-07-13 20:17:59 | INFO     | src.classification.train_assetpulse | Training Random Forest...
+2026-07-13 20:18:38 | INFO     | __main__ | Computing SHAP values on 500 sample rows...
+2026-07-13 20:18:55 | INFO     | __main__ | SHAP values computed successfully
+2026-07-13 20:18:55 | INFO     | __main__ | \nTop 15 most important features (global):
+2026-07-13 20:18:55 | INFO     | __main__ |   oil_quality_index_roll_mean_24h          0.0696
+2026-07-13 20:18:55 | INFO     | __main__ |   days_since_maintenance                   0.0683
+2026-07-13 20:18:55 | INFO     | __main__ |   oil_quality_index_roll_mean_6h           0.0517
+2026-07-13 20:18:55 | INFO     | __main__ |   oil_quality_index_roll_mean_72h          0.0286
+2026-07-13 20:18:55 | INFO     | __main__ |   rpm_roll_mean_24h                        0.0275
+2026-07-13 20:18:55 | INFO     | __main__ |   motor_current_roll_mean_24h              0.0263
+2026-07-13 20:18:55 | INFO     | __main__ |   vibration_mm_roll_mean_24h               0.0242
+2026-07-13 20:18:55 | INFO     | __main__ |   pressure_psi_roll_mean_24h               0.0201
+2026-07-13 20:18:55 | INFO     | __main__ |   temperature_f_roll_mean_24h              0.0194
+2026-07-13 20:18:55 | INFO     | __main__ |   flow_rate_roll_mean_24h                  0.0185
+2026-07-13 20:18:55 | INFO     | __main__ |   pressure_psi_roll_std_72h                0.0106
+2026-07-13 20:18:55 | INFO     | __main__ |   flow_rate_roll_mean_72h                  0.0089
+2026-07-13 20:18:55 | INFO     | __main__ |   rpm_roll_mean_72h                        0.0088
+2026-07-13 20:18:55 | INFO     | __main__ |   motor_current_roll_mean_72h              0.0083
+2026-07-13 20:18:55 | INFO     | __main__ |   vibration_mm_roll_mean_6h                0.0082
+2026-07-13 20:18:55 | INFO     | __main__ | \nExplanation for row 236 (predicted failure probability: 100.0%):
+2026-07-13 20:18:55 | INFO     | __main__ |   oil_quality_index_roll_mean_24h     = 89.80 (increased risk by 0.1009)
+2026-07-13 20:18:55 | INFO     | __main__ |   oil_quality_index_roll_mean_6h      = 90.91 (increased risk by 0.0720)
+2026-07-13 20:18:55 | INFO     | __main__ |   motor_current_roll_mean_24h         = 48.71 (increased risk by 0.0479)
+2026-07-13 20:18:55 | INFO     | __main__ |   temperature_f_roll_mean_24h         = 185.35 (increased risk by 0.0400)
+2026-07-13 20:18:55 | INFO     | __main__ |   vibration_mm_roll_mean_24h          = 2.54 (increased risk by 0.0388)
+2026-07-13 20:18:55 | INFO     | __main__ | ============================================================
+2026-07-13 20:18:55 | INFO     | __main__ | SHAP analysis complete
+2026-07-13 20:18:55 | INFO     | __main__ | ============================================================
