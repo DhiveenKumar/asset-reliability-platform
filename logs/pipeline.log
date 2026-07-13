@@ -1045,3 +1045,59 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-13 23:03:37 | INFO     | src.rul.train_rulsense | MAE:  505.77 hours
 2026-07-13 23:03:37 | INFO     | src.rul.train_rulsense | MAPE: 92.89%
 2026-07-13 23:03:37 | INFO     | __main__ | \nRegistering best model: GRU (RMSE=642.15)
+2026-07-13 23:13:09 | INFO     | __main__ | ============================================================
+2026-07-13 23:13:09 | INFO     | __main__ | RULSense Batch Scoring Job
+2026-07-13 23:13:09 | INFO     | __main__ | Run timestamp: 2026-07-13T23:13:09.612426
+2026-07-13 23:13:09 | INFO     | __main__ | ============================================================
+2026-07-13 23:13:09 | INFO     | __main__ | Building latest sequences per asset...
+2026-07-13 23:13:10 | INFO     | __main__ | Built 12 'current state' sequences (one per asset)
+2026-07-13 23:13:10 | INFO     | __main__ | Loading GRU model from mlflow/temp_models/GRU_state_dict.pt...
+2026-07-13 23:13:10 | INFO     | __main__ | Model loaded successfully
+2026-07-13 23:13:10 | INFO     | __main__ | Scoring RUL for all assets...
+2026-07-13 23:13:10 | INFO     | __main__ | Scoring complete
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 1: MOTO-003 - RUL: -47h (~-2.0 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 2: MOTO-008 - RUL: -40h (~-1.7 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 3: PUMP-005 - RUL: -21h (~-0.9 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 4: TURB-012 - RUL: 23h (~1.0 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 5: COMP-006 - RUL: 160h (~6.7 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 6: PUMP-010 - RUL: 770h (~32.1 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 7: ESP-009 - RUL: 779h (~32.4 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 8: COMP-011 - RUL: 920h (~38.3 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 9: ESP-004 - RUL: 1059h (~44.1 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 10: COMP-001 - RUL: 1156h (~48.1 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 11: TURB-002 - RUL: 1191h (~49.6 days)
+2026-07-13 23:13:10 | INFO     | __main__ |   Rank 12: TURB-007 - RUL: 1642h (~68.4 days)
+2026-07-13 23:13:10 | INFO     | __main__ | ============================================================
+2026-07-13 23:13:10 | INFO     | __main__ | RUL batch scoring complete
+2026-07-13 23:13:10 | INFO     | __main__ |    Assets scored: 12
+2026-07-13 23:13:10 | INFO     | __main__ |    Most urgent: MOTO-003 (-47h remaining)
+2026-07-13 23:13:10 | INFO     | __main__ |    Results saved to: data/processed/rul_batch_scoring_20260713_231310.csv
+2026-07-13 23:13:10 | INFO     | __main__ | ============================================================
+2026-07-13 23:14:08 | INFO     | __main__ | ============================================================
+2026-07-13 23:14:08 | INFO     | __main__ | RULSense Batch Scoring Job
+2026-07-13 23:14:08 | INFO     | __main__ | Run timestamp: 2026-07-13T23:14:08.655967
+2026-07-13 23:14:08 | INFO     | __main__ | ============================================================
+2026-07-13 23:14:08 | INFO     | __main__ | Building latest sequences per asset...
+2026-07-13 23:14:09 | INFO     | __main__ | Built 12 'current state' sequences (one per asset)
+2026-07-13 23:14:09 | INFO     | __main__ | Loading GRU model from mlflow/temp_models/GRU_state_dict.pt...
+2026-07-13 23:14:09 | INFO     | __main__ | Model loaded successfully
+2026-07-13 23:14:09 | INFO     | __main__ | Scoring RUL for all assets...
+2026-07-13 23:14:09 | INFO     | __main__ | Scoring complete
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 1: MOTO-003 - RUL: 0h (~0.0 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 2: PUMP-005 - RUL: 0h (~0.0 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 3: MOTO-008 - RUL: 0h (~0.0 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 4: TURB-012 - RUL: 23h (~1.0 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 5: COMP-006 - RUL: 160h (~6.7 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 6: PUMP-010 - RUL: 770h (~32.1 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 7: ESP-009 - RUL: 779h (~32.4 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 8: COMP-011 - RUL: 920h (~38.3 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 9: ESP-004 - RUL: 1059h (~44.1 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 10: COMP-001 - RUL: 1156h (~48.1 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 11: TURB-002 - RUL: 1191h (~49.6 days)
+2026-07-13 23:14:09 | INFO     | __main__ |   Rank 12: TURB-007 - RUL: 1642h (~68.4 days)
+2026-07-13 23:14:09 | INFO     | __main__ | ============================================================
+2026-07-13 23:14:09 | INFO     | __main__ | RUL batch scoring complete
+2026-07-13 23:14:09 | INFO     | __main__ |    Assets scored: 12
+2026-07-13 23:14:09 | INFO     | __main__ |    Most urgent: MOTO-003 (0h remaining)
+2026-07-13 23:14:09 | INFO     | __main__ |    Results saved to: data/processed/rul_batch_scoring_20260713_231409.csv
+2026-07-13 23:14:09 | INFO     | __main__ | ============================================================
