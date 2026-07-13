@@ -472,3 +472,31 @@
 2026-07-13 20:05:47 | INFO     | __main__ |   failure_within_7d: 8,064 positive labels (8.61% of all readings)
 2026-07-13 20:05:47 | INFO     | __main__ |   failure_within_14d: 16,128 positive labels (17.22% of all readings)
 2026-07-13 20:05:47 | INFO     | __main__ |   failure_within_30d: 34,560 positive labels (36.90% of all readings)
+2026-07-13 20:10:03 | INFO     | __main__ | ============================================================
+2026-07-13 20:10:03 | INFO     | __main__ | Feature Engineering Pipeline
+2026-07-13 20:10:03 | INFO     | __main__ | ============================================================
+2026-07-13 20:10:03 | INFO     | __main__ | Deriving failure labels from historical failure events...
+2026-07-13 20:10:03 | INFO     | __main__ |   failure_within_7d: 8,064 positive labels (8.61% of all readings)
+2026-07-13 20:10:03 | INFO     | __main__ |   failure_within_14d: 16,128 positive labels (17.22% of all readings)
+2026-07-13 20:10:03 | INFO     | __main__ |   failure_within_30d: 34,560 positive labels (36.90% of all readings)
+2026-07-13 20:11:20 | INFO     | __main__ | ============================================================
+2026-07-13 20:11:20 | INFO     | __main__ | Feature Engineering Pipeline
+2026-07-13 20:11:20 | INFO     | __main__ | ============================================================
+2026-07-13 20:11:20 | INFO     | __main__ | Deriving failure labels from historical failure events...
+2026-07-13 20:11:20 | INFO     | __main__ |   failure_within_7d: 8,064 positive labels (8.61% of all readings)
+2026-07-13 20:11:20 | INFO     | __main__ |   failure_within_14d: 16,128 positive labels (17.22% of all readings)
+2026-07-13 20:11:20 | INFO     | __main__ |   failure_within_30d: 34,560 positive labels (36.90% of all readings)
+2026-07-13 20:11:20 | INFO     | __main__ | Engineering rolling features for windows: [6, 24, 72]
+2026-07-13 20:11:21 | INFO     | __main__ | Added 42 rolling features
+2026-07-13 20:11:21 | INFO     | __main__ | Engineering trend features with 24h lag...
+2026-07-13 20:11:21 | INFO     | __main__ | Added 14 trend/lag features
+2026-07-13 20:11:21 | INFO     | __main__ | Engineering vibration FFT feature...
+2026-07-13 20:11:22 | INFO     | __main__ | Added vibration_fft_energy feature
+2026-07-13 20:11:22 | INFO     | __main__ | Engineering maintenance interval features...
+2026-07-13 20:11:23 | INFO     | __main__ | Added days_since_maintenance feature
+2026-07-13 20:11:33 | INFO     | __main__ | ============================================================
+2026-07-13 20:11:33 | INFO     | __main__ | Feature engineering complete
+2026-07-13 20:11:33 | INFO     | __main__ |    Total rows: 93,659
+2026-07-13 20:11:33 | INFO     | __main__ |    Total columns: 73
+2026-07-13 20:11:33 | INFO     | __main__ |    Saved to: data/processed/assetpulse_features.csv
+2026-07-13 20:11:33 | INFO     | __main__ | ============================================================
