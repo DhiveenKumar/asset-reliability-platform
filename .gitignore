@@ -1,0 +1,21 @@
+# Data files - regenerable via scripts, exclude from git
+data/raw/*.csv
+data/validated/*.csv
+data/processed/*.csv
+
+# MLflow artifacts - large binary model files
+mlflow/mlflow.db
+mlruns/
+mlflow/mlruns/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store

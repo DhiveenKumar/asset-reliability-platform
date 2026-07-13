@@ -158,6 +158,49 @@ def generate_asset_lifecycle(asset_id, config, start_time):
 
         current_time += timedelta(hours=random.randint(4, 72))
 
+    # Add a final TRAILING partial cycle representing "right now" -
+    # cut off at a random point BEFORE failure, so the most recent
+    # reading per asset realistically varies between normal,
+    # degrading, and critical, rather than always ending exactly
+    # at a critical/failure point (which is what a full cycle loop
+    # would otherwise always produce).
+    trailing_normal_hours = random.randint(
+        data_cfg["hours_per_normal_phase"]["min"],
+        data_cfg["hours_per_normal_phase"]["max"]
+    )
+    trailing_cutoff = random.choice(["normal", "degrading", "critical"])
+
+    trailing_normal_df = generate_sensor_phase(
+        trailing_normal_hours, sensor_cfg, "normal", current_time, asset_id
+    )
+    current_time += timedelta(hours=trailing_normal_hours)
+    all_phases.append(trailing_normal_df)
+
+    if trailing_cutoff in ["degrading", "critical"]:
+        trailing_degrading_hours = random.randint(
+            data_cfg["hours_per_degrading_phase"]["min"],
+            data_cfg["hours_per_degrading_phase"]["max"]
+        )
+        # Cut off partway through, at a random point in this phase
+        partial_hours = random.randint(1, trailing_degrading_hours)
+        trailing_degrading_df = generate_sensor_phase(
+            partial_hours, sensor_cfg, "degrading", current_time, asset_id
+        )
+        current_time += timedelta(hours=partial_hours)
+        all_phases.append(trailing_degrading_df)
+
+    if trailing_cutoff == "critical":
+        trailing_critical_hours = random.randint(
+            data_cfg["hours_per_critical_phase"]["min"],
+            data_cfg["hours_per_critical_phase"]["max"]
+        )
+        partial_hours = random.randint(1, trailing_critical_hours)
+        trailing_critical_df = generate_sensor_phase(
+            partial_hours, sensor_cfg, "critical", current_time, asset_id
+        )
+        current_time += timedelta(hours=partial_hours)
+        all_phases.append(trailing_critical_df)
+
     sensor_df = pd.concat(all_phases, ignore_index=True)
     return sensor_df, failure_events
 
