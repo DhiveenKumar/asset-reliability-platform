@@ -76,3 +76,338 @@
 2026-07-13 04:35:15 | INFO     | __main__ |    Failure events:   49 events
 2026-07-13 04:35:15 | INFO     | __main__ |    Saved to: data/raw/
 2026-07-13 04:35:15 | INFO     | __main__ | ============================================================
+2026-07-13 04:47:42 | INFO     | __main__ | ============================================================
+2026-07-13 04:47:42 | INFO     | __main__ | Data Validation Pipeline
+2026-07-13 04:47:42 | INFO     | __main__ | ============================================================
+2026-07-13 04:47:42 | INFO     | __main__ | Starting sensor data validation...
+2026-07-13 04:47:42 | INFO     | __main__ | Input rows: 21,998
+2026-07-13 04:47:42 | WARNING  | __main__ | ⚠️  Validation found 266 rule violations
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'oil_quality_index': in_range(0, 100) failed (value: 100.91)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.89)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.54)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.91)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.3)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.15)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.74)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.92)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.97)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.27)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 117.89)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.33)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.95)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.0)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.15)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.39)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.04)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.3)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.19)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.93)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.28)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.69)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.99)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.17)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.71)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.66)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.74)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.21)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.76)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.93)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.73)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 114.33)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 113.48)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.71)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.3)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.67)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.44)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.16)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.63)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 117.69)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.26)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.23)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 116.19)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.29)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 115.71)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.58)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 131.78)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 122.19)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.55)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.63)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.89)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.16)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.96)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.05)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.43)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.18)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.62)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.28)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.27)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.69)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.75)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.16)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 119.59)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.35)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.16)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.12)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.87)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'oil_quality_index': in_range(0, 100) failed (value: 100.62)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.56)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.7)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.65)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 121.65)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.7)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.43)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.83)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.39)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.54)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.13)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.84)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 113.24)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.93)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.81)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.15)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.38)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.08)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.71)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 124.97)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.75)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.31)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.49)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.35)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.0)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.39)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 121.13)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.24)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.44)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.0)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 114.24)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.33)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.69)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.41)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.17)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.16)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.36)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 116.78)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.98)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.89)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.47)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.77)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.78)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.64)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.61)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.15)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 118.29)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.28)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.38)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.89)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.89)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.79)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.68)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 115.22)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.46)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.7)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.01)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.81)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 124.24)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.03)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.9)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.27)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.79)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.94)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 114.31)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.43)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.83)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.9)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.56)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.35)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.92)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.14)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.84)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.24)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.45)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 121.49)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.13)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.81)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 113.76)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 113.37)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.08)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.8)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.11)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.36)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.01)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.9)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.29)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.22)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 118.58)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.07)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 115.61)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 113.34)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.41)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.09)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.37)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.57)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.33)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.94)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 118.0)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.57)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.08)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.36)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.06)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'oil_quality_index': in_range(0, 100) failed (value: 100.57)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'oil_quality_index': in_range(0, 100) failed (value: 100.34)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'oil_quality_index': in_range(0, 100) failed (value: 100.49)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.76)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.86)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.32)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.75)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 117.73)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 113.16)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.13)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.11)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 115.49)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.36)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.54)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.02)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.38)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.91)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.23)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 109.57)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.11)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.17)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 115.31)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.04)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 116.73)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.21)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 114.57)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.95)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.74)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.26)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.99)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.44)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.0)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 135.42)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.06)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.74)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.76)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.82)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.25)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.52)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 115.5)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.48)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.85)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.05)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.28)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.1)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.33)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 121.65)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.04)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.61)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.85)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 121.57)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.13)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 115.83)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 111.36)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.41)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 120.3)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.34)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.25)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.81)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.86)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.62)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 102.95)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 113.61)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 119.33)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.04)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.93)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.25)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.7)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 113.71)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.52)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 114.07)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 118.78)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.49)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.82)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.51)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.71)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 104.8)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 110.49)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 105.26)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.74)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.29)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 108.63)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 120.63)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.62)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 117.15)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 112.67)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.26)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 106.54)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.33)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.46)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.54)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 100.63)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 101.98)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 107.92)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.09)
+2026-07-13 04:47:42 | WARNING  | __main__ |    Column 'ambient_humidity': in_range(0, 100) failed (value: 103.13)
+2026-07-13 04:47:42 | INFO     | __main__ | ✅ No duplicate timestamps found
+2026-07-13 04:47:42 | INFO     | __main__ | ✅ No columns with excessive missing values
+2026-07-13 04:47:42 | INFO     | __main__ | ✅ No duplicate timestamps found
+2026-07-13 04:47:42 | INFO     | __main__ | ============================================================
+2026-07-13 04:47:42 | INFO     | __main__ | Validation status: failed
+2026-07-13 04:47:42 | INFO     | __main__ | Total violations: 266
+2026-07-13 04:47:42 | INFO     | __main__ | Missing value issues: 0
+2026-07-13 04:47:42 | INFO     | __main__ | Duplicate timestamps: 0
+2026-07-13 04:47:42 | INFO     | __main__ | Validated data saved to: data/validated/sensor_timeseries.csv
+2026-07-13 04:47:42 | INFO     | __main__ | ============================================================
+2026-07-13 04:49:19 | INFO     | __main__ | ============================================================
+2026-07-13 04:49:19 | INFO     | __main__ | Industrial Asset Reliability Platform - Data Generation
+2026-07-13 04:49:19 | INFO     | __main__ | ============================================================
+2026-07-13 04:49:19 | INFO     | __main__ | Generating equipment master data...
+2026-07-13 04:49:19 | INFO     | __main__ | Generated 12 assets across 5 equipment types
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for COMP-001...
+2026-07-13 04:49:19 | INFO     | __main__ |   COMP-001: 2342 hourly readings, 5 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for TURB-002...
+2026-07-13 04:49:19 | INFO     | __main__ |   TURB-002: 2322 hourly readings, 5 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for MOTO-003...
+2026-07-13 04:49:19 | INFO     | __main__ |   MOTO-003: 1472 hourly readings, 3 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for ESP-004...
+2026-07-13 04:49:19 | INFO     | __main__ |   ESP-004: 2313 hourly readings, 5 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for PUMP-005...
+2026-07-13 04:49:19 | INFO     | __main__ |   PUMP-005: 1786 hourly readings, 4 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for COMP-006...
+2026-07-13 04:49:19 | INFO     | __main__ |   COMP-006: 1780 hourly readings, 4 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for TURB-007...
+2026-07-13 04:49:19 | INFO     | __main__ |   TURB-007: 2149 hourly readings, 5 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for MOTO-008...
+2026-07-13 04:49:19 | INFO     | __main__ |   MOTO-008: 1640 hourly readings, 4 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for ESP-009...
+2026-07-13 04:49:19 | INFO     | __main__ |   ESP-009: 1586 hourly readings, 4 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for PUMP-010...
+2026-07-13 04:49:19 | INFO     | __main__ |   PUMP-010: 1444 hourly readings, 3 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for COMP-011...
+2026-07-13 04:49:19 | INFO     | __main__ |   COMP-011: 1836 hourly readings, 4 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating lifecycle data for TURB-012...
+2026-07-13 04:49:19 | INFO     | __main__ |   TURB-012: 1328 hourly readings, 3 failure events
+2026-07-13 04:49:19 | INFO     | __main__ | Generating work order history...
+2026-07-13 04:49:19 | INFO     | __main__ | Generated 146 work orders (49 corrective, 97 preventive)
+2026-07-13 04:49:19 | INFO     | __main__ | ============================================================
+2026-07-13 04:49:19 | INFO     | __main__ | Generation complete
+2026-07-13 04:49:19 | INFO     | __main__ |    Equipment master: 12 assets
+2026-07-13 04:49:19 | INFO     | __main__ |    Sensor readings:  21,998 rows
+2026-07-13 04:49:19 | INFO     | __main__ |    Failure events:   49 events
+2026-07-13 04:49:19 | INFO     | __main__ |    Saved to: data/raw/
+2026-07-13 04:49:19 | INFO     | __main__ | ============================================================
+2026-07-13 04:49:26 | INFO     | __main__ | ============================================================
+2026-07-13 04:49:26 | INFO     | __main__ | Data Validation Pipeline
+2026-07-13 04:49:26 | INFO     | __main__ | ============================================================
+2026-07-13 04:49:26 | INFO     | __main__ | Starting sensor data validation...
+2026-07-13 04:49:26 | INFO     | __main__ | Input rows: 21,998
+2026-07-13 04:49:27 | INFO     | __main__ | ✅ All rows passed schema validation
+2026-07-13 04:49:27 | INFO     | __main__ | ✅ No columns with excessive missing values
+2026-07-13 04:49:27 | INFO     | __main__ | ✅ No duplicate timestamps found
+2026-07-13 04:49:27 | INFO     | __main__ | ============================================================
+2026-07-13 04:49:27 | INFO     | __main__ | Validation status: passed
+2026-07-13 04:49:27 | INFO     | __main__ | Total violations: 0
+2026-07-13 04:49:27 | INFO     | __main__ | Missing value issues: 0
+2026-07-13 04:49:27 | INFO     | __main__ | Duplicate timestamps: 0
+2026-07-13 04:49:27 | INFO     | __main__ | Validated data saved to: data/validated/sensor_timeseries.csv
+2026-07-13 04:49:27 | INFO     | __main__ | ============================================================

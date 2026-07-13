@@ -80,6 +80,22 @@ def generate_sensor_phase(n_hours, sensor_config, phase, start_time, asset_id):
         else:
             values = mean + drift + np.random.normal(0, std, n_hours)
 
+        # Clip to physically realistic bounds per sensor
+        clip_bounds = {
+            "vibration_mm": (0, 20),
+            "temperature_f": (-20, 400),
+            "pressure_psi": (0, 500),
+            "flow_rate": (0, 2000),
+            "rpm": (0, 5000),
+            "motor_current": (0, 200),
+            "oil_quality_index": (0, 100),
+            "ambient_temp": (-40, 150),
+            "ambient_humidity": (0, 100),
+        }
+        if sensor in clip_bounds:
+            low, high = clip_bounds[sensor]
+            values = np.clip(values, low, high)
+
         rows[sensor] = np.round(values, 2)
 
     return pd.DataFrame(rows)
