@@ -1269,3 +1269,46 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-13 23:34:23 | INFO     | __main__ | ============================================================
 2026-07-13 23:34:23 | INFO     | __main__ | Root cause analysis complete - 10 cases diagnosed
 2026-07-13 23:34:23 | INFO     | __main__ | ============================================================
+2026-07-14 13:53:08 | INFO     | __main__ | ============================================================
+2026-07-14 13:53:08 | INFO     | __main__ | AssetGuardian Root Cause Analysis
+2026-07-14 13:53:08 | INFO     | __main__ | ============================================================
+2026-07-14 13:53:19 | INFO     | __main__ | Computed normal operating baselines for all sensors
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: PUMP-005
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(6.78), 'temperature_f': np.float64(3.66)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: COMP-011
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'flow_rate': np.float64(-1.25)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: MOTO-008
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(4.29), 'temperature_f': np.float64(5.62)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: TURB-012
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Motor winding failure
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'motor_current': np.float64(2.26), 'temperature_f': np.float64(0.89)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: TURB-007
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'rpm': np.float64(-1.74)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: PUMP-010
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'temperature_f': np.float64(1.74)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: ESP-009
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'temperature_f': np.float64(1.51)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: TURB-002
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(1.52), 'temperature_f': np.float64(1.61)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: COMP-006
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(1.8), 'temperature_f': np.float64(2.25)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: MOTO-003
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Bearing wear
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'vibration_mm': np.float64(2.89), 'temperature_f': np.float64(2.83)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: ESP-004
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'oil_quality_index': np.float64(2.1)}
+2026-07-14 13:53:19 | INFO     | __main__ | \nAsset: COMP-001
+2026-07-14 13:53:19 | INFO     | __main__ | Likely Cause: Unclassified anomaly
+2026-07-14 13:53:19 | INFO     | __main__ | Contributing Signals: {'flow_rate': np.float64(-1.75)}
+2026-07-14 13:53:19 | INFO     | __main__ | ============================================================
+2026-07-14 13:53:19 | INFO     | __main__ | Root cause analysis complete - 12 cases diagnosed
+2026-07-14 13:53:19 | INFO     | __main__ | ============================================================

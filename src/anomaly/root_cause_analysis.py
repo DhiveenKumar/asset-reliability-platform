@@ -151,9 +151,14 @@ def analyze_flagged_anomalies(
 
     logger.info("Computed normal operating baselines for all sensors")
 
-    critical_readings = df[df["operating_mode"] == "critical"].sample(
-        n=min(top_n, len(df[df["operating_mode"] == "critical"])),
-        random_state=42
+    # Get the LATEST reading per asset (not random sample) so every
+    # asset has a root cause entry available for the dashboard,
+    # regardless of its current operating_mode
+    critical_readings = (
+        df.sort_values("timestamp")
+        .groupby("asset_id")
+        .tail(1)
+        .reset_index(drop=True)
     )
 
     results = []
