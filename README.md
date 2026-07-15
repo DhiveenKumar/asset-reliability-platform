@@ -67,6 +67,22 @@ RULSense occasionally predicts negative RUL near failure points, handled via cli
 
 AssetGuardian precision reflects the expected tradeoff of unsupervised anomaly detection.
 
+
+## Production Optimization Copilot
+
+Linear Programming-based production allocation across 15 wells sharing pipeline and compressor capacity, integrated directly with AssetPulse/RULSense health scores.
+
+| Scenario | Total Production | Impact |
+|---|---|---|
+| Baseline | 4499.9 bpd | - |
+| Pipeline +500 bpd | 4999.9 bpd | +11.1% |
+| WELL-009 degrades 50% | 4499.9 bpd | 0% (pipeline remains bottleneck) |
+| Compressor +300 bpd | 4499.9 bpd | 0% (not the binding constraint) |
+
+Stack: PuLP (CBC solver), Linear Programming, sensitivity analysis via what-if simulation
+
+Key design decision: A fairness constraint (minimum 30% capacity per well) was added after discovering the unconstrained solver would completely zero out healthy wells if that reached the same total output faster - a mathematically optimal but operationally unrealistic result. This demonstrates a core optimization lesson: solvers only respect what is explicitly encoded as a constraint.
+
 ## Reproducing This Project
 
 pip install -r requirements.txt
