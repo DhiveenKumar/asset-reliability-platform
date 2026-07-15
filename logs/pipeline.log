@@ -1476,3 +1476,5 @@ WELL-009 degrades 50%               4499.9               4499.9        0.0      
 2026-07-15 03:56:10 | INFO     | __main__ | ============================================================
 2026-07-15 03:56:10 | INFO     | __main__ | Cold-start demonstration complete
 2026-07-15 03:56:10 | INFO     | __main__ | ============================================================
+2026-07-15 03:58:52 | INFO     | src.recommendation.cosine_baseline | Building failure-mode x action co-occurrence matrix...
+2026-07-15 03:58:52 | INFO     | src.recommendation.cosine_baseline | Matrix shape: 8 failure modes x 23 actions

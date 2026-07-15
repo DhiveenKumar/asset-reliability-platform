@@ -48,7 +48,7 @@ rca_df = None
 if os.path.exists("data/processed/assetguardian_root_cause_report.csv"):
     rca_df = pd.read_csv("data/processed/assetguardian_root_cause_report.csv")
 
-tab1, tab2, tab3, tab4 = st.tabs(["📊 Fleet Overview", "🔍 Asset Detail", "⚙️ Model Monitoring", "🛢️ Production Optimizer"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Fleet Overview", "🔍 Asset Detail", "⚙️ Model Monitoring", "🛢️ Production Optimizer", "🔧 Maintenance Recommender"])
 
 with tab1:
     st.subheader("Fleet-Wide Risk Summary")
@@ -236,3 +236,46 @@ with tab4:
 
     else:
         st.warning("Run `python src/optimization/optimize_production.py` first.")
+
+
+with tab5:
+    st.subheader("Intelligent Maintenance Recommendation Engine")
+    st.caption("AssetGuardian diagnosis -> recommended parts, inspections, and actions")
+
+    import sys as _sys
+    _sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+    from src.recommendation.cosine_baseline import build_cooccurrence_matrix, recommend_actions_cosine
+    from src.recommendation.cold_start import get_recommendations_with_fallback
+
+    if os.path.exists("data/recommendation/work_order_actions.csv"):
+        rec_df = pd.read_csv("data/recommendation/work_order_actions.csv")
+        matrix = build_cooccurrence_matrix(rec_df)
+
+        if rca_df is not None:
+            st.markdown("### Recommendations by Asset (from AssetGuardian diagnosis)")
+
+            for _, row in rca_df.iterrows():
+                cause = row["likely_cause"].lower().replace(" ", "_")
+                if cause == "unclassified_anomaly":
+                    continue
+
+                result = get_recommendations_with_fallback(matrix, cause, top_k=5)
+
+                with st.expander(f"{row['asset_id']} — {row['likely_cause']}"):
+                    st.write(f"**Method:** {result['method']}")
+                    st.write(f"**Confidence:** {result['confidence']}")
+                    if result["recommendations"]:
+                        rec_display = pd.DataFrame(result["recommendations"])
+                        st.dataframe(rec_display, use_container_width=True, hide_index=True)
+                    else:
+                        st.write("No recommendations available for this failure mode.")
+
+        st.markdown("---")
+        st.markdown("### Try Any Failure Mode Directly")
+        all_modes = sorted(rec_df["failure_mode"].unique().tolist())
+        selected_mode = st.selectbox("Select Failure Mode", all_modes)
+        recs = recommend_actions_cosine(matrix, selected_mode, top_k=5)
+        st.dataframe(pd.DataFrame(recs), use_container_width=True, hide_index=True)
+
+    else:
+        st.warning("Run `python src/recommendation/generate_maintenance_data.py` first.")
