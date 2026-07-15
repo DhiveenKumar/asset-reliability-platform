@@ -1312,3 +1312,14 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-14 13:53:19 | INFO     | __main__ | ============================================================
 2026-07-14 13:53:19 | INFO     | __main__ | Root cause analysis complete - 12 cases diagnosed
 2026-07-14 13:53:19 | INFO     | __main__ | ============================================================
+2026-07-15 03:25:25 | INFO     | __main__ | ============================================================
+2026-07-15 03:25:25 | INFO     | __main__ | Generating Well & Infrastructure Data
+2026-07-15 03:25:25 | INFO     | __main__ | ============================================================
+2026-07-15 03:25:25 | INFO     | __main__ | Generated 15 wells, total theoretical capacity: 7451 bpd
+2026-07-15 03:25:25 | INFO     | __main__ | Applying health-based capacity constraints...
+2026-07-15 03:25:25 | INFO     | __main__ | Loaded health data from batch_scoring_results_20260713_205226.csv
+2026-07-15 03:25:25 | INFO     | __main__ | Health-adjusted total safe capacity: 5688 bpd (vs 7451 bpd theoretical)
+2026-07-15 03:25:25 | INFO     | __main__ | Infrastructure limits: {'pipeline_capacity_bpd': 4500, 'compressor_capacity_bpd': 5000}
+2026-07-15 03:25:25 | INFO     | __main__ | ============================================================
+2026-07-15 03:25:25 | INFO     | __main__ | Data generation complete
+2026-07-15 03:25:25 | INFO     | __main__ | ============================================================
