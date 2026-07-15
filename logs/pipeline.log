@@ -1366,3 +1366,37 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-15 03:32:03 | INFO     | __main__ | ============================================================
 2026-07-15 03:32:03 | INFO     | __main__ | Optimization complete: 4499.9 bpd (status: Optimal)
 2026-07-15 03:32:03 | INFO     | __main__ | ============================================================
+2026-07-15 03:38:20 | INFO     | __main__ | ============================================================
+2026-07-15 03:38:20 | INFO     | __main__ | What-If Scenario Analysis
+2026-07-15 03:38:20 | INFO     | __main__ | ============================================================
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Building Linear Program...
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Problem formulated: 15 variables, 3 constraint groups + fairness minimums
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Solver status: Optimal
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Total optimal production: 4499.9 bpd
+2026-07-15 03:38:20 | INFO     | __main__ | BASELINE production: 4499.9 bpd
+2026-07-15 03:38:20 | INFO     | __main__ | \n--- SCENARIO: Pipeline +500 bpd ---
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Building Linear Program...
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Problem formulated: 15 variables, 3 constraint groups + fairness minimums
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Solver status: Optimal
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Total optimal production: 4999.9 bpd
+2026-07-15 03:38:20 | INFO     | __main__ | New total production: 4999.9 bpd
+2026-07-15 03:38:20 | INFO     | __main__ | IMPACT: +500.0 bpd (+11.1%) vs baseline
+2026-07-15 03:38:20 | INFO     | __main__ | \n--- SCENARIO: WELL-009 degrades to 50% of max capacity ---
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Building Linear Program...
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Problem formulated: 15 variables, 3 constraint groups + fairness minimums
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Solver status: Optimal
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Total optimal production: 4499.9 bpd
+2026-07-15 03:38:20 | INFO     | __main__ | New total production: 4499.9 bpd
+2026-07-15 03:38:20 | INFO     | __main__ | IMPACT: +0.0 bpd (+0.0%) vs baseline
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Building Linear Program...
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Problem formulated: 15 variables, 3 constraint groups + fairness minimums
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Solver status: Optimal
+2026-07-15 03:38:20 | INFO     | src.optimization.optimize_production | Total optimal production: 4499.9 bpd
+2026-07-15 03:38:20 | INFO     | __main__ | IMPACT: +0.0 bpd (+0.0%) vs baseline
+2026-07-15 03:38:20 | INFO     | __main__ | ============================================================
+2026-07-15 03:38:20 | INFO     | __main__ | Scenario Comparison Summary
+2026-07-15 03:38:20 | INFO     | __main__ | ============================================================
+2026-07-15 03:38:20 | INFO     | __main__ | \n             scenario  baseline_production  scenario_production  delta_bpd  pct_change
+    Pipeline +500 bpd               4499.9               4999.9      500.0       11.11
+WELL-009 degrades 50%               4499.9               4499.9        0.0        0.00
+  Compressor +300 bpd               4499.9               4499.9        0.0        0.00
