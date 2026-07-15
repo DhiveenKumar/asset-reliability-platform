@@ -1323,3 +1323,46 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
 2026-07-15 03:25:25 | INFO     | __main__ | ============================================================
 2026-07-15 03:25:25 | INFO     | __main__ | Data generation complete
 2026-07-15 03:25:25 | INFO     | __main__ | ============================================================
+2026-07-15 03:30:28 | INFO     | __main__ | ============================================================
+2026-07-15 03:30:28 | INFO     | __main__ | Production Optimization Copilot
+2026-07-15 03:30:28 | INFO     | __main__ | ============================================================
+2026-07-15 03:30:28 | INFO     | __main__ | Building Linear Program...
+2026-07-15 03:30:28 | INFO     | __main__ | Problem formulated: 15 variables, 3 constraint groups
+2026-07-15 03:30:28 | INFO     | __main__ | Solver status: Optimal
+2026-07-15 03:30:28 | INFO     | __main__ | Total optimal production: 4500.0 bpd
+2026-07-15 03:30:28 | INFO     | __main__ | Analyzing binding constraints...
+2026-07-15 03:30:28 | INFO     | __main__ |   → Pipeline capacity (4500 bpd) is FULLY UTILIZED - this is the limiting factor for total output
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-001 is producing at its FULL safe capacity (127 bpd) - CRITICAL - Derated
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-002 is producing at its FULL safe capacity (231 bpd) - CRITICAL - Derated
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-003 is producing at its FULL safe capacity (192 bpd) - CRITICAL - Derated
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-004 is producing at its FULL safe capacity (168 bpd) - CRITICAL - Derated
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-005 is producing at its FULL safe capacity (294 bpd) - HEALTHY - Full capacity
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-006 is producing at its FULL safe capacity (206 bpd) - DEGRADED - Reduced
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-007 is producing at its FULL safe capacity (235 bpd) - HEALTHY - Full capacity
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-008 is producing at its FULL safe capacity (720 bpd) - HEALTHY - Full capacity
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-009 is producing at its FULL safe capacity (561 bpd) - HEALTHY - Full capacity
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-010 is producing at its FULL safe capacity (625 bpd) - HEALTHY - Full capacity
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-011 is producing at its FULL safe capacity (212 bpd) - HEALTHY - Full capacity
+2026-07-15 03:30:28 | INFO     | __main__ |   → WELL-012 is producing at its FULL safe capacity (782 bpd) - HEALTHY - Full capacity
+2026-07-15 03:30:28 | INFO     | __main__ | ============================================================
+2026-07-15 03:30:28 | INFO     | __main__ | Optimization complete: 4500.0 bpd (status: Optimal)
+2026-07-15 03:30:28 | INFO     | __main__ | ============================================================
+2026-07-15 03:32:03 | INFO     | __main__ | ============================================================
+2026-07-15 03:32:03 | INFO     | __main__ | Production Optimization Copilot
+2026-07-15 03:32:03 | INFO     | __main__ | ============================================================
+2026-07-15 03:32:03 | INFO     | __main__ | Building Linear Program...
+2026-07-15 03:32:03 | INFO     | __main__ | Problem formulated: 15 variables, 3 constraint groups + fairness minimums
+2026-07-15 03:32:03 | INFO     | __main__ | Solver status: Optimal
+2026-07-15 03:32:03 | INFO     | __main__ | Total optimal production: 4499.9 bpd
+2026-07-15 03:32:03 | INFO     | __main__ | Analyzing binding constraints...
+2026-07-15 03:32:03 | INFO     | __main__ |   → Pipeline capacity (4500 bpd) is FULLY UTILIZED - this is the limiting factor for total output
+2026-07-15 03:32:03 | INFO     | __main__ |   → WELL-009 is producing at its FULL safe capacity (561 bpd) - HEALTHY - Full capacity
+2026-07-15 03:32:03 | INFO     | __main__ |   → WELL-010 is producing at its FULL safe capacity (625 bpd) - HEALTHY - Full capacity
+2026-07-15 03:32:03 | INFO     | __main__ |   → WELL-011 is producing at its FULL safe capacity (212 bpd) - HEALTHY - Full capacity
+2026-07-15 03:32:03 | INFO     | __main__ |   → WELL-012 is producing at its FULL safe capacity (782 bpd) - HEALTHY - Full capacity
+2026-07-15 03:32:03 | INFO     | __main__ |   → WELL-013 is producing at its FULL safe capacity (700 bpd) - No health data - assumed healthy
+2026-07-15 03:32:03 | INFO     | __main__ |   → WELL-014 is producing at its FULL safe capacity (327 bpd) - No health data - assumed healthy
+2026-07-15 03:32:03 | INFO     | __main__ |   → WELL-015 is producing at its FULL safe capacity (309 bpd) - No health data - assumed healthy
+2026-07-15 03:32:03 | INFO     | __main__ | ============================================================
+2026-07-15 03:32:03 | INFO     | __main__ | Optimization complete: 4499.9 bpd (status: Optimal)
+2026-07-15 03:32:03 | INFO     | __main__ | ============================================================

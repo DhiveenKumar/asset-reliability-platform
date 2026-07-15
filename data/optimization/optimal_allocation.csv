@@ -1,0 +1,16 @@
+well_id,max_capacity_bpd,safe_capacity_bpd,health_status,allocated_production_bpd,utilization_pct
+WELL-001,424.7,127.4,CRITICAL - Derated,38.2,30.0
+WELL-002,770.4,231.1,CRITICAL - Derated,69.3,30.0
+WELL-003,639.2,191.8,CRITICAL - Derated,57.5,30.0
+WELL-004,559.2,167.8,CRITICAL - Derated,50.3,30.0
+WELL-005,293.6,293.6,HEALTHY - Full capacity,88.1,30.0
+WELL-006,293.6,205.5,DEGRADED - Reduced,61.6,30.0
+WELL-007,234.9,234.9,HEALTHY - Full capacity,70.5,30.0
+WELL-008,719.7,719.7,HEALTHY - Full capacity,548.6,76.2
+WELL-009,560.7,560.7,HEALTHY - Full capacity,560.7,100.0
+WELL-010,624.8,624.8,HEALTHY - Full capacity,624.8,100.0
+WELL-011,212.4,212.4,HEALTHY - Full capacity,212.4,100.0
+WELL-012,781.9,781.9,HEALTHY - Full capacity,781.9,100.0
+WELL-013,699.5,699.5,No health data - assumed healthy,699.5,100.0
+WELL-014,327.4,327.4,No health data - assumed healthy,327.4,100.0
+WELL-015,309.1,309.1,No health data - assumed healthy,309.1,100.0
