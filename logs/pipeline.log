@@ -1436,3 +1436,24 @@ WELL-009 degrades 50%               4499.9               4499.9        0.0      
 2026-07-15 03:48:27 | INFO     | __main__ | ============================================================
 2026-07-15 03:48:27 | INFO     | __main__ | Cosine baseline complete
 2026-07-15 03:48:27 | INFO     | __main__ | ============================================================
+2026-07-15 03:51:30 | INFO     | __main__ | ============================================================
+2026-07-15 03:51:30 | INFO     | __main__ | Two-Tower Recommendation Model
+2026-07-15 03:51:30 | INFO     | __main__ | ============================================================
+2026-07-15 03:51:30 | INFO     | __main__ | Created 58 training pairs (31 positive, 27 negative)
+2026-07-15 03:51:37 | INFO     | __main__ | Training two-tower model...
+2026-07-15 03:51:38 | INFO     | __main__ |   Epoch 1/50 - Loss: 1.4497
+2026-07-15 03:51:38 | INFO     | __main__ |   Epoch 10/50 - Loss: 0.0200
+2026-07-15 03:51:38 | INFO     | __main__ |   Epoch 20/50 - Loss: 0.0029
+2026-07-15 03:51:38 | INFO     | __main__ |   Epoch 30/50 - Loss: 0.0015
+2026-07-15 03:51:38 | INFO     | __main__ |   Epoch 40/50 - Loss: 0.0011
+2026-07-15 03:51:38 | INFO     | __main__ |   Epoch 50/50 - Loss: 0.0009
+2026-07-15 03:51:38 | INFO     | __main__ | Precision@5: 0.650
+2026-07-15 03:51:38 | INFO     | __main__ | \n--- Two-Tower Recommendations: bearing_wear ---
+2026-07-15 03:51:38 | INFO     | __main__ |   Alignment Check (score: 0.509)
+2026-07-15 03:51:38 | INFO     | __main__ |   Lubrication Service (score: 0.482)
+2026-07-15 03:51:38 | INFO     | __main__ |   Oil Sample Test (score: 0.387)
+2026-07-15 03:51:38 | INFO     | __main__ |   Suction Line Check (score: 0.317)
+2026-07-15 03:51:38 | INFO     | __main__ |   Bearing Replacement Kit (score: 0.3)
+2026-07-15 03:51:38 | INFO     | __main__ | ============================================================
+2026-07-15 03:51:38 | INFO     | __main__ | Two-tower training complete - Precision@5: 0.650
+2026-07-15 03:51:38 | INFO     | __main__ | ============================================================
