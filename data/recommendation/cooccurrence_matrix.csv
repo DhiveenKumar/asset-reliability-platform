@@ -1,0 +1,9 @@
+failure_mode,Alignment Check,Bearing Inspection,Bearing Replacement Kit,Cooling System Check,Coupling Inspection,Filter Replacement,Flow Rate Calibration,Gasket Kit,Housing Inspection,Impeller Inspection,Impeller Replacement Kit,Insulation Test,Lubrication Service,Motor Current Calibration,Motor Winding Repair Kit,Oil Sample Test,Pressure Test,Rotor Balancing Kit,Seal Inspection,Seal Replacement Kit,Shaft Repair Kit,Suction Line Check,Vibration Analysis
+bearing_wear,41,0,37,0,0,0,0,0,0,0,0,0,42,0,0,30,0,0,0,0,0,0,38
+cavitation,0,0,0,0,0,0,50,0,0,50,0,0,0,0,0,0,52,0,0,0,0,56,0
+impeller_erosion,0,0,0,0,0,0,54,0,45,0,52,0,0,0,0,0,0,0,0,0,0,0,0
+lubrication_failure,0,0,0,0,0,59,0,0,0,0,0,0,54,0,0,55,0,0,45,0,0,0,0
+motor_winding_failure,0,0,0,44,0,0,0,0,0,0,0,39,0,38,39,0,0,0,0,0,0,0,0
+rotor_imbalance,0,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,62
+seal_leakage,0,0,0,0,0,0,0,41,45,0,0,0,0,0,0,0,33,0,0,37,0,0,0
+shaft_misalignment,46,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,0,54

@@ -1409,3 +1409,30 @@ WELL-009 degrades 50%               4499.9               4499.9        0.0      
 2026-07-15 03:45:58 | INFO     | __main__ | ============================================================
 2026-07-15 03:45:58 | INFO     | __main__ | Data generation complete
 2026-07-15 03:45:58 | INFO     | __main__ | ============================================================
+2026-07-15 03:48:26 | INFO     | __main__ | ============================================================
+2026-07-15 03:48:26 | INFO     | __main__ | Cosine Similarity Recommendation Baseline
+2026-07-15 03:48:26 | INFO     | __main__ | ============================================================
+2026-07-15 03:48:26 | INFO     | __main__ | Building failure-mode x action co-occurrence matrix...
+2026-07-15 03:48:26 | INFO     | __main__ | Matrix shape: 8 failure modes x 23 actions
+2026-07-15 03:48:26 | INFO     | __main__ | \n--- Recommendations for: bearing_wear ---
+2026-07-15 03:48:26 | INFO     | __main__ |   Lubrication Service (strength: 42)
+2026-07-15 03:48:26 | INFO     | __main__ |   Alignment Check (strength: 41)
+2026-07-15 03:48:26 | INFO     | __main__ |   Vibration Analysis (strength: 38)
+2026-07-15 03:48:26 | INFO     | __main__ |   Bearing Replacement Kit (strength: 37)
+2026-07-15 03:48:26 | INFO     | __main__ |   Oil Sample Test (strength: 30)
+2026-07-15 03:48:27 | INFO     | __main__ |   Similar failure modes: [{'failure_mode': 'shaft_misalignment', 'similarity': 0.467}, {'failure_mode': 'lubrication_failure', 'similarity': 0.433}]
+2026-07-15 03:48:27 | INFO     | __main__ | \n--- Recommendations for: seal_leakage ---
+2026-07-15 03:48:27 | INFO     | __main__ |   Housing Inspection (strength: 45)
+2026-07-15 03:48:27 | INFO     | __main__ |   Gasket Kit (strength: 41)
+2026-07-15 03:48:27 | INFO     | __main__ |   Seal Replacement Kit (strength: 37)
+2026-07-15 03:48:27 | INFO     | __main__ |   Pressure Test (strength: 33)
+2026-07-15 03:48:27 | INFO     | __main__ |   Similar failure modes: [{'failure_mode': 'impeller_erosion', 'similarity': 0.295}, {'failure_mode': 'cavitation', 'similarity': 0.21}]
+2026-07-15 03:48:27 | INFO     | __main__ | \n--- Recommendations for: motor_winding_failure ---
+2026-07-15 03:48:27 | INFO     | __main__ |   Cooling System Check (strength: 44)
+2026-07-15 03:48:27 | INFO     | __main__ |   Insulation Test (strength: 39)
+2026-07-15 03:48:27 | INFO     | __main__ |   Motor Winding Repair Kit (strength: 39)
+2026-07-15 03:48:27 | INFO     | __main__ |   Motor Current Calibration (strength: 38)
+2026-07-15 03:48:27 | INFO     | __main__ |   Similar failure modes: [{'failure_mode': 'bearing_wear', 'similarity': 0.0}, {'failure_mode': 'cavitation', 'similarity': 0.0}]
+2026-07-15 03:48:27 | INFO     | __main__ | ============================================================
+2026-07-15 03:48:27 | INFO     | __main__ | Cosine baseline complete
+2026-07-15 03:48:27 | INFO     | __main__ | ============================================================

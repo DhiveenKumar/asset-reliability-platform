@@ -1,0 +1,14 @@
+failure_mode,action,association_strength
+bearing_wear,Lubrication Service,42
+bearing_wear,Alignment Check,41
+bearing_wear,Vibration Analysis,38
+bearing_wear,Bearing Replacement Kit,37
+bearing_wear,Oil Sample Test,30
+seal_leakage,Housing Inspection,45
+seal_leakage,Gasket Kit,41
+seal_leakage,Seal Replacement Kit,37
+seal_leakage,Pressure Test,33
+motor_winding_failure,Cooling System Check,44
+motor_winding_failure,Insulation Test,39
+motor_winding_failure,Motor Winding Repair Kit,39
+motor_winding_failure,Motor Current Calibration,38
