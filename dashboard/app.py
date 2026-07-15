@@ -48,7 +48,7 @@ rca_df = None
 if os.path.exists("data/processed/assetguardian_root_cause_report.csv"):
     rca_df = pd.read_csv("data/processed/assetguardian_root_cause_report.csv")
 
-tab1, tab2, tab3 = st.tabs(["📊 Fleet Overview", "🔍 Asset Detail", "⚙️ Model Monitoring"])
+tab1, tab2, tab3, tab4 = st.tabs(["📊 Fleet Overview", "🔍 Asset Detail", "⚙️ Model Monitoring", "🛢️ Production Optimizer"])
 
 with tab1:
     st.subheader("Fleet-Wide Risk Summary")
@@ -185,3 +185,54 @@ with tab3:
             st.warning(f"⚠️ {n_drifted} sensor(s) showing statistically significant drift")
         else:
             st.success("✅ No significant drift detected")
+
+
+with tab4:
+    st.subheader("Production Optimization Copilot")
+    st.caption("Optimal well allocation given shared infrastructure limits and equipment health")
+
+    if os.path.exists("data/optimization/optimal_allocation.csv"):
+        opt_df = pd.read_csv("data/optimization/optimal_allocation.csv")
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Total Optimal Production", f"{opt_df['allocated_production_bpd'].sum():.0f} bpd")
+        with col2:
+            st.metric("Wells at Full Capacity", (opt_df['utilization_pct'] >= 99).sum())
+        with col3:
+            st.metric("Wells at Fairness Floor", (opt_df['utilization_pct'] <= 31).sum())
+
+        st.markdown("---")
+        st.subheader("Optimal Allocation Plan")
+
+        import plotly.express as px
+        fig = px.bar(
+            opt_df.sort_values("allocated_production_bpd"),
+            x="allocated_production_bpd", y="well_id",
+            orientation="h", color="health_status",
+            title="Allocated Production by Well"
+        )
+        fig.update_layout(template="plotly_dark", height=500)
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.dataframe(opt_df, use_container_width=True, hide_index=True)
+
+        st.markdown("---")
+        st.subheader("🔒 Binding Constraints (Why This Plan?)")
+
+        if os.path.exists("data/optimization/binding_constraints.json"):
+            import json
+            with open("data/optimization/binding_constraints.json") as f:
+                binding = json.load(f)
+            for msg in binding:
+                st.info(msg)
+
+        st.markdown("---")
+        st.subheader("🔮 What-If Scenarios")
+
+        if os.path.exists("data/optimization/whatif_scenarios.csv"):
+            scenarios_df = pd.read_csv("data/optimization/whatif_scenarios.csv")
+            st.dataframe(scenarios_df, use_container_width=True, hide_index=True)
+
+    else:
+        st.warning("Run `python src/optimization/optimize_production.py` first.")
