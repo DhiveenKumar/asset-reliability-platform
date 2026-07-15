@@ -1400,3 +1400,12 @@ Random Forest   0.993163 0.731685 0.842605 0.926463
     Pipeline +500 bpd               4499.9               4999.9      500.0       11.11
 WELL-009 degrades 50%               4499.9               4499.9        0.0        0.00
   Compressor +300 bpd               4499.9               4499.9        0.0        0.00
+2026-07-15 03:45:58 | INFO     | __main__ | ============================================================
+2026-07-15 03:45:58 | INFO     | __main__ | Generating Maintenance Action Co-occurrence Data
+2026-07-15 03:45:58 | INFO     | __main__ | ============================================================
+2026-07-15 03:45:58 | INFO     | __main__ | Generated 1446 action records across 500 historical work orders
+2026-07-15 03:45:58 | INFO     | __main__ | Unique failure modes: 8
+2026-07-15 03:45:58 | INFO     | __main__ | Unique actions: 23
+2026-07-15 03:45:58 | INFO     | __main__ | ============================================================
+2026-07-15 03:45:58 | INFO     | __main__ | Data generation complete
+2026-07-15 03:45:58 | INFO     | __main__ | ============================================================

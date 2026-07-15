@@ -1,0 +1,1447 @@
+work_order_id,failure_mode,action
+WO-00001,shaft_misalignment,Vibration Analysis
+WO-00001,shaft_misalignment,Alignment Check
+WO-00002,lubrication_failure,Lubrication Service
+WO-00002,lubrication_failure,Filter Replacement
+WO-00003,shaft_misalignment,Shaft Repair Kit
+WO-00003,shaft_misalignment,Alignment Check
+WO-00003,shaft_misalignment,Vibration Analysis
+WO-00003,shaft_misalignment,Coupling Inspection
+WO-00004,lubrication_failure,Lubrication Service
+WO-00004,lubrication_failure,Filter Replacement
+WO-00005,lubrication_failure,Seal Inspection
+WO-00005,lubrication_failure,Lubrication Service
+WO-00005,lubrication_failure,Oil Sample Test
+WO-00005,lubrication_failure,Filter Replacement
+WO-00006,bearing_wear,Vibration Analysis
+WO-00006,bearing_wear,Alignment Check
+WO-00006,bearing_wear,Lubrication Service
+WO-00007,rotor_imbalance,Vibration Analysis
+WO-00007,rotor_imbalance,Rotor Balancing Kit
+WO-00008,shaft_misalignment,Alignment Check
+WO-00008,shaft_misalignment,Coupling Inspection
+WO-00008,shaft_misalignment,Vibration Analysis
+WO-00009,seal_leakage,Housing Inspection
+WO-00009,seal_leakage,Pressure Test
+WO-00010,shaft_misalignment,Alignment Check
+WO-00010,shaft_misalignment,Vibration Analysis
+WO-00010,shaft_misalignment,Coupling Inspection
+WO-00011,cavitation,Suction Line Check
+WO-00011,cavitation,Pressure Test
+WO-00011,cavitation,Impeller Inspection
+WO-00011,cavitation,Flow Rate Calibration
+WO-00012,lubrication_failure,Lubrication Service
+WO-00012,lubrication_failure,Seal Inspection
+WO-00012,lubrication_failure,Filter Replacement
+WO-00013,impeller_erosion,Flow Rate Calibration
+WO-00013,impeller_erosion,Housing Inspection
+WO-00013,impeller_erosion,Impeller Replacement Kit
+WO-00014,cavitation,Suction Line Check
+WO-00014,cavitation,Pressure Test
+WO-00014,cavitation,Flow Rate Calibration
+WO-00015,shaft_misalignment,Coupling Inspection
+WO-00015,shaft_misalignment,Vibration Analysis
+WO-00015,shaft_misalignment,Alignment Check
+WO-00015,shaft_misalignment,Shaft Repair Kit
+WO-00016,motor_winding_failure,Motor Current Calibration
+WO-00016,motor_winding_failure,Cooling System Check
+WO-00016,motor_winding_failure,Motor Winding Repair Kit
+WO-00017,cavitation,Suction Line Check
+WO-00017,cavitation,Impeller Inspection
+WO-00018,cavitation,Pressure Test
+WO-00018,cavitation,Impeller Inspection
+WO-00018,cavitation,Flow Rate Calibration
+WO-00019,cavitation,Flow Rate Calibration
+WO-00019,cavitation,Suction Line Check
+WO-00020,motor_winding_failure,Motor Current Calibration
+WO-00020,motor_winding_failure,Motor Winding Repair Kit
+WO-00021,lubrication_failure,Filter Replacement
+WO-00021,lubrication_failure,Seal Inspection
+WO-00021,lubrication_failure,Oil Sample Test
+WO-00021,lubrication_failure,Lubrication Service
+WO-00022,cavitation,Suction Line Check
+WO-00022,cavitation,Pressure Test
+WO-00023,motor_winding_failure,Motor Winding Repair Kit
+WO-00023,motor_winding_failure,Cooling System Check
+WO-00024,rotor_imbalance,Bearing Inspection
+WO-00024,rotor_imbalance,Vibration Analysis
+WO-00025,shaft_misalignment,Shaft Repair Kit
+WO-00025,shaft_misalignment,Vibration Analysis
+WO-00025,shaft_misalignment,Coupling Inspection
+WO-00026,seal_leakage,Seal Replacement Kit
+WO-00026,seal_leakage,Pressure Test
+WO-00026,seal_leakage,Housing Inspection
+WO-00026,seal_leakage,Gasket Kit
+WO-00027,cavitation,Pressure Test
+WO-00027,cavitation,Suction Line Check
+WO-00028,rotor_imbalance,Rotor Balancing Kit
+WO-00028,rotor_imbalance,Vibration Analysis
+WO-00028,rotor_imbalance,Bearing Inspection
+WO-00029,shaft_misalignment,Vibration Analysis
+WO-00029,shaft_misalignment,Shaft Repair Kit
+WO-00029,shaft_misalignment,Alignment Check
+WO-00029,shaft_misalignment,Coupling Inspection
+WO-00030,cavitation,Impeller Inspection
+WO-00030,cavitation,Pressure Test
+WO-00031,cavitation,Impeller Inspection
+WO-00031,cavitation,Flow Rate Calibration
+WO-00031,cavitation,Suction Line Check
+WO-00032,seal_leakage,Seal Replacement Kit
+WO-00032,seal_leakage,Housing Inspection
+WO-00033,shaft_misalignment,Shaft Repair Kit
+WO-00033,shaft_misalignment,Alignment Check
+WO-00034,rotor_imbalance,Bearing Inspection
+WO-00034,rotor_imbalance,Vibration Analysis
+WO-00035,rotor_imbalance,Bearing Inspection
+WO-00035,rotor_imbalance,Vibration Analysis
+WO-00035,rotor_imbalance,Rotor Balancing Kit
+WO-00036,lubrication_failure,Filter Replacement
+WO-00036,lubrication_failure,Oil Sample Test
+WO-00036,lubrication_failure,Seal Inspection
+WO-00036,lubrication_failure,Lubrication Service
+WO-00037,motor_winding_failure,Insulation Test
+WO-00037,motor_winding_failure,Motor Winding Repair Kit
+WO-00038,shaft_misalignment,Alignment Check
+WO-00038,shaft_misalignment,Vibration Analysis
+WO-00038,shaft_misalignment,Shaft Repair Kit
+WO-00039,lubrication_failure,Lubrication Service
+WO-00039,lubrication_failure,Filter Replacement
+WO-00040,bearing_wear,Bearing Replacement Kit
+WO-00040,bearing_wear,Oil Sample Test
+WO-00040,bearing_wear,Lubrication Service
+WO-00041,shaft_misalignment,Coupling Inspection
+WO-00041,shaft_misalignment,Shaft Repair Kit
+WO-00041,shaft_misalignment,Vibration Analysis
+WO-00041,shaft_misalignment,Alignment Check
+WO-00042,rotor_imbalance,Rotor Balancing Kit
+WO-00042,rotor_imbalance,Vibration Analysis
+WO-00042,rotor_imbalance,Bearing Inspection
+WO-00043,lubrication_failure,Lubrication Service
+WO-00043,lubrication_failure,Filter Replacement
+WO-00044,impeller_erosion,Flow Rate Calibration
+WO-00044,impeller_erosion,Housing Inspection
+WO-00044,impeller_erosion,Impeller Replacement Kit
+WO-00045,bearing_wear,Bearing Replacement Kit
+WO-00045,bearing_wear,Vibration Analysis
+WO-00046,cavitation,Suction Line Check
+WO-00046,cavitation,Impeller Inspection
+WO-00047,lubrication_failure,Seal Inspection
+WO-00047,lubrication_failure,Lubrication Service
+WO-00047,lubrication_failure,Oil Sample Test
+WO-00047,lubrication_failure,Filter Replacement
+WO-00048,seal_leakage,Gasket Kit
+WO-00048,seal_leakage,Seal Replacement Kit
+WO-00048,seal_leakage,Housing Inspection
+WO-00049,shaft_misalignment,Alignment Check
+WO-00049,shaft_misalignment,Shaft Repair Kit
+WO-00050,lubrication_failure,Seal Inspection
+WO-00050,lubrication_failure,Oil Sample Test
+WO-00051,motor_winding_failure,Cooling System Check
+WO-00051,motor_winding_failure,Motor Winding Repair Kit
+WO-00052,rotor_imbalance,Rotor Balancing Kit
+WO-00052,rotor_imbalance,Vibration Analysis
+WO-00052,rotor_imbalance,Bearing Inspection
+WO-00053,motor_winding_failure,Cooling System Check
+WO-00053,motor_winding_failure,Motor Current Calibration
+WO-00053,motor_winding_failure,Insulation Test
+WO-00054,rotor_imbalance,Vibration Analysis
+WO-00054,rotor_imbalance,Rotor Balancing Kit
+WO-00055,bearing_wear,Alignment Check
+WO-00055,bearing_wear,Bearing Replacement Kit
+WO-00056,bearing_wear,Oil Sample Test
+WO-00056,bearing_wear,Lubrication Service
+WO-00056,bearing_wear,Bearing Replacement Kit
+WO-00056,bearing_wear,Alignment Check
+WO-00056,bearing_wear,Vibration Analysis
+WO-00057,shaft_misalignment,Alignment Check
+WO-00057,shaft_misalignment,Vibration Analysis
+WO-00057,shaft_misalignment,Shaft Repair Kit
+WO-00057,shaft_misalignment,Coupling Inspection
+WO-00058,shaft_misalignment,Coupling Inspection
+WO-00058,shaft_misalignment,Vibration Analysis
+WO-00058,shaft_misalignment,Alignment Check
+WO-00058,shaft_misalignment,Shaft Repair Kit
+WO-00059,impeller_erosion,Flow Rate Calibration
+WO-00059,impeller_erosion,Impeller Replacement Kit
+WO-00059,impeller_erosion,Housing Inspection
+WO-00060,lubrication_failure,Seal Inspection
+WO-00060,lubrication_failure,Lubrication Service
+WO-00060,lubrication_failure,Oil Sample Test
+WO-00061,motor_winding_failure,Motor Winding Repair Kit
+WO-00061,motor_winding_failure,Cooling System Check
+WO-00061,motor_winding_failure,Insulation Test
+WO-00062,shaft_misalignment,Coupling Inspection
+WO-00062,shaft_misalignment,Vibration Analysis
+WO-00063,seal_leakage,Pressure Test
+WO-00063,seal_leakage,Seal Replacement Kit
+WO-00064,lubrication_failure,Filter Replacement
+WO-00064,lubrication_failure,Lubrication Service
+WO-00064,lubrication_failure,Oil Sample Test
+WO-00065,seal_leakage,Seal Replacement Kit
+WO-00065,seal_leakage,Pressure Test
+WO-00065,seal_leakage,Gasket Kit
+WO-00065,seal_leakage,Housing Inspection
+WO-00066,rotor_imbalance,Rotor Balancing Kit
+WO-00066,rotor_imbalance,Bearing Inspection
+WO-00066,rotor_imbalance,Vibration Analysis
+WO-00067,seal_leakage,Gasket Kit
+WO-00067,seal_leakage,Pressure Test
+WO-00067,seal_leakage,Housing Inspection
+WO-00068,lubrication_failure,Filter Replacement
+WO-00068,lubrication_failure,Seal Inspection
+WO-00068,lubrication_failure,Oil Sample Test
+WO-00068,lubrication_failure,Lubrication Service
+WO-00069,bearing_wear,Vibration Analysis
+WO-00069,bearing_wear,Alignment Check
+WO-00070,bearing_wear,Alignment Check
+WO-00070,bearing_wear,Lubrication Service
+WO-00071,seal_leakage,Housing Inspection
+WO-00071,seal_leakage,Pressure Test
+WO-00072,impeller_erosion,Impeller Replacement Kit
+WO-00072,impeller_erosion,Housing Inspection
+WO-00073,rotor_imbalance,Vibration Analysis
+WO-00073,rotor_imbalance,Rotor Balancing Kit
+WO-00074,impeller_erosion,Impeller Replacement Kit
+WO-00074,impeller_erosion,Flow Rate Calibration
+WO-00075,cavitation,Pressure Test
+WO-00075,cavitation,Impeller Inspection
+WO-00076,lubrication_failure,Lubrication Service
+WO-00076,lubrication_failure,Oil Sample Test
+WO-00076,lubrication_failure,Filter Replacement
+WO-00076,lubrication_failure,Seal Inspection
+WO-00077,lubrication_failure,Oil Sample Test
+WO-00077,lubrication_failure,Seal Inspection
+WO-00078,bearing_wear,Alignment Check
+WO-00078,bearing_wear,Vibration Analysis
+WO-00078,bearing_wear,Oil Sample Test
+WO-00079,lubrication_failure,Oil Sample Test
+WO-00079,lubrication_failure,Filter Replacement
+WO-00079,lubrication_failure,Lubrication Service
+WO-00080,impeller_erosion,Flow Rate Calibration
+WO-00080,impeller_erosion,Impeller Replacement Kit
+WO-00081,lubrication_failure,Filter Replacement
+WO-00081,lubrication_failure,Oil Sample Test
+WO-00081,lubrication_failure,Lubrication Service
+WO-00082,lubrication_failure,Oil Sample Test
+WO-00082,lubrication_failure,Seal Inspection
+WO-00083,cavitation,Impeller Inspection
+WO-00083,cavitation,Suction Line Check
+WO-00083,cavitation,Pressure Test
+WO-00084,impeller_erosion,Impeller Replacement Kit
+WO-00084,impeller_erosion,Housing Inspection
+WO-00084,impeller_erosion,Flow Rate Calibration
+WO-00085,rotor_imbalance,Rotor Balancing Kit
+WO-00085,rotor_imbalance,Bearing Inspection
+WO-00085,rotor_imbalance,Vibration Analysis
+WO-00086,cavitation,Pressure Test
+WO-00086,cavitation,Suction Line Check
+WO-00086,cavitation,Impeller Inspection
+WO-00086,cavitation,Flow Rate Calibration
+WO-00087,lubrication_failure,Lubrication Service
+WO-00087,lubrication_failure,Filter Replacement
+WO-00087,lubrication_failure,Oil Sample Test
+WO-00088,bearing_wear,Alignment Check
+WO-00088,bearing_wear,Vibration Analysis
+WO-00088,bearing_wear,Bearing Replacement Kit
+WO-00089,cavitation,Pressure Test
+WO-00089,cavitation,Flow Rate Calibration
+WO-00089,cavitation,Impeller Inspection
+WO-00089,cavitation,Suction Line Check
+WO-00090,seal_leakage,Housing Inspection
+WO-00090,seal_leakage,Gasket Kit
+WO-00090,seal_leakage,Pressure Test
+WO-00090,seal_leakage,Seal Replacement Kit
+WO-00091,rotor_imbalance,Vibration Analysis
+WO-00091,rotor_imbalance,Bearing Inspection
+WO-00092,rotor_imbalance,Vibration Analysis
+WO-00092,rotor_imbalance,Rotor Balancing Kit
+WO-00092,rotor_imbalance,Bearing Inspection
+WO-00093,seal_leakage,Housing Inspection
+WO-00093,seal_leakage,Pressure Test
+WO-00094,cavitation,Flow Rate Calibration
+WO-00094,cavitation,Suction Line Check
+WO-00094,cavitation,Impeller Inspection
+WO-00095,motor_winding_failure,Insulation Test
+WO-00095,motor_winding_failure,Motor Current Calibration
+WO-00095,motor_winding_failure,Motor Winding Repair Kit
+WO-00095,motor_winding_failure,Cooling System Check
+WO-00096,cavitation,Suction Line Check
+WO-00096,cavitation,Pressure Test
+WO-00097,seal_leakage,Gasket Kit
+WO-00097,seal_leakage,Seal Replacement Kit
+WO-00098,bearing_wear,Lubrication Service
+WO-00098,bearing_wear,Vibration Analysis
+WO-00099,shaft_misalignment,Shaft Repair Kit
+WO-00099,shaft_misalignment,Vibration Analysis
+WO-00099,shaft_misalignment,Alignment Check
+WO-00100,impeller_erosion,Flow Rate Calibration
+WO-00100,impeller_erosion,Impeller Replacement Kit
+WO-00100,impeller_erosion,Housing Inspection
+WO-00101,bearing_wear,Vibration Analysis
+WO-00101,bearing_wear,Lubrication Service
+WO-00102,rotor_imbalance,Rotor Balancing Kit
+WO-00102,rotor_imbalance,Bearing Inspection
+WO-00102,rotor_imbalance,Vibration Analysis
+WO-00103,motor_winding_failure,Cooling System Check
+WO-00103,motor_winding_failure,Motor Current Calibration
+WO-00104,cavitation,Flow Rate Calibration
+WO-00104,cavitation,Pressure Test
+WO-00104,cavitation,Suction Line Check
+WO-00105,rotor_imbalance,Vibration Analysis
+WO-00105,rotor_imbalance,Bearing Inspection
+WO-00105,rotor_imbalance,Rotor Balancing Kit
+WO-00106,seal_leakage,Housing Inspection
+WO-00106,seal_leakage,Pressure Test
+WO-00106,seal_leakage,Seal Replacement Kit
+WO-00106,seal_leakage,Gasket Kit
+WO-00107,motor_winding_failure,Motor Current Calibration
+WO-00107,motor_winding_failure,Motor Winding Repair Kit
+WO-00108,seal_leakage,Pressure Test
+WO-00108,seal_leakage,Housing Inspection
+WO-00108,seal_leakage,Seal Replacement Kit
+WO-00109,rotor_imbalance,Rotor Balancing Kit
+WO-00109,rotor_imbalance,Vibration Analysis
+WO-00110,rotor_imbalance,Rotor Balancing Kit
+WO-00110,rotor_imbalance,Vibration Analysis
+WO-00111,impeller_erosion,Housing Inspection
+WO-00111,impeller_erosion,Flow Rate Calibration
+WO-00111,impeller_erosion,Impeller Replacement Kit
+WO-00112,bearing_wear,Vibration Analysis
+WO-00112,bearing_wear,Oil Sample Test
+WO-00112,bearing_wear,Alignment Check
+WO-00113,bearing_wear,Vibration Analysis
+WO-00113,bearing_wear,Bearing Replacement Kit
+WO-00113,bearing_wear,Lubrication Service
+WO-00113,bearing_wear,Alignment Check
+WO-00113,bearing_wear,Oil Sample Test
+WO-00114,impeller_erosion,Flow Rate Calibration
+WO-00114,impeller_erosion,Impeller Replacement Kit
+WO-00115,seal_leakage,Housing Inspection
+WO-00115,seal_leakage,Seal Replacement Kit
+WO-00115,seal_leakage,Gasket Kit
+WO-00116,cavitation,Flow Rate Calibration
+WO-00116,cavitation,Pressure Test
+WO-00116,cavitation,Impeller Inspection
+WO-00116,cavitation,Suction Line Check
+WO-00117,rotor_imbalance,Vibration Analysis
+WO-00117,rotor_imbalance,Rotor Balancing Kit
+WO-00118,shaft_misalignment,Shaft Repair Kit
+WO-00118,shaft_misalignment,Alignment Check
+WO-00118,shaft_misalignment,Coupling Inspection
+WO-00118,shaft_misalignment,Vibration Analysis
+WO-00119,bearing_wear,Vibration Analysis
+WO-00119,bearing_wear,Alignment Check
+WO-00119,bearing_wear,Bearing Replacement Kit
+WO-00119,bearing_wear,Lubrication Service
+WO-00120,cavitation,Flow Rate Calibration
+WO-00120,cavitation,Suction Line Check
+WO-00120,cavitation,Pressure Test
+WO-00121,seal_leakage,Housing Inspection
+WO-00121,seal_leakage,Seal Replacement Kit
+WO-00122,bearing_wear,Lubrication Service
+WO-00122,bearing_wear,Bearing Replacement Kit
+WO-00122,bearing_wear,Alignment Check
+WO-00122,bearing_wear,Vibration Analysis
+WO-00123,bearing_wear,Lubrication Service
+WO-00123,bearing_wear,Bearing Replacement Kit
+WO-00123,bearing_wear,Alignment Check
+WO-00124,rotor_imbalance,Rotor Balancing Kit
+WO-00124,rotor_imbalance,Vibration Analysis
+WO-00125,shaft_misalignment,Coupling Inspection
+WO-00125,shaft_misalignment,Shaft Repair Kit
+WO-00125,shaft_misalignment,Vibration Analysis
+WO-00125,shaft_misalignment,Alignment Check
+WO-00126,rotor_imbalance,Rotor Balancing Kit
+WO-00126,rotor_imbalance,Vibration Analysis
+WO-00127,shaft_misalignment,Alignment Check
+WO-00127,shaft_misalignment,Coupling Inspection
+WO-00127,shaft_misalignment,Vibration Analysis
+WO-00127,shaft_misalignment,Shaft Repair Kit
+WO-00128,lubrication_failure,Oil Sample Test
+WO-00128,lubrication_failure,Lubrication Service
+WO-00129,seal_leakage,Seal Replacement Kit
+WO-00129,seal_leakage,Pressure Test
+WO-00129,seal_leakage,Housing Inspection
+WO-00129,seal_leakage,Gasket Kit
+WO-00130,impeller_erosion,Impeller Replacement Kit
+WO-00130,impeller_erosion,Flow Rate Calibration
+WO-00130,impeller_erosion,Housing Inspection
+WO-00131,impeller_erosion,Impeller Replacement Kit
+WO-00131,impeller_erosion,Flow Rate Calibration
+WO-00131,impeller_erosion,Housing Inspection
+WO-00132,motor_winding_failure,Insulation Test
+WO-00132,motor_winding_failure,Cooling System Check
+WO-00132,motor_winding_failure,Motor Winding Repair Kit
+WO-00132,motor_winding_failure,Motor Current Calibration
+WO-00133,motor_winding_failure,Cooling System Check
+WO-00133,motor_winding_failure,Motor Current Calibration
+WO-00133,motor_winding_failure,Insulation Test
+WO-00134,cavitation,Impeller Inspection
+WO-00134,cavitation,Suction Line Check
+WO-00135,motor_winding_failure,Cooling System Check
+WO-00135,motor_winding_failure,Motor Current Calibration
+WO-00136,impeller_erosion,Impeller Replacement Kit
+WO-00136,impeller_erosion,Flow Rate Calibration
+WO-00136,impeller_erosion,Housing Inspection
+WO-00137,rotor_imbalance,Rotor Balancing Kit
+WO-00137,rotor_imbalance,Vibration Analysis
+WO-00137,rotor_imbalance,Bearing Inspection
+WO-00138,cavitation,Pressure Test
+WO-00138,cavitation,Flow Rate Calibration
+WO-00138,cavitation,Impeller Inspection
+WO-00139,lubrication_failure,Oil Sample Test
+WO-00139,lubrication_failure,Filter Replacement
+WO-00140,impeller_erosion,Housing Inspection
+WO-00140,impeller_erosion,Impeller Replacement Kit
+WO-00140,impeller_erosion,Flow Rate Calibration
+WO-00141,motor_winding_failure,Motor Winding Repair Kit
+WO-00141,motor_winding_failure,Cooling System Check
+WO-00141,motor_winding_failure,Insulation Test
+WO-00142,lubrication_failure,Oil Sample Test
+WO-00142,lubrication_failure,Seal Inspection
+WO-00142,lubrication_failure,Filter Replacement
+WO-00143,motor_winding_failure,Motor Current Calibration
+WO-00143,motor_winding_failure,Insulation Test
+WO-00143,motor_winding_failure,Cooling System Check
+WO-00143,motor_winding_failure,Motor Winding Repair Kit
+WO-00144,motor_winding_failure,Motor Current Calibration
+WO-00144,motor_winding_failure,Insulation Test
+WO-00144,motor_winding_failure,Motor Winding Repair Kit
+WO-00145,shaft_misalignment,Coupling Inspection
+WO-00145,shaft_misalignment,Shaft Repair Kit
+WO-00145,shaft_misalignment,Alignment Check
+WO-00145,shaft_misalignment,Vibration Analysis
+WO-00146,lubrication_failure,Seal Inspection
+WO-00146,lubrication_failure,Oil Sample Test
+WO-00147,seal_leakage,Gasket Kit
+WO-00147,seal_leakage,Housing Inspection
+WO-00148,lubrication_failure,Oil Sample Test
+WO-00148,lubrication_failure,Seal Inspection
+WO-00148,lubrication_failure,Lubrication Service
+WO-00149,rotor_imbalance,Rotor Balancing Kit
+WO-00149,rotor_imbalance,Bearing Inspection
+WO-00149,rotor_imbalance,Vibration Analysis
+WO-00150,rotor_imbalance,Rotor Balancing Kit
+WO-00150,rotor_imbalance,Bearing Inspection
+WO-00150,rotor_imbalance,Vibration Analysis
+WO-00151,motor_winding_failure,Cooling System Check
+WO-00151,motor_winding_failure,Insulation Test
+WO-00151,motor_winding_failure,Motor Winding Repair Kit
+WO-00152,bearing_wear,Vibration Analysis
+WO-00152,bearing_wear,Bearing Replacement Kit
+WO-00152,bearing_wear,Oil Sample Test
+WO-00152,bearing_wear,Lubrication Service
+WO-00153,motor_winding_failure,Motor Winding Repair Kit
+WO-00153,motor_winding_failure,Cooling System Check
+WO-00154,rotor_imbalance,Rotor Balancing Kit
+WO-00154,rotor_imbalance,Bearing Inspection
+WO-00154,rotor_imbalance,Vibration Analysis
+WO-00155,impeller_erosion,Housing Inspection
+WO-00155,impeller_erosion,Flow Rate Calibration
+WO-00156,motor_winding_failure,Motor Current Calibration
+WO-00156,motor_winding_failure,Cooling System Check
+WO-00156,motor_winding_failure,Insulation Test
+WO-00157,seal_leakage,Seal Replacement Kit
+WO-00157,seal_leakage,Pressure Test
+WO-00157,seal_leakage,Housing Inspection
+WO-00157,seal_leakage,Gasket Kit
+WO-00158,lubrication_failure,Lubrication Service
+WO-00158,lubrication_failure,Seal Inspection
+WO-00158,lubrication_failure,Filter Replacement
+WO-00159,rotor_imbalance,Rotor Balancing Kit
+WO-00159,rotor_imbalance,Bearing Inspection
+WO-00160,impeller_erosion,Housing Inspection
+WO-00160,impeller_erosion,Flow Rate Calibration
+WO-00160,impeller_erosion,Impeller Replacement Kit
+WO-00161,bearing_wear,Alignment Check
+WO-00161,bearing_wear,Oil Sample Test
+WO-00161,bearing_wear,Vibration Analysis
+WO-00162,motor_winding_failure,Insulation Test
+WO-00162,motor_winding_failure,Cooling System Check
+WO-00163,lubrication_failure,Lubrication Service
+WO-00163,lubrication_failure,Filter Replacement
+WO-00163,lubrication_failure,Seal Inspection
+WO-00164,rotor_imbalance,Rotor Balancing Kit
+WO-00164,rotor_imbalance,Bearing Inspection
+WO-00164,rotor_imbalance,Vibration Analysis
+WO-00165,rotor_imbalance,Bearing Inspection
+WO-00165,rotor_imbalance,Vibration Analysis
+WO-00165,rotor_imbalance,Rotor Balancing Kit
+WO-00166,shaft_misalignment,Vibration Analysis
+WO-00166,shaft_misalignment,Shaft Repair Kit
+WO-00166,shaft_misalignment,Coupling Inspection
+WO-00167,seal_leakage,Housing Inspection
+WO-00167,seal_leakage,Gasket Kit
+WO-00167,seal_leakage,Seal Replacement Kit
+WO-00167,seal_leakage,Pressure Test
+WO-00168,impeller_erosion,Housing Inspection
+WO-00168,impeller_erosion,Flow Rate Calibration
+WO-00168,impeller_erosion,Impeller Replacement Kit
+WO-00169,shaft_misalignment,Alignment Check
+WO-00169,shaft_misalignment,Vibration Analysis
+WO-00170,seal_leakage,Seal Replacement Kit
+WO-00170,seal_leakage,Housing Inspection
+WO-00170,seal_leakage,Gasket Kit
+WO-00170,seal_leakage,Pressure Test
+WO-00171,seal_leakage,Housing Inspection
+WO-00171,seal_leakage,Pressure Test
+WO-00172,motor_winding_failure,Cooling System Check
+WO-00172,motor_winding_failure,Insulation Test
+WO-00173,impeller_erosion,Flow Rate Calibration
+WO-00173,impeller_erosion,Impeller Replacement Kit
+WO-00173,impeller_erosion,Housing Inspection
+WO-00174,cavitation,Flow Rate Calibration
+WO-00174,cavitation,Suction Line Check
+WO-00174,cavitation,Pressure Test
+WO-00175,bearing_wear,Bearing Replacement Kit
+WO-00175,bearing_wear,Alignment Check
+WO-00175,bearing_wear,Lubrication Service
+WO-00175,bearing_wear,Vibration Analysis
+WO-00175,bearing_wear,Oil Sample Test
+WO-00176,impeller_erosion,Housing Inspection
+WO-00176,impeller_erosion,Flow Rate Calibration
+WO-00177,impeller_erosion,Impeller Replacement Kit
+WO-00177,impeller_erosion,Flow Rate Calibration
+WO-00178,motor_winding_failure,Cooling System Check
+WO-00178,motor_winding_failure,Motor Winding Repair Kit
+WO-00178,motor_winding_failure,Motor Current Calibration
+WO-00178,motor_winding_failure,Insulation Test
+WO-00179,rotor_imbalance,Vibration Analysis
+WO-00179,rotor_imbalance,Bearing Inspection
+WO-00179,rotor_imbalance,Rotor Balancing Kit
+WO-00180,bearing_wear,Lubrication Service
+WO-00180,bearing_wear,Alignment Check
+WO-00180,bearing_wear,Vibration Analysis
+WO-00181,bearing_wear,Bearing Replacement Kit
+WO-00181,bearing_wear,Lubrication Service
+WO-00181,bearing_wear,Oil Sample Test
+WO-00181,bearing_wear,Vibration Analysis
+WO-00181,bearing_wear,Alignment Check
+WO-00182,rotor_imbalance,Bearing Inspection
+WO-00182,rotor_imbalance,Vibration Analysis
+WO-00182,rotor_imbalance,Rotor Balancing Kit
+WO-00183,impeller_erosion,Flow Rate Calibration
+WO-00183,impeller_erosion,Impeller Replacement Kit
+WO-00183,impeller_erosion,Housing Inspection
+WO-00184,rotor_imbalance,Rotor Balancing Kit
+WO-00184,rotor_imbalance,Bearing Inspection
+WO-00184,rotor_imbalance,Vibration Analysis
+WO-00185,seal_leakage,Pressure Test
+WO-00185,seal_leakage,Housing Inspection
+WO-00185,seal_leakage,Gasket Kit
+WO-00186,bearing_wear,Alignment Check
+WO-00186,bearing_wear,Vibration Analysis
+WO-00186,bearing_wear,Bearing Replacement Kit
+WO-00186,bearing_wear,Lubrication Service
+WO-00187,motor_winding_failure,Motor Current Calibration
+WO-00187,motor_winding_failure,Cooling System Check
+WO-00187,motor_winding_failure,Insulation Test
+WO-00188,motor_winding_failure,Insulation Test
+WO-00188,motor_winding_failure,Motor Current Calibration
+WO-00188,motor_winding_failure,Motor Winding Repair Kit
+WO-00189,impeller_erosion,Flow Rate Calibration
+WO-00189,impeller_erosion,Impeller Replacement Kit
+WO-00190,cavitation,Flow Rate Calibration
+WO-00190,cavitation,Pressure Test
+WO-00190,cavitation,Suction Line Check
+WO-00190,cavitation,Impeller Inspection
+WO-00191,rotor_imbalance,Rotor Balancing Kit
+WO-00191,rotor_imbalance,Bearing Inspection
+WO-00191,rotor_imbalance,Vibration Analysis
+WO-00192,shaft_misalignment,Alignment Check
+WO-00192,shaft_misalignment,Vibration Analysis
+WO-00192,shaft_misalignment,Coupling Inspection
+WO-00193,bearing_wear,Vibration Analysis
+WO-00193,bearing_wear,Lubrication Service
+WO-00193,bearing_wear,Bearing Replacement Kit
+WO-00194,motor_winding_failure,Motor Current Calibration
+WO-00194,motor_winding_failure,Cooling System Check
+WO-00194,motor_winding_failure,Insulation Test
+WO-00195,shaft_misalignment,Shaft Repair Kit
+WO-00195,shaft_misalignment,Coupling Inspection
+WO-00195,shaft_misalignment,Vibration Analysis
+WO-00196,bearing_wear,Lubrication Service
+WO-00196,bearing_wear,Alignment Check
+WO-00197,lubrication_failure,Lubrication Service
+WO-00197,lubrication_failure,Oil Sample Test
+WO-00197,lubrication_failure,Seal Inspection
+WO-00197,lubrication_failure,Filter Replacement
+WO-00198,motor_winding_failure,Motor Current Calibration
+WO-00198,motor_winding_failure,Motor Winding Repair Kit
+WO-00199,bearing_wear,Bearing Replacement Kit
+WO-00199,bearing_wear,Alignment Check
+WO-00199,bearing_wear,Lubrication Service
+WO-00199,bearing_wear,Vibration Analysis
+WO-00200,impeller_erosion,Impeller Replacement Kit
+WO-00200,impeller_erosion,Flow Rate Calibration
+WO-00201,rotor_imbalance,Rotor Balancing Kit
+WO-00201,rotor_imbalance,Bearing Inspection
+WO-00202,impeller_erosion,Flow Rate Calibration
+WO-00202,impeller_erosion,Impeller Replacement Kit
+WO-00203,lubrication_failure,Filter Replacement
+WO-00203,lubrication_failure,Oil Sample Test
+WO-00203,lubrication_failure,Seal Inspection
+WO-00204,bearing_wear,Alignment Check
+WO-00204,bearing_wear,Lubrication Service
+WO-00204,bearing_wear,Bearing Replacement Kit
+WO-00204,bearing_wear,Vibration Analysis
+WO-00204,bearing_wear,Oil Sample Test
+WO-00205,seal_leakage,Housing Inspection
+WO-00205,seal_leakage,Pressure Test
+WO-00205,seal_leakage,Gasket Kit
+WO-00205,seal_leakage,Seal Replacement Kit
+WO-00206,seal_leakage,Housing Inspection
+WO-00206,seal_leakage,Gasket Kit
+WO-00207,shaft_misalignment,Shaft Repair Kit
+WO-00207,shaft_misalignment,Vibration Analysis
+WO-00208,cavitation,Pressure Test
+WO-00208,cavitation,Flow Rate Calibration
+WO-00208,cavitation,Suction Line Check
+WO-00208,cavitation,Impeller Inspection
+WO-00209,impeller_erosion,Impeller Replacement Kit
+WO-00209,impeller_erosion,Housing Inspection
+WO-00209,impeller_erosion,Flow Rate Calibration
+WO-00210,seal_leakage,Pressure Test
+WO-00210,seal_leakage,Seal Replacement Kit
+WO-00211,lubrication_failure,Filter Replacement
+WO-00211,lubrication_failure,Seal Inspection
+WO-00211,lubrication_failure,Lubrication Service
+WO-00211,lubrication_failure,Oil Sample Test
+WO-00212,bearing_wear,Vibration Analysis
+WO-00212,bearing_wear,Bearing Replacement Kit
+WO-00212,bearing_wear,Alignment Check
+WO-00212,bearing_wear,Lubrication Service
+WO-00213,rotor_imbalance,Vibration Analysis
+WO-00213,rotor_imbalance,Bearing Inspection
+WO-00214,impeller_erosion,Impeller Replacement Kit
+WO-00214,impeller_erosion,Housing Inspection
+WO-00215,cavitation,Pressure Test
+WO-00215,cavitation,Impeller Inspection
+WO-00215,cavitation,Suction Line Check
+WO-00215,cavitation,Flow Rate Calibration
+WO-00216,seal_leakage,Pressure Test
+WO-00216,seal_leakage,Seal Replacement Kit
+WO-00216,seal_leakage,Gasket Kit
+WO-00216,seal_leakage,Housing Inspection
+WO-00217,rotor_imbalance,Bearing Inspection
+WO-00217,rotor_imbalance,Vibration Analysis
+WO-00218,cavitation,Flow Rate Calibration
+WO-00218,cavitation,Impeller Inspection
+WO-00219,seal_leakage,Seal Replacement Kit
+WO-00219,seal_leakage,Gasket Kit
+WO-00219,seal_leakage,Pressure Test
+WO-00219,seal_leakage,Housing Inspection
+WO-00220,impeller_erosion,Impeller Replacement Kit
+WO-00220,impeller_erosion,Housing Inspection
+WO-00220,impeller_erosion,Flow Rate Calibration
+WO-00221,bearing_wear,Oil Sample Test
+WO-00221,bearing_wear,Lubrication Service
+WO-00221,bearing_wear,Alignment Check
+WO-00221,bearing_wear,Bearing Replacement Kit
+WO-00222,motor_winding_failure,Motor Current Calibration
+WO-00222,motor_winding_failure,Cooling System Check
+WO-00222,motor_winding_failure,Insulation Test
+WO-00222,motor_winding_failure,Motor Winding Repair Kit
+WO-00223,rotor_imbalance,Rotor Balancing Kit
+WO-00223,rotor_imbalance,Vibration Analysis
+WO-00224,motor_winding_failure,Motor Winding Repair Kit
+WO-00224,motor_winding_failure,Cooling System Check
+WO-00225,rotor_imbalance,Vibration Analysis
+WO-00225,rotor_imbalance,Bearing Inspection
+WO-00225,rotor_imbalance,Rotor Balancing Kit
+WO-00226,rotor_imbalance,Bearing Inspection
+WO-00226,rotor_imbalance,Rotor Balancing Kit
+WO-00226,rotor_imbalance,Vibration Analysis
+WO-00227,impeller_erosion,Impeller Replacement Kit
+WO-00227,impeller_erosion,Flow Rate Calibration
+WO-00227,impeller_erosion,Housing Inspection
+WO-00228,motor_winding_failure,Insulation Test
+WO-00228,motor_winding_failure,Cooling System Check
+WO-00228,motor_winding_failure,Motor Winding Repair Kit
+WO-00229,cavitation,Pressure Test
+WO-00229,cavitation,Impeller Inspection
+WO-00229,cavitation,Suction Line Check
+WO-00229,cavitation,Flow Rate Calibration
+WO-00230,lubrication_failure,Seal Inspection
+WO-00230,lubrication_failure,Lubrication Service
+WO-00231,lubrication_failure,Lubrication Service
+WO-00231,lubrication_failure,Seal Inspection
+WO-00231,lubrication_failure,Oil Sample Test
+WO-00231,lubrication_failure,Filter Replacement
+WO-00232,rotor_imbalance,Rotor Balancing Kit
+WO-00232,rotor_imbalance,Bearing Inspection
+WO-00233,lubrication_failure,Filter Replacement
+WO-00233,lubrication_failure,Lubrication Service
+WO-00234,bearing_wear,Lubrication Service
+WO-00234,bearing_wear,Oil Sample Test
+WO-00234,bearing_wear,Alignment Check
+WO-00234,bearing_wear,Vibration Analysis
+WO-00235,rotor_imbalance,Bearing Inspection
+WO-00235,rotor_imbalance,Rotor Balancing Kit
+WO-00236,rotor_imbalance,Vibration Analysis
+WO-00236,rotor_imbalance,Rotor Balancing Kit
+WO-00237,cavitation,Suction Line Check
+WO-00237,cavitation,Flow Rate Calibration
+WO-00238,bearing_wear,Vibration Analysis
+WO-00238,bearing_wear,Bearing Replacement Kit
+WO-00238,bearing_wear,Alignment Check
+WO-00239,shaft_misalignment,Shaft Repair Kit
+WO-00239,shaft_misalignment,Coupling Inspection
+WO-00239,shaft_misalignment,Alignment Check
+WO-00240,motor_winding_failure,Insulation Test
+WO-00240,motor_winding_failure,Motor Current Calibration
+WO-00240,motor_winding_failure,Motor Winding Repair Kit
+WO-00240,motor_winding_failure,Cooling System Check
+WO-00241,motor_winding_failure,Motor Winding Repair Kit
+WO-00241,motor_winding_failure,Cooling System Check
+WO-00241,motor_winding_failure,Insulation Test
+WO-00241,motor_winding_failure,Motor Current Calibration
+WO-00242,impeller_erosion,Flow Rate Calibration
+WO-00242,impeller_erosion,Housing Inspection
+WO-00243,shaft_misalignment,Vibration Analysis
+WO-00243,shaft_misalignment,Shaft Repair Kit
+WO-00244,rotor_imbalance,Rotor Balancing Kit
+WO-00244,rotor_imbalance,Vibration Analysis
+WO-00245,cavitation,Pressure Test
+WO-00245,cavitation,Suction Line Check
+WO-00245,cavitation,Flow Rate Calibration
+WO-00246,shaft_misalignment,Alignment Check
+WO-00246,shaft_misalignment,Vibration Analysis
+WO-00246,shaft_misalignment,Shaft Repair Kit
+WO-00246,shaft_misalignment,Coupling Inspection
+WO-00247,motor_winding_failure,Cooling System Check
+WO-00247,motor_winding_failure,Insulation Test
+WO-00248,motor_winding_failure,Cooling System Check
+WO-00248,motor_winding_failure,Motor Current Calibration
+WO-00248,motor_winding_failure,Motor Winding Repair Kit
+WO-00249,cavitation,Pressure Test
+WO-00249,cavitation,Flow Rate Calibration
+WO-00249,cavitation,Suction Line Check
+WO-00250,cavitation,Flow Rate Calibration
+WO-00250,cavitation,Impeller Inspection
+WO-00251,shaft_misalignment,Alignment Check
+WO-00251,shaft_misalignment,Coupling Inspection
+WO-00252,shaft_misalignment,Vibration Analysis
+WO-00252,shaft_misalignment,Alignment Check
+WO-00252,shaft_misalignment,Shaft Repair Kit
+WO-00252,shaft_misalignment,Coupling Inspection
+WO-00253,shaft_misalignment,Vibration Analysis
+WO-00253,shaft_misalignment,Shaft Repair Kit
+WO-00253,shaft_misalignment,Coupling Inspection
+WO-00254,bearing_wear,Oil Sample Test
+WO-00254,bearing_wear,Alignment Check
+WO-00254,bearing_wear,Lubrication Service
+WO-00254,bearing_wear,Bearing Replacement Kit
+WO-00255,lubrication_failure,Seal Inspection
+WO-00255,lubrication_failure,Lubrication Service
+WO-00256,shaft_misalignment,Vibration Analysis
+WO-00256,shaft_misalignment,Alignment Check
+WO-00256,shaft_misalignment,Coupling Inspection
+WO-00257,lubrication_failure,Lubrication Service
+WO-00257,lubrication_failure,Filter Replacement
+WO-00257,lubrication_failure,Oil Sample Test
+WO-00258,bearing_wear,Alignment Check
+WO-00258,bearing_wear,Oil Sample Test
+WO-00258,bearing_wear,Lubrication Service
+WO-00259,cavitation,Suction Line Check
+WO-00259,cavitation,Impeller Inspection
+WO-00260,impeller_erosion,Impeller Replacement Kit
+WO-00260,impeller_erosion,Housing Inspection
+WO-00261,shaft_misalignment,Coupling Inspection
+WO-00261,shaft_misalignment,Shaft Repair Kit
+WO-00261,shaft_misalignment,Vibration Analysis
+WO-00261,shaft_misalignment,Alignment Check
+WO-00262,cavitation,Pressure Test
+WO-00262,cavitation,Suction Line Check
+WO-00263,cavitation,Impeller Inspection
+WO-00263,cavitation,Flow Rate Calibration
+WO-00263,cavitation,Pressure Test
+WO-00263,cavitation,Suction Line Check
+WO-00264,bearing_wear,Alignment Check
+WO-00264,bearing_wear,Vibration Analysis
+WO-00265,impeller_erosion,Housing Inspection
+WO-00265,impeller_erosion,Flow Rate Calibration
+WO-00265,impeller_erosion,Impeller Replacement Kit
+WO-00266,seal_leakage,Seal Replacement Kit
+WO-00266,seal_leakage,Gasket Kit
+WO-00267,impeller_erosion,Flow Rate Calibration
+WO-00267,impeller_erosion,Housing Inspection
+WO-00268,seal_leakage,Gasket Kit
+WO-00268,seal_leakage,Housing Inspection
+WO-00269,bearing_wear,Lubrication Service
+WO-00269,bearing_wear,Alignment Check
+WO-00270,lubrication_failure,Filter Replacement
+WO-00270,lubrication_failure,Oil Sample Test
+WO-00271,cavitation,Impeller Inspection
+WO-00271,cavitation,Suction Line Check
+WO-00272,impeller_erosion,Impeller Replacement Kit
+WO-00272,impeller_erosion,Flow Rate Calibration
+WO-00273,lubrication_failure,Filter Replacement
+WO-00273,lubrication_failure,Lubrication Service
+WO-00273,lubrication_failure,Oil Sample Test
+WO-00273,lubrication_failure,Seal Inspection
+WO-00274,impeller_erosion,Flow Rate Calibration
+WO-00274,impeller_erosion,Impeller Replacement Kit
+WO-00275,cavitation,Flow Rate Calibration
+WO-00275,cavitation,Pressure Test
+WO-00275,cavitation,Suction Line Check
+WO-00275,cavitation,Impeller Inspection
+WO-00276,seal_leakage,Housing Inspection
+WO-00276,seal_leakage,Seal Replacement Kit
+WO-00277,cavitation,Flow Rate Calibration
+WO-00277,cavitation,Pressure Test
+WO-00278,cavitation,Flow Rate Calibration
+WO-00278,cavitation,Impeller Inspection
+WO-00279,lubrication_failure,Seal Inspection
+WO-00279,lubrication_failure,Filter Replacement
+WO-00279,lubrication_failure,Lubrication Service
+WO-00280,impeller_erosion,Housing Inspection
+WO-00280,impeller_erosion,Flow Rate Calibration
+WO-00280,impeller_erosion,Impeller Replacement Kit
+WO-00281,cavitation,Impeller Inspection
+WO-00281,cavitation,Pressure Test
+WO-00282,shaft_misalignment,Coupling Inspection
+WO-00282,shaft_misalignment,Shaft Repair Kit
+WO-00282,shaft_misalignment,Vibration Analysis
+WO-00282,shaft_misalignment,Alignment Check
+WO-00283,lubrication_failure,Oil Sample Test
+WO-00283,lubrication_failure,Seal Inspection
+WO-00284,lubrication_failure,Oil Sample Test
+WO-00284,lubrication_failure,Filter Replacement
+WO-00285,shaft_misalignment,Shaft Repair Kit
+WO-00285,shaft_misalignment,Coupling Inspection
+WO-00286,motor_winding_failure,Motor Current Calibration
+WO-00286,motor_winding_failure,Cooling System Check
+WO-00286,motor_winding_failure,Insulation Test
+WO-00286,motor_winding_failure,Motor Winding Repair Kit
+WO-00287,motor_winding_failure,Cooling System Check
+WO-00287,motor_winding_failure,Insulation Test
+WO-00288,seal_leakage,Seal Replacement Kit
+WO-00288,seal_leakage,Gasket Kit
+WO-00288,seal_leakage,Housing Inspection
+WO-00289,seal_leakage,Housing Inspection
+WO-00289,seal_leakage,Seal Replacement Kit
+WO-00289,seal_leakage,Pressure Test
+WO-00290,cavitation,Impeller Inspection
+WO-00290,cavitation,Pressure Test
+WO-00290,cavitation,Flow Rate Calibration
+WO-00291,impeller_erosion,Housing Inspection
+WO-00291,impeller_erosion,Impeller Replacement Kit
+WO-00291,impeller_erosion,Flow Rate Calibration
+WO-00292,lubrication_failure,Seal Inspection
+WO-00292,lubrication_failure,Filter Replacement
+WO-00292,lubrication_failure,Lubrication Service
+WO-00293,bearing_wear,Bearing Replacement Kit
+WO-00293,bearing_wear,Alignment Check
+WO-00293,bearing_wear,Vibration Analysis
+WO-00293,bearing_wear,Oil Sample Test
+WO-00293,bearing_wear,Lubrication Service
+WO-00294,bearing_wear,Vibration Analysis
+WO-00294,bearing_wear,Oil Sample Test
+WO-00294,bearing_wear,Alignment Check
+WO-00295,rotor_imbalance,Vibration Analysis
+WO-00295,rotor_imbalance,Bearing Inspection
+WO-00295,rotor_imbalance,Rotor Balancing Kit
+WO-00296,impeller_erosion,Housing Inspection
+WO-00296,impeller_erosion,Impeller Replacement Kit
+WO-00296,impeller_erosion,Flow Rate Calibration
+WO-00297,shaft_misalignment,Alignment Check
+WO-00297,shaft_misalignment,Vibration Analysis
+WO-00297,shaft_misalignment,Coupling Inspection
+WO-00298,seal_leakage,Gasket Kit
+WO-00298,seal_leakage,Housing Inspection
+WO-00298,seal_leakage,Seal Replacement Kit
+WO-00299,rotor_imbalance,Vibration Analysis
+WO-00299,rotor_imbalance,Bearing Inspection
+WO-00299,rotor_imbalance,Rotor Balancing Kit
+WO-00300,shaft_misalignment,Shaft Repair Kit
+WO-00300,shaft_misalignment,Vibration Analysis
+WO-00300,shaft_misalignment,Coupling Inspection
+WO-00301,rotor_imbalance,Bearing Inspection
+WO-00301,rotor_imbalance,Vibration Analysis
+WO-00302,cavitation,Pressure Test
+WO-00302,cavitation,Suction Line Check
+WO-00303,rotor_imbalance,Vibration Analysis
+WO-00303,rotor_imbalance,Bearing Inspection
+WO-00304,lubrication_failure,Oil Sample Test
+WO-00304,lubrication_failure,Lubrication Service
+WO-00305,shaft_misalignment,Alignment Check
+WO-00305,shaft_misalignment,Vibration Analysis
+WO-00305,shaft_misalignment,Shaft Repair Kit
+WO-00306,cavitation,Suction Line Check
+WO-00306,cavitation,Pressure Test
+WO-00306,cavitation,Flow Rate Calibration
+WO-00306,cavitation,Impeller Inspection
+WO-00307,rotor_imbalance,Bearing Inspection
+WO-00307,rotor_imbalance,Rotor Balancing Kit
+WO-00308,motor_winding_failure,Cooling System Check
+WO-00308,motor_winding_failure,Insulation Test
+WO-00309,lubrication_failure,Filter Replacement
+WO-00309,lubrication_failure,Seal Inspection
+WO-00309,lubrication_failure,Oil Sample Test
+WO-00310,lubrication_failure,Oil Sample Test
+WO-00310,lubrication_failure,Seal Inspection
+WO-00310,lubrication_failure,Filter Replacement
+WO-00310,lubrication_failure,Lubrication Service
+WO-00311,cavitation,Flow Rate Calibration
+WO-00311,cavitation,Suction Line Check
+WO-00311,cavitation,Pressure Test
+WO-00311,cavitation,Impeller Inspection
+WO-00312,impeller_erosion,Impeller Replacement Kit
+WO-00312,impeller_erosion,Housing Inspection
+WO-00313,seal_leakage,Housing Inspection
+WO-00313,seal_leakage,Gasket Kit
+WO-00314,shaft_misalignment,Alignment Check
+WO-00314,shaft_misalignment,Coupling Inspection
+WO-00314,shaft_misalignment,Shaft Repair Kit
+WO-00314,shaft_misalignment,Vibration Analysis
+WO-00315,seal_leakage,Gasket Kit
+WO-00315,seal_leakage,Housing Inspection
+WO-00315,seal_leakage,Seal Replacement Kit
+WO-00316,lubrication_failure,Filter Replacement
+WO-00316,lubrication_failure,Lubrication Service
+WO-00316,lubrication_failure,Oil Sample Test
+WO-00317,bearing_wear,Oil Sample Test
+WO-00317,bearing_wear,Alignment Check
+WO-00317,bearing_wear,Bearing Replacement Kit
+WO-00317,bearing_wear,Lubrication Service
+WO-00317,bearing_wear,Vibration Analysis
+WO-00318,cavitation,Impeller Inspection
+WO-00318,cavitation,Suction Line Check
+WO-00319,shaft_misalignment,Vibration Analysis
+WO-00319,shaft_misalignment,Alignment Check
+WO-00319,shaft_misalignment,Shaft Repair Kit
+WO-00319,shaft_misalignment,Coupling Inspection
+WO-00320,seal_leakage,Gasket Kit
+WO-00320,seal_leakage,Pressure Test
+WO-00320,seal_leakage,Housing Inspection
+WO-00321,motor_winding_failure,Motor Winding Repair Kit
+WO-00321,motor_winding_failure,Cooling System Check
+WO-00321,motor_winding_failure,Motor Current Calibration
+WO-00321,motor_winding_failure,Insulation Test
+WO-00322,lubrication_failure,Seal Inspection
+WO-00322,lubrication_failure,Lubrication Service
+WO-00323,seal_leakage,Pressure Test
+WO-00323,seal_leakage,Seal Replacement Kit
+WO-00324,bearing_wear,Vibration Analysis
+WO-00324,bearing_wear,Oil Sample Test
+WO-00324,bearing_wear,Bearing Replacement Kit
+WO-00325,shaft_misalignment,Alignment Check
+WO-00325,shaft_misalignment,Vibration Analysis
+WO-00325,shaft_misalignment,Shaft Repair Kit
+WO-00326,rotor_imbalance,Vibration Analysis
+WO-00326,rotor_imbalance,Rotor Balancing Kit
+WO-00326,rotor_imbalance,Bearing Inspection
+WO-00327,lubrication_failure,Seal Inspection
+WO-00327,lubrication_failure,Lubrication Service
+WO-00327,lubrication_failure,Filter Replacement
+WO-00327,lubrication_failure,Oil Sample Test
+WO-00328,shaft_misalignment,Alignment Check
+WO-00328,shaft_misalignment,Coupling Inspection
+WO-00328,shaft_misalignment,Vibration Analysis
+WO-00328,shaft_misalignment,Shaft Repair Kit
+WO-00329,impeller_erosion,Flow Rate Calibration
+WO-00329,impeller_erosion,Impeller Replacement Kit
+WO-00329,impeller_erosion,Housing Inspection
+WO-00330,shaft_misalignment,Coupling Inspection
+WO-00330,shaft_misalignment,Vibration Analysis
+WO-00330,shaft_misalignment,Alignment Check
+WO-00331,cavitation,Impeller Inspection
+WO-00331,cavitation,Suction Line Check
+WO-00332,cavitation,Suction Line Check
+WO-00332,cavitation,Pressure Test
+WO-00332,cavitation,Flow Rate Calibration
+WO-00332,cavitation,Impeller Inspection
+WO-00333,rotor_imbalance,Rotor Balancing Kit
+WO-00333,rotor_imbalance,Vibration Analysis
+WO-00334,bearing_wear,Lubrication Service
+WO-00334,bearing_wear,Bearing Replacement Kit
+WO-00334,bearing_wear,Vibration Analysis
+WO-00334,bearing_wear,Alignment Check
+WO-00335,cavitation,Flow Rate Calibration
+WO-00335,cavitation,Pressure Test
+WO-00335,cavitation,Suction Line Check
+WO-00336,seal_leakage,Gasket Kit
+WO-00336,seal_leakage,Housing Inspection
+WO-00337,cavitation,Pressure Test
+WO-00337,cavitation,Suction Line Check
+WO-00338,shaft_misalignment,Shaft Repair Kit
+WO-00338,shaft_misalignment,Coupling Inspection
+WO-00338,shaft_misalignment,Vibration Analysis
+WO-00339,impeller_erosion,Impeller Replacement Kit
+WO-00339,impeller_erosion,Flow Rate Calibration
+WO-00339,impeller_erosion,Housing Inspection
+WO-00340,cavitation,Pressure Test
+WO-00340,cavitation,Impeller Inspection
+WO-00340,cavitation,Suction Line Check
+WO-00340,cavitation,Flow Rate Calibration
+WO-00341,impeller_erosion,Housing Inspection
+WO-00341,impeller_erosion,Flow Rate Calibration
+WO-00342,cavitation,Impeller Inspection
+WO-00342,cavitation,Suction Line Check
+WO-00343,seal_leakage,Housing Inspection
+WO-00343,seal_leakage,Pressure Test
+WO-00343,seal_leakage,Gasket Kit
+WO-00344,rotor_imbalance,Vibration Analysis
+WO-00344,rotor_imbalance,Bearing Inspection
+WO-00344,rotor_imbalance,Rotor Balancing Kit
+WO-00345,cavitation,Flow Rate Calibration
+WO-00345,cavitation,Suction Line Check
+WO-00345,cavitation,Impeller Inspection
+WO-00345,cavitation,Pressure Test
+WO-00346,impeller_erosion,Housing Inspection
+WO-00346,impeller_erosion,Impeller Replacement Kit
+WO-00346,impeller_erosion,Flow Rate Calibration
+WO-00347,rotor_imbalance,Rotor Balancing Kit
+WO-00347,rotor_imbalance,Bearing Inspection
+WO-00347,rotor_imbalance,Vibration Analysis
+WO-00348,lubrication_failure,Filter Replacement
+WO-00348,lubrication_failure,Oil Sample Test
+WO-00348,lubrication_failure,Seal Inspection
+WO-00348,lubrication_failure,Lubrication Service
+WO-00349,rotor_imbalance,Vibration Analysis
+WO-00349,rotor_imbalance,Bearing Inspection
+WO-00349,rotor_imbalance,Rotor Balancing Kit
+WO-00350,shaft_misalignment,Coupling Inspection
+WO-00350,shaft_misalignment,Vibration Analysis
+WO-00350,shaft_misalignment,Shaft Repair Kit
+WO-00350,shaft_misalignment,Alignment Check
+WO-00351,cavitation,Pressure Test
+WO-00351,cavitation,Impeller Inspection
+WO-00351,cavitation,Flow Rate Calibration
+WO-00351,cavitation,Suction Line Check
+WO-00352,rotor_imbalance,Bearing Inspection
+WO-00352,rotor_imbalance,Vibration Analysis
+WO-00352,rotor_imbalance,Rotor Balancing Kit
+WO-00353,seal_leakage,Housing Inspection
+WO-00353,seal_leakage,Seal Replacement Kit
+WO-00353,seal_leakage,Gasket Kit
+WO-00354,motor_winding_failure,Motor Winding Repair Kit
+WO-00354,motor_winding_failure,Cooling System Check
+WO-00355,shaft_misalignment,Coupling Inspection
+WO-00355,shaft_misalignment,Vibration Analysis
+WO-00355,shaft_misalignment,Shaft Repair Kit
+WO-00356,shaft_misalignment,Vibration Analysis
+WO-00356,shaft_misalignment,Shaft Repair Kit
+WO-00356,shaft_misalignment,Coupling Inspection
+WO-00356,shaft_misalignment,Alignment Check
+WO-00357,seal_leakage,Gasket Kit
+WO-00357,seal_leakage,Pressure Test
+WO-00357,seal_leakage,Seal Replacement Kit
+WO-00358,cavitation,Suction Line Check
+WO-00358,cavitation,Impeller Inspection
+WO-00358,cavitation,Pressure Test
+WO-00358,cavitation,Flow Rate Calibration
+WO-00359,lubrication_failure,Lubrication Service
+WO-00359,lubrication_failure,Oil Sample Test
+WO-00359,lubrication_failure,Filter Replacement
+WO-00360,motor_winding_failure,Insulation Test
+WO-00360,motor_winding_failure,Motor Current Calibration
+WO-00360,motor_winding_failure,Motor Winding Repair Kit
+WO-00360,motor_winding_failure,Cooling System Check
+WO-00361,seal_leakage,Housing Inspection
+WO-00361,seal_leakage,Pressure Test
+WO-00361,seal_leakage,Gasket Kit
+WO-00362,impeller_erosion,Impeller Replacement Kit
+WO-00362,impeller_erosion,Flow Rate Calibration
+WO-00363,shaft_misalignment,Shaft Repair Kit
+WO-00363,shaft_misalignment,Vibration Analysis
+WO-00363,shaft_misalignment,Coupling Inspection
+WO-00364,rotor_imbalance,Rotor Balancing Kit
+WO-00364,rotor_imbalance,Vibration Analysis
+WO-00365,bearing_wear,Oil Sample Test
+WO-00365,bearing_wear,Lubrication Service
+WO-00366,seal_leakage,Gasket Kit
+WO-00366,seal_leakage,Housing Inspection
+WO-00367,lubrication_failure,Filter Replacement
+WO-00367,lubrication_failure,Lubrication Service
+WO-00367,lubrication_failure,Oil Sample Test
+WO-00368,lubrication_failure,Filter Replacement
+WO-00368,lubrication_failure,Lubrication Service
+WO-00368,lubrication_failure,Oil Sample Test
+WO-00368,lubrication_failure,Seal Inspection
+WO-00369,rotor_imbalance,Rotor Balancing Kit
+WO-00369,rotor_imbalance,Vibration Analysis
+WO-00370,bearing_wear,Bearing Replacement Kit
+WO-00370,bearing_wear,Oil Sample Test
+WO-00371,seal_leakage,Gasket Kit
+WO-00371,seal_leakage,Pressure Test
+WO-00371,seal_leakage,Housing Inspection
+WO-00371,seal_leakage,Seal Replacement Kit
+WO-00372,motor_winding_failure,Motor Current Calibration
+WO-00372,motor_winding_failure,Cooling System Check
+WO-00372,motor_winding_failure,Insulation Test
+WO-00372,motor_winding_failure,Motor Winding Repair Kit
+WO-00373,lubrication_failure,Seal Inspection
+WO-00373,lubrication_failure,Oil Sample Test
+WO-00373,lubrication_failure,Filter Replacement
+WO-00373,lubrication_failure,Lubrication Service
+WO-00374,bearing_wear,Vibration Analysis
+WO-00374,bearing_wear,Oil Sample Test
+WO-00374,bearing_wear,Lubrication Service
+WO-00375,motor_winding_failure,Motor Current Calibration
+WO-00375,motor_winding_failure,Cooling System Check
+WO-00376,rotor_imbalance,Bearing Inspection
+WO-00376,rotor_imbalance,Vibration Analysis
+WO-00376,rotor_imbalance,Rotor Balancing Kit
+WO-00377,impeller_erosion,Flow Rate Calibration
+WO-00377,impeller_erosion,Impeller Replacement Kit
+WO-00378,cavitation,Flow Rate Calibration
+WO-00378,cavitation,Impeller Inspection
+WO-00379,seal_leakage,Gasket Kit
+WO-00379,seal_leakage,Seal Replacement Kit
+WO-00379,seal_leakage,Pressure Test
+WO-00380,bearing_wear,Vibration Analysis
+WO-00380,bearing_wear,Oil Sample Test
+WO-00380,bearing_wear,Bearing Replacement Kit
+WO-00380,bearing_wear,Alignment Check
+WO-00381,cavitation,Pressure Test
+WO-00381,cavitation,Impeller Inspection
+WO-00381,cavitation,Flow Rate Calibration
+WO-00381,cavitation,Suction Line Check
+WO-00382,motor_winding_failure,Motor Current Calibration
+WO-00382,motor_winding_failure,Insulation Test
+WO-00382,motor_winding_failure,Motor Winding Repair Kit
+WO-00383,shaft_misalignment,Shaft Repair Kit
+WO-00383,shaft_misalignment,Alignment Check
+WO-00383,shaft_misalignment,Vibration Analysis
+WO-00384,cavitation,Impeller Inspection
+WO-00384,cavitation,Suction Line Check
+WO-00385,motor_winding_failure,Cooling System Check
+WO-00385,motor_winding_failure,Insulation Test
+WO-00385,motor_winding_failure,Motor Winding Repair Kit
+WO-00385,motor_winding_failure,Motor Current Calibration
+WO-00386,impeller_erosion,Flow Rate Calibration
+WO-00386,impeller_erosion,Housing Inspection
+WO-00387,impeller_erosion,Impeller Replacement Kit
+WO-00387,impeller_erosion,Flow Rate Calibration
+WO-00387,impeller_erosion,Housing Inspection
+WO-00388,lubrication_failure,Filter Replacement
+WO-00388,lubrication_failure,Lubrication Service
+WO-00388,lubrication_failure,Oil Sample Test
+WO-00389,motor_winding_failure,Motor Current Calibration
+WO-00389,motor_winding_failure,Cooling System Check
+WO-00389,motor_winding_failure,Motor Winding Repair Kit
+WO-00389,motor_winding_failure,Insulation Test
+WO-00390,shaft_misalignment,Vibration Analysis
+WO-00390,shaft_misalignment,Coupling Inspection
+WO-00390,shaft_misalignment,Shaft Repair Kit
+WO-00391,rotor_imbalance,Bearing Inspection
+WO-00391,rotor_imbalance,Vibration Analysis
+WO-00392,bearing_wear,Bearing Replacement Kit
+WO-00392,bearing_wear,Lubrication Service
+WO-00393,cavitation,Flow Rate Calibration
+WO-00393,cavitation,Impeller Inspection
+WO-00393,cavitation,Pressure Test
+WO-00394,cavitation,Pressure Test
+WO-00394,cavitation,Impeller Inspection
+WO-00394,cavitation,Suction Line Check
+WO-00394,cavitation,Flow Rate Calibration
+WO-00395,cavitation,Flow Rate Calibration
+WO-00395,cavitation,Pressure Test
+WO-00395,cavitation,Suction Line Check
+WO-00395,cavitation,Impeller Inspection
+WO-00396,bearing_wear,Alignment Check
+WO-00396,bearing_wear,Bearing Replacement Kit
+WO-00396,bearing_wear,Lubrication Service
+WO-00396,bearing_wear,Oil Sample Test
+WO-00397,bearing_wear,Alignment Check
+WO-00397,bearing_wear,Lubrication Service
+WO-00397,bearing_wear,Oil Sample Test
+WO-00397,bearing_wear,Bearing Replacement Kit
+WO-00397,bearing_wear,Vibration Analysis
+WO-00398,rotor_imbalance,Rotor Balancing Kit
+WO-00398,rotor_imbalance,Bearing Inspection
+WO-00398,rotor_imbalance,Vibration Analysis
+WO-00399,shaft_misalignment,Alignment Check
+WO-00399,shaft_misalignment,Coupling Inspection
+WO-00400,cavitation,Suction Line Check
+WO-00400,cavitation,Flow Rate Calibration
+WO-00400,cavitation,Impeller Inspection
+WO-00401,impeller_erosion,Housing Inspection
+WO-00401,impeller_erosion,Impeller Replacement Kit
+WO-00401,impeller_erosion,Flow Rate Calibration
+WO-00402,lubrication_failure,Filter Replacement
+WO-00402,lubrication_failure,Seal Inspection
+WO-00402,lubrication_failure,Oil Sample Test
+WO-00402,lubrication_failure,Lubrication Service
+WO-00403,cavitation,Flow Rate Calibration
+WO-00403,cavitation,Pressure Test
+WO-00404,cavitation,Pressure Test
+WO-00404,cavitation,Flow Rate Calibration
+WO-00404,cavitation,Suction Line Check
+WO-00404,cavitation,Impeller Inspection
+WO-00405,lubrication_failure,Filter Replacement
+WO-00405,lubrication_failure,Seal Inspection
+WO-00406,seal_leakage,Pressure Test
+WO-00406,seal_leakage,Gasket Kit
+WO-00407,lubrication_failure,Seal Inspection
+WO-00407,lubrication_failure,Oil Sample Test
+WO-00407,lubrication_failure,Filter Replacement
+WO-00407,lubrication_failure,Lubrication Service
+WO-00408,seal_leakage,Seal Replacement Kit
+WO-00408,seal_leakage,Pressure Test
+WO-00408,seal_leakage,Gasket Kit
+WO-00409,impeller_erosion,Impeller Replacement Kit
+WO-00409,impeller_erosion,Flow Rate Calibration
+WO-00409,impeller_erosion,Housing Inspection
+WO-00410,seal_leakage,Seal Replacement Kit
+WO-00410,seal_leakage,Gasket Kit
+WO-00410,seal_leakage,Pressure Test
+WO-00410,seal_leakage,Housing Inspection
+WO-00411,motor_winding_failure,Insulation Test
+WO-00411,motor_winding_failure,Motor Current Calibration
+WO-00412,seal_leakage,Pressure Test
+WO-00412,seal_leakage,Seal Replacement Kit
+WO-00412,seal_leakage,Housing Inspection
+WO-00412,seal_leakage,Gasket Kit
+WO-00413,lubrication_failure,Oil Sample Test
+WO-00413,lubrication_failure,Filter Replacement
+WO-00414,lubrication_failure,Lubrication Service
+WO-00414,lubrication_failure,Oil Sample Test
+WO-00415,cavitation,Flow Rate Calibration
+WO-00415,cavitation,Impeller Inspection
+WO-00415,cavitation,Pressure Test
+WO-00415,cavitation,Suction Line Check
+WO-00416,rotor_imbalance,Bearing Inspection
+WO-00416,rotor_imbalance,Vibration Analysis
+WO-00416,rotor_imbalance,Rotor Balancing Kit
+WO-00417,lubrication_failure,Filter Replacement
+WO-00417,lubrication_failure,Oil Sample Test
+WO-00417,lubrication_failure,Lubrication Service
+WO-00418,shaft_misalignment,Coupling Inspection
+WO-00418,shaft_misalignment,Vibration Analysis
+WO-00418,shaft_misalignment,Alignment Check
+WO-00418,shaft_misalignment,Shaft Repair Kit
+WO-00419,impeller_erosion,Impeller Replacement Kit
+WO-00419,impeller_erosion,Flow Rate Calibration
+WO-00420,motor_winding_failure,Motor Current Calibration
+WO-00420,motor_winding_failure,Motor Winding Repair Kit
+WO-00421,bearing_wear,Oil Sample Test
+WO-00421,bearing_wear,Bearing Replacement Kit
+WO-00421,bearing_wear,Lubrication Service
+WO-00421,bearing_wear,Alignment Check
+WO-00422,motor_winding_failure,Cooling System Check
+WO-00422,motor_winding_failure,Motor Winding Repair Kit
+WO-00422,motor_winding_failure,Insulation Test
+WO-00422,motor_winding_failure,Motor Current Calibration
+WO-00423,lubrication_failure,Filter Replacement
+WO-00423,lubrication_failure,Lubrication Service
+WO-00424,motor_winding_failure,Motor Current Calibration
+WO-00424,motor_winding_failure,Cooling System Check
+WO-00424,motor_winding_failure,Motor Winding Repair Kit
+WO-00424,motor_winding_failure,Insulation Test
+WO-00425,cavitation,Suction Line Check
+WO-00425,cavitation,Impeller Inspection
+WO-00425,cavitation,Flow Rate Calibration
+WO-00426,impeller_erosion,Impeller Replacement Kit
+WO-00426,impeller_erosion,Flow Rate Calibration
+WO-00426,impeller_erosion,Housing Inspection
+WO-00427,rotor_imbalance,Vibration Analysis
+WO-00427,rotor_imbalance,Bearing Inspection
+WO-00428,lubrication_failure,Filter Replacement
+WO-00428,lubrication_failure,Oil Sample Test
+WO-00429,lubrication_failure,Filter Replacement
+WO-00429,lubrication_failure,Oil Sample Test
+WO-00429,lubrication_failure,Seal Inspection
+WO-00430,bearing_wear,Alignment Check
+WO-00430,bearing_wear,Lubrication Service
+WO-00430,bearing_wear,Bearing Replacement Kit
+WO-00430,bearing_wear,Oil Sample Test
+WO-00431,motor_winding_failure,Insulation Test
+WO-00431,motor_winding_failure,Cooling System Check
+WO-00431,motor_winding_failure,Motor Current Calibration
+WO-00432,shaft_misalignment,Vibration Analysis
+WO-00432,shaft_misalignment,Coupling Inspection
+WO-00432,shaft_misalignment,Alignment Check
+WO-00432,shaft_misalignment,Shaft Repair Kit
+WO-00433,rotor_imbalance,Rotor Balancing Kit
+WO-00433,rotor_imbalance,Vibration Analysis
+WO-00433,rotor_imbalance,Bearing Inspection
+WO-00434,impeller_erosion,Housing Inspection
+WO-00434,impeller_erosion,Impeller Replacement Kit
+WO-00434,impeller_erosion,Flow Rate Calibration
+WO-00435,shaft_misalignment,Shaft Repair Kit
+WO-00435,shaft_misalignment,Vibration Analysis
+WO-00435,shaft_misalignment,Coupling Inspection
+WO-00435,shaft_misalignment,Alignment Check
+WO-00436,shaft_misalignment,Coupling Inspection
+WO-00436,shaft_misalignment,Vibration Analysis
+WO-00437,rotor_imbalance,Vibration Analysis
+WO-00437,rotor_imbalance,Bearing Inspection
+WO-00438,shaft_misalignment,Coupling Inspection
+WO-00438,shaft_misalignment,Vibration Analysis
+WO-00438,shaft_misalignment,Shaft Repair Kit
+WO-00438,shaft_misalignment,Alignment Check
+WO-00439,motor_winding_failure,Cooling System Check
+WO-00439,motor_winding_failure,Motor Winding Repair Kit
+WO-00440,impeller_erosion,Housing Inspection
+WO-00440,impeller_erosion,Impeller Replacement Kit
+WO-00440,impeller_erosion,Flow Rate Calibration
+WO-00441,seal_leakage,Seal Replacement Kit
+WO-00441,seal_leakage,Gasket Kit
+WO-00441,seal_leakage,Pressure Test
+WO-00441,seal_leakage,Housing Inspection
+WO-00442,lubrication_failure,Lubrication Service
+WO-00442,lubrication_failure,Seal Inspection
+WO-00442,lubrication_failure,Oil Sample Test
+WO-00442,lubrication_failure,Filter Replacement
+WO-00443,shaft_misalignment,Alignment Check
+WO-00443,shaft_misalignment,Shaft Repair Kit
+WO-00443,shaft_misalignment,Coupling Inspection
+WO-00443,shaft_misalignment,Vibration Analysis
+WO-00444,seal_leakage,Gasket Kit
+WO-00444,seal_leakage,Seal Replacement Kit
+WO-00444,seal_leakage,Housing Inspection
+WO-00445,cavitation,Flow Rate Calibration
+WO-00445,cavitation,Suction Line Check
+WO-00445,cavitation,Pressure Test
+WO-00446,shaft_misalignment,Coupling Inspection
+WO-00446,shaft_misalignment,Vibration Analysis
+WO-00446,shaft_misalignment,Shaft Repair Kit
+WO-00446,shaft_misalignment,Alignment Check
+WO-00447,rotor_imbalance,Bearing Inspection
+WO-00447,rotor_imbalance,Rotor Balancing Kit
+WO-00447,rotor_imbalance,Vibration Analysis
+WO-00448,bearing_wear,Alignment Check
+WO-00448,bearing_wear,Vibration Analysis
+WO-00449,impeller_erosion,Impeller Replacement Kit
+WO-00449,impeller_erosion,Housing Inspection
+WO-00449,impeller_erosion,Flow Rate Calibration
+WO-00450,cavitation,Pressure Test
+WO-00450,cavitation,Impeller Inspection
+WO-00451,shaft_misalignment,Shaft Repair Kit
+WO-00451,shaft_misalignment,Vibration Analysis
+WO-00452,bearing_wear,Lubrication Service
+WO-00452,bearing_wear,Bearing Replacement Kit
+WO-00452,bearing_wear,Vibration Analysis
+WO-00453,bearing_wear,Oil Sample Test
+WO-00453,bearing_wear,Bearing Replacement Kit
+WO-00453,bearing_wear,Vibration Analysis
+WO-00453,bearing_wear,Alignment Check
+WO-00453,bearing_wear,Lubrication Service
+WO-00454,motor_winding_failure,Insulation Test
+WO-00454,motor_winding_failure,Motor Winding Repair Kit
+WO-00455,rotor_imbalance,Rotor Balancing Kit
+WO-00455,rotor_imbalance,Vibration Analysis
+WO-00455,rotor_imbalance,Bearing Inspection
+WO-00456,lubrication_failure,Oil Sample Test
+WO-00456,lubrication_failure,Filter Replacement
+WO-00456,lubrication_failure,Lubrication Service
+WO-00457,impeller_erosion,Flow Rate Calibration
+WO-00457,impeller_erosion,Impeller Replacement Kit
+WO-00457,impeller_erosion,Housing Inspection
+WO-00458,impeller_erosion,Impeller Replacement Kit
+WO-00458,impeller_erosion,Flow Rate Calibration
+WO-00458,impeller_erosion,Housing Inspection
+WO-00459,cavitation,Flow Rate Calibration
+WO-00459,cavitation,Suction Line Check
+WO-00459,cavitation,Impeller Inspection
+WO-00459,cavitation,Pressure Test
+WO-00460,impeller_erosion,Housing Inspection
+WO-00460,impeller_erosion,Flow Rate Calibration
+WO-00461,lubrication_failure,Filter Replacement
+WO-00461,lubrication_failure,Seal Inspection
+WO-00462,rotor_imbalance,Rotor Balancing Kit
+WO-00462,rotor_imbalance,Vibration Analysis
+WO-00462,rotor_imbalance,Bearing Inspection
+WO-00463,rotor_imbalance,Rotor Balancing Kit
+WO-00463,rotor_imbalance,Vibration Analysis
+WO-00463,rotor_imbalance,Bearing Inspection
+WO-00464,cavitation,Impeller Inspection
+WO-00464,cavitation,Suction Line Check
+WO-00464,cavitation,Pressure Test
+WO-00464,cavitation,Flow Rate Calibration
+WO-00465,lubrication_failure,Filter Replacement
+WO-00465,lubrication_failure,Oil Sample Test
+WO-00466,bearing_wear,Lubrication Service
+WO-00466,bearing_wear,Oil Sample Test
+WO-00467,motor_winding_failure,Motor Current Calibration
+WO-00467,motor_winding_failure,Insulation Test
+WO-00468,bearing_wear,Lubrication Service
+WO-00468,bearing_wear,Bearing Replacement Kit
+WO-00468,bearing_wear,Alignment Check
+WO-00469,motor_winding_failure,Insulation Test
+WO-00469,motor_winding_failure,Cooling System Check
+WO-00470,lubrication_failure,Filter Replacement
+WO-00470,lubrication_failure,Oil Sample Test
+WO-00470,lubrication_failure,Seal Inspection
+WO-00470,lubrication_failure,Lubrication Service
+WO-00471,cavitation,Pressure Test
+WO-00471,cavitation,Suction Line Check
+WO-00471,cavitation,Flow Rate Calibration
+WO-00472,motor_winding_failure,Cooling System Check
+WO-00472,motor_winding_failure,Insulation Test
+WO-00473,lubrication_failure,Filter Replacement
+WO-00473,lubrication_failure,Oil Sample Test
+WO-00473,lubrication_failure,Lubrication Service
+WO-00474,lubrication_failure,Oil Sample Test
+WO-00474,lubrication_failure,Lubrication Service
+WO-00474,lubrication_failure,Seal Inspection
+WO-00474,lubrication_failure,Filter Replacement
+WO-00475,seal_leakage,Gasket Kit
+WO-00475,seal_leakage,Housing Inspection
+WO-00476,lubrication_failure,Oil Sample Test
+WO-00476,lubrication_failure,Seal Inspection
+WO-00476,lubrication_failure,Filter Replacement
+WO-00477,seal_leakage,Housing Inspection
+WO-00477,seal_leakage,Gasket Kit
+WO-00477,seal_leakage,Seal Replacement Kit
+WO-00478,cavitation,Suction Line Check
+WO-00478,cavitation,Pressure Test
+WO-00479,motor_winding_failure,Motor Winding Repair Kit
+WO-00479,motor_winding_failure,Motor Current Calibration
+WO-00480,bearing_wear,Bearing Replacement Kit
+WO-00480,bearing_wear,Oil Sample Test
+WO-00481,impeller_erosion,Housing Inspection
+WO-00481,impeller_erosion,Impeller Replacement Kit
+WO-00482,shaft_misalignment,Coupling Inspection
+WO-00482,shaft_misalignment,Alignment Check
+WO-00482,shaft_misalignment,Vibration Analysis
+WO-00482,shaft_misalignment,Shaft Repair Kit
+WO-00483,cavitation,Flow Rate Calibration
+WO-00483,cavitation,Pressure Test
+WO-00484,motor_winding_failure,Motor Winding Repair Kit
+WO-00484,motor_winding_failure,Motor Current Calibration
+WO-00485,impeller_erosion,Impeller Replacement Kit
+WO-00485,impeller_erosion,Flow Rate Calibration
+WO-00486,seal_leakage,Housing Inspection
+WO-00486,seal_leakage,Seal Replacement Kit
+WO-00487,shaft_misalignment,Coupling Inspection
+WO-00487,shaft_misalignment,Alignment Check
+WO-00488,lubrication_failure,Filter Replacement
+WO-00488,lubrication_failure,Oil Sample Test
+WO-00488,lubrication_failure,Seal Inspection
+WO-00488,lubrication_failure,Lubrication Service
+WO-00489,shaft_misalignment,Shaft Repair Kit
+WO-00489,shaft_misalignment,Coupling Inspection
+WO-00489,shaft_misalignment,Alignment Check
+WO-00490,lubrication_failure,Lubrication Service
+WO-00490,lubrication_failure,Filter Replacement
+WO-00490,lubrication_failure,Seal Inspection
+WO-00491,shaft_misalignment,Shaft Repair Kit
+WO-00491,shaft_misalignment,Coupling Inspection
+WO-00491,shaft_misalignment,Vibration Analysis
+WO-00492,bearing_wear,Lubrication Service
+WO-00492,bearing_wear,Bearing Replacement Kit
+WO-00493,motor_winding_failure,Motor Current Calibration
+WO-00493,motor_winding_failure,Cooling System Check
+WO-00493,motor_winding_failure,Motor Winding Repair Kit
+WO-00494,bearing_wear,Lubrication Service
+WO-00494,bearing_wear,Vibration Analysis
+WO-00494,bearing_wear,Oil Sample Test
+WO-00495,bearing_wear,Alignment Check
+WO-00495,bearing_wear,Bearing Replacement Kit
+WO-00496,rotor_imbalance,Rotor Balancing Kit
+WO-00496,rotor_imbalance,Bearing Inspection
+WO-00496,rotor_imbalance,Vibration Analysis
+WO-00497,impeller_erosion,Flow Rate Calibration
+WO-00497,impeller_erosion,Impeller Replacement Kit
+WO-00498,lubrication_failure,Seal Inspection
+WO-00498,lubrication_failure,Filter Replacement
+WO-00498,lubrication_failure,Oil Sample Test
+WO-00498,lubrication_failure,Lubrication Service
+WO-00499,rotor_imbalance,Bearing Inspection
+WO-00499,rotor_imbalance,Vibration Analysis
+WO-00500,bearing_wear,Vibration Analysis
+WO-00500,bearing_wear,Lubrication Service
