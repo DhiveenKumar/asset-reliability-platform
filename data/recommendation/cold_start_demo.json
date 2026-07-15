@@ -1,0 +1,56 @@
+[
+  {
+    "failure_mode": "bearing_wear",
+    "recommendations": [
+      {
+        "action": "Lubrication Service",
+        "association_strength": 42
+      },
+      {
+        "action": "Alignment Check",
+        "association_strength": 41
+      },
+      {
+        "action": "Vibration Analysis",
+        "association_strength": 38
+      },
+      {
+        "action": "Bearing Replacement Kit",
+        "association_strength": 37
+      },
+      {
+        "action": "Oil Sample Test",
+        "association_strength": 30
+      }
+    ],
+    "method": "direct_historical_match",
+    "confidence": "high"
+  },
+  {
+    "failure_mode": "coupling_failure",
+    "recommendations": [
+      {
+        "action": "Lubrication Service",
+        "association_strength": 42
+      },
+      {
+        "action": "Alignment Check",
+        "association_strength": 41
+      },
+      {
+        "action": "Vibration Analysis",
+        "association_strength": 38
+      },
+      {
+        "action": "Bearing Replacement Kit",
+        "association_strength": 37
+      },
+      {
+        "action": "Oil Sample Test",
+        "association_strength": 30
+      }
+    ],
+    "method": "category_fallback (borrowed from bearing_wear)",
+    "confidence": "low - verify with engineer before acting"
+  }
+]

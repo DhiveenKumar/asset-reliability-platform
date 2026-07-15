@@ -1457,3 +1457,22 @@ WELL-009 degrades 50%               4499.9               4499.9        0.0      
 2026-07-15 03:51:38 | INFO     | __main__ | ============================================================
 2026-07-15 03:51:38 | INFO     | __main__ | Two-tower training complete - Precision@5: 0.650
 2026-07-15 03:51:38 | INFO     | __main__ | ============================================================
+2026-07-15 03:56:10 | INFO     | __main__ | ============================================================
+2026-07-15 03:56:10 | INFO     | __main__ | Cold-Start Handling Demonstration
+2026-07-15 03:56:10 | INFO     | __main__ | ============================================================
+2026-07-15 03:56:10 | INFO     | src.recommendation.cosine_baseline | Building failure-mode x action co-occurrence matrix...
+2026-07-15 03:56:10 | INFO     | src.recommendation.cosine_baseline | Matrix shape: 8 failure modes x 23 actions
+2026-07-15 03:56:10 | INFO     | __main__ | \n--- TEST 1: Known failure mode (bearing_wear) ---
+2026-07-15 03:56:10 | INFO     | __main__ | Method: direct_historical_match, Confidence: high
+2026-07-15 03:56:10 | INFO     | __main__ | \n--- TEST 2: Novel failure mode (coupling_failure) ---
+2026-07-15 03:56:10 | WARNING  | __main__ | 'coupling_failure' has no historical data - applying cold-start fallback
+2026-07-15 03:56:10 | INFO     | __main__ | Borrowed recommendations from 'bearing_wear' (same category: mechanical)
+2026-07-15 03:56:10 | INFO     | __main__ | Method: category_fallback (borrowed from bearing_wear), Confidence: low - verify with engineer before acting
+2026-07-15 03:56:10 | INFO     | __main__ |   Lubrication Service (borrowed strength: 42)
+2026-07-15 03:56:10 | INFO     | __main__ |   Alignment Check (borrowed strength: 41)
+2026-07-15 03:56:10 | INFO     | __main__ |   Vibration Analysis (borrowed strength: 38)
+2026-07-15 03:56:10 | INFO     | __main__ |   Bearing Replacement Kit (borrowed strength: 37)
+2026-07-15 03:56:10 | INFO     | __main__ |   Oil Sample Test (borrowed strength: 30)
+2026-07-15 03:56:10 | INFO     | __main__ | ============================================================
+2026-07-15 03:56:10 | INFO     | __main__ | Cold-start demonstration complete
+2026-07-15 03:56:10 | INFO     | __main__ | ============================================================
