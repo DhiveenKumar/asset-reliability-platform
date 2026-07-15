@@ -83,6 +83,22 @@ Stack: PuLP (CBC solver), Linear Programming, sensitivity analysis via what-if s
 
 Key design decision: A fairness constraint (minimum 30% capacity per well) was added after discovering the unconstrained solver would completely zero out healthy wells if that reached the same total output faster - a mathematically optimal but operationally unrealistic result. This demonstrates a core optimization lesson: solvers only respect what is explicitly encoded as a constraint.
 
+
+## Intelligent Maintenance Recommendation Engine
+
+Given a diagnosed failure mode (from AssetGuardian), recommends specific maintenance actions - parts, inspections, tools, follow-up work orders - using two complementary approaches.
+
+| Approach | Precision | Notes |
+|---|---|---|
+| Cosine Similarity (Phase 1) | 100% (by construction) | Cannot generalize to novel failure modes |
+| Two-Tower Embeddings (Phase 2) | 65% (Precision@5) | Genuine generalization, trades precision for coverage |
+
+Cold-start handling: novel failure modes with zero historical data fall back to category-based similarity (mechanical/hydraulic/electrical), explicitly flagged as lower confidence requiring engineer verification.
+
+Stack: scikit-learn (cosine similarity), PyTorch (two-tower embedding model), negative sampling, Precision@K evaluation
+
+Full integration: AssetGuardian's root cause diagnosis feeds directly into this engine in the dashboard - each high-risk asset shows its diagnosed failure mode alongside specific recommended actions in one view.
+
 ## Reproducing This Project
 
 pip install -r requirements.txt
